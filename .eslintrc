@@ -1,0 +1,62 @@
+{
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": ["react", "react-hooks", "simple-import-sort"],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": "latest"
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "rules": {
+      "linebreak-style": ["error", "unix"],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-curly-brace-presence": [
+        "error",
+        { "props": "never", "children": "never", "propElementValues": "ignore" }
+      ],
+      "@typescript-eslint/no-non-null-assertion": "off",
+      "@typescript-eslint/array-type": ["error", { "default": "array" }],
+      "simple-import-sort/exports": "error",
+      "@typescript-eslint/no-unused-vars": ["error", { "ignoreRestSiblings": true }]
+    },
+    "overrides": [
+      {
+        "files": ["*.tsx", "*.ts", "*.js", "*.jsx"],
+        "rules": {
+          "simple-import-sort/imports": [
+            "error",
+            {
+              "groups": [
+                // Packages. `react` related packages come first.
+                // Things that start with a letter (or digit or underscore), or `@` followed by a letter.
+                ["^react", "^@?\\w"],
+                // // Aliases
+                // ["^(Components|Pages|Types|Models|Store|Hooks|Utils|Schemas)(/.*|$)"],
+                // // Src alias
+                // ["^Src(/.*|$)"],
+                // Relative imports.
+                ["^\\."]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
