@@ -52,7 +52,7 @@
               // Things that start with a letter (or digit or underscore), or `@` followed by a letter.
               ["^react", "^@?\\w"],
               // Aliases
-              ["^(Components|Pages|Types|Models|Store|Hooks|Utils|Schemas)(/.*|$)"],
+              ["^(Components|Pages|Assets)(/.*|$)"],
               // Relative imports.
               ["^\\."]
             ]

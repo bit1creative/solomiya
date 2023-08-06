@@ -30,6 +30,12 @@
 
       "Pages": ["pages"],
       "Pages/*": ["pages/*"],
+
+      "Assets": ["assets"],
+      "Assets/*": ["assets/*"],
+
+      "Layout": ["layout"],
+      "Layout/*": ["layout/*"],
     }
   },
   "include": ["src"],
