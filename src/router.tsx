@@ -12,7 +12,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/issue/:issue',
-        element: <div>HOME PAGE</div>
+        element: <div className="grid h-full place-items-center">HOME PAGE</div>
       }
     ]
   }
