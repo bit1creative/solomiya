@@ -9,6 +9,14 @@ export default {
       colors: {
         'main-issue-1': '#DC143C',
         'main-issue-2': '#F0E68C'
+      },
+      fontFamily: {
+        'nice-bold-italic': ['NICE_BOLD_ITALIC', 'cursive'],
+        'nice-bold': ['NICE_BOLD', 'sans-serif'],
+        'nice-italic': ['NICE_ITALIC', 'cursive'],
+        'nice-regular': ['NICE_REGULAR', 'sans-serif'],
+        'yuni-black': ['YUNI_BLACK', 'sans-serif'],
+        'yuni-hair': ['YUNI_HAIR', 'sans-serif']
       }
     }
   },

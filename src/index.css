@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "NICE_BOLD_ITALIC";
+  src: url("./assets/fonts/nice-bold-italic.otf");
+}
+
+@font-face {
+  font-family: "NICE_BOLD";
+  src: url("./assets/fonts/nice-bold.otf");
+}
+
+@font-face {
+  font-family: "NICE_ITALIC";
+  src: url("./assets/fonts/nice-italic.otf");
+}
+
+@font-face {
+  font-family: "NICE_REGULAR";
+  src: url("./assets/fonts/nice-regular.otf");
+}
+
+@font-face {
+  font-family: "YUNI_BLACK";
+  src: url("./assets/fonts/yuni-black.otf");
+}
+
+@font-face {
+  font-family: "YUNI_HAIR";
+  src: url("./assets/fonts/yuni-hair.otf");
+}
+
 /* Reset and base styles  */
 * {
   padding: 0px;
