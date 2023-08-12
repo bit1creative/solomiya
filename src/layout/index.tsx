@@ -28,8 +28,8 @@ export const Layout = () => {
         </div>
       </div>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-30 bg-white" />
-        <Dialog.Content id="menu">
+        <Dialog.Overlay className="fixed -inset-10 z-30 bg-white" />
+        <Dialog.Content>
           <Dialog.Close className="absolute -right-1 -top-1 z-50">
             <img src={cross} alt="close-btn" className="h-12 w-12" />
           </Dialog.Close>
