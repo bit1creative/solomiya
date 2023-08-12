@@ -2,6 +2,8 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 import { Layout } from 'Layout';
 
+import { HeroSection } from 'Components/pages/Home/HeroSection';
+
 export const router = createBrowserRouter([
   {
     element: <Layout />,
@@ -12,7 +14,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/issue/:issue',
-        element: <div className="grid h-full place-items-center">HOME PAGE</div>
+        element: <HeroSection />
       }
     ]
   }
