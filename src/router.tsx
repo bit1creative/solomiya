@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import { Layout } from 'Layout';
 
 export const router = createBrowserRouter([
@@ -7,6 +8,10 @@ export const router = createBrowserRouter([
     children: [
       {
         path: '/',
+        element: <Navigate to="/issue/1" />
+      },
+      {
+        path: '/issue/:issue',
         element: <div>HOME PAGE</div>
       }
     ]
