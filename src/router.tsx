@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 import { Layout } from 'Layout';
 
-import { HeroSection } from 'Components/pages/Home/HeroSection';
+import { HomePage } from 'Pages';
 
 export const router = createBrowserRouter([
   {
@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/issue/:issue',
-        element: <HeroSection />
+        element: <HomePage />
       }
     ]
   }

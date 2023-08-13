@@ -36,6 +36,9 @@
 
       "Layout": ["layout"],
       "Layout/*": ["layout/*"],
+
+      "Hooks": ["hooks"],
+      "Hooks/*": ["hooks/*"],
     }
   },
   "include": ["src"],

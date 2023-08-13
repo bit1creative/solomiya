@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import video from 'Assets/videos/hero-section-vid.png';
 
 export const HeroSection = () => (
-  <div className="snap-start">
+  <section className="snap-start">
     <div className="w-full px-6 pt-16">
       <img className="shadow-2xl" src={video} alt="solomiya-mag-overview" />
     </div>
@@ -15,5 +15,5 @@ export const HeroSection = () => (
         Read more
       </Link>
     </div>
-  </div>
+  </section>
 );

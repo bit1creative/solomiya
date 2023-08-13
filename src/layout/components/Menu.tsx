@@ -1,6 +1,8 @@
 import { useLayoutEffect, useRef } from 'react';
-import { Link, matchPath, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import gsap from 'gsap';
+
+import { useIssueMatch } from 'Hooks/useIssueMatch';
 
 interface Props {
   closeDialog: () => void;
@@ -9,13 +11,6 @@ interface Props {
 export const Menu = ({ closeDialog }: Props) => {
   const rootRef = useRef(null);
   const circleRef = useRef(null);
-  const { pathname } = useLocation();
-
-  const matchIssuePath = (issue: string) => {
-    const matchingPath = `/issue/${issue}`;
-    const match = matchPath(pathname, matchingPath);
-    return match;
-  };
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
@@ -29,7 +24,7 @@ export const Menu = ({ closeDialog }: Props) => {
   }, []);
 
   return (
-    <div ref={rootRef} className="fixed inset-5 z-30 bg-main-issue-1">
+    <div ref={rootRef}>
       <div
         ref={circleRef}
         className="absolute left-1/2 top-1/2 aspect-square h-[120%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white"
@@ -52,11 +47,11 @@ export const Menu = ({ closeDialog }: Props) => {
         </Link>
 
         <div id="menu-item" className="flex space-x-4">
-          <Link to="/issue/2" onClick={closeDialog} className={`${matchIssuePath('2') ? 'pr-4 italic ' : ''}`}>
+          <Link to="/issue/2" onClick={closeDialog} className={`${useIssueMatch('2') ? 'pr-4 italic ' : ''}`}>
             N°2
           </Link>
 
-          <Link to="/" onClick={closeDialog} className={`${matchIssuePath('1') ? 'pr-4 italic' : ''}`}>
+          <Link to="/" onClick={closeDialog} className={`${useIssueMatch('1') ? 'pr-4 italic' : ''}`}>
             N°1
           </Link>
         </div>

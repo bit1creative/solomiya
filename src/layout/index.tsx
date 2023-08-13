@@ -19,18 +19,18 @@ export const Layout = () => {
 
   return (
     <Dialog.Root open={isMenuOpen} onOpenChange={() => setIsMenuOpen(!isMenuOpen)}>
-      <div className="h-screen overflow-hidden bg-main-issue-1" onClick={handleFrameClick}>
-        <Dialog.Trigger>
-          <img className="absolute left-2 top-2 z-20 h-14 w-12" src={logo} alt="logo" />
+      <div className="relative min-h-screen w-screen overflow-hidden bg-main-issue-1 p-5" onClick={handleFrameClick}>
+        <Dialog.Trigger className="absolute left-2 top-2 z-20">
+          <img className="h-14 w-12" src={logo} alt="logo" />
         </Dialog.Trigger>
-        <div className="absolute left-1/2 top-1/2 z-0 h-[calc(100%-40px)] w-[calc(100%-40px)] -translate-x-1/2 -translate-y-1/2 snap-y bg-white">
+        <div className="z-0 h-max snap-y bg-white">
           <Outlet />
         </div>
       </div>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed -inset-10 z-30 bg-white" />
-        <Dialog.Content>
-          <Dialog.Close className="absolute -right-1 -top-1 z-50">
+        <Dialog.Content className="fixed inset-5 z-30 bg-main-issue-1">
+          <Dialog.Close className="absolute -right-6 -top-6 z-50">
             <img src={cross} alt="close-btn" className="h-12 w-12" />
           </Dialog.Close>
           <Menu closeDialog={() => setIsMenuOpen(false)} />

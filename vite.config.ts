@@ -12,7 +12,8 @@ export default defineConfig({
       Components: path.resolve(__dirname, 'src/components'),
       Pages: path.resolve(__dirname, 'src/pages'),
       Assets: path.resolve(__dirname, 'src/assets'),
-      Layout: path.resolve(__dirname, 'src/layout')
+      Layout: path.resolve(__dirname, 'src/layout'),
+      Hooks: path.resolve(__dirname, 'src/hooks')
     }
   }
 });
