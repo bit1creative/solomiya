@@ -60,9 +60,9 @@ export const IssueTextImage = ({ image }: Props) => {
         />
       </Dialog.Trigger>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 bg-main-issue-1" />
-        <Dialog.Content className="fixed inset-5 h-[calc(100vh-40px)] overflow-scroll bg-white p-6">
-          <Dialog.Close className="absolute left-2 top-2 z-20">
+        <Dialog.Overlay className="fixed inset-0 bg-main-issue-1"></Dialog.Overlay>
+        <Dialog.Content className="fixed inset-5 z-20 h-[calc(100vh-40px)] bg-white p-6">
+          <Dialog.Close className="fixed left-2 top-2 z-40">
             <img className="h-14 w-12" src={logo} alt="logo" />
           </Dialog.Close>
           <ImageDialogContent imageData={imageData} />
