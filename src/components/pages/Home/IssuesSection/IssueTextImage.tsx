@@ -61,7 +61,7 @@ export const IssueTextImage = ({ image }: Props) => {
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 bg-main-issue-1" />
-        <Dialog.Content className="absolute left-5 top-5 z-0 overflow-y-auto bg-white">
+        <Dialog.Content className="fixed inset-5 h-[calc(100vh-40px)] overflow-scroll bg-white p-6">
           <Dialog.Close className="absolute left-2 top-2 z-20">
             <img className="h-14 w-12" src={logo} alt="logo" />
           </Dialog.Close>

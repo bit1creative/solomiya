@@ -39,6 +39,8 @@
 
       "Hooks": ["hooks"],
       "Hooks/*": ["hooks/*"],
+
+      "tailwind.config": ["../tailwind.config.js"],
     }
   },
   "include": ["src"],

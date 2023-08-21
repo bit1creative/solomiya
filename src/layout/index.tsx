@@ -29,11 +29,11 @@ export const Layout = () => {
       </div>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed -inset-10 z-30 bg-white" />
-        <Dialog.Content className="fixed inset-5 z-30 bg-main-issue-1">
+        <Dialog.Content className="fixed inset-5 z-30">
           <Dialog.Close className="absolute -right-6 -top-6 z-50">
             <img src={cross} alt="close-btn" className="h-12 w-12" />
           </Dialog.Close>
-          <Menu closeDialog={() => setIsMenuOpen(false)} />
+          <Menu onCloseMenu={() => setIsMenuOpen(false)} />
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>

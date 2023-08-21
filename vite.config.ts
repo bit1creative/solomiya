@@ -13,7 +13,8 @@ export default defineConfig({
       Pages: path.resolve(__dirname, 'src/pages'),
       Assets: path.resolve(__dirname, 'src/assets'),
       Layout: path.resolve(__dirname, 'src/layout'),
-      Hooks: path.resolve(__dirname, 'src/hooks')
+      Hooks: path.resolve(__dirname, 'src/hooks'),
+      'tailwind.config': path.resolve(__dirname, 'tailwind.config.js')
     }
   }
 });
