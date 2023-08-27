@@ -1,4 +1,5 @@
-import { IssueImageData } from './issuesImagesData';
+import { IssuesDialogCarousel } from './IssuesDialogCarousel';
+import { IssueImageData } from './issuesImages.data';
 
 interface Props {
   imageData: IssueImageData;
@@ -7,9 +8,9 @@ interface Props {
 export const ImageDialogContent = ({ imageData }: Props) => {
   const { title, author, descriptionHtml, images, comments = null } = imageData;
   return (
-    <div className="mx-4 h-full overflow-scroll">
-      <div className="mt-24 min-h-[150px]">
-        <img className="mx-auto w-3/4" src={`/public/images/issues/${images[0]}`} />
+    <div className="no-scrollbar mx-4 h-full overflow-scroll">
+      <div className="mt-24">
+        <IssuesDialogCarousel images={images} />
       </div>
       <div className="my-10 text-center font-nice-regular">
         <p className="text-3xl">{title}</p>

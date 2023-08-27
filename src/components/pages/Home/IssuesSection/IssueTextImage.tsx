@@ -1,53 +1,18 @@
+import { useParams } from 'react-router-dom';
 import * as Dialog from '@radix-ui/react-dialog';
 
 import logo from 'Assets/logo.png';
 
 import { ImageDialogContent } from './ImageDialogContent';
-import { issuesImagesData } from './issuesImagesData';
+import { issuesImagesData } from './issuesImages.data';
 
 interface Props {
   image: string;
 }
 
-// import sm1_andrii from 'Assets/images/issues/sm1_andrii.jpg';
-// import sm1_bucha1 from 'Assets/images/issues/sm1_bucha1.jpg';
-// import sm1_bucha2 from 'Assets/images/issues/sm1_bucha2.jpg';
-// import sm1_bucha3 from 'Assets/images/issues/sm1_bucha3.jpg';
-// import sm1_bucha4 from 'Assets/images/issues/sm1_bucha4.jpg';
-// import sm1_christina1 from 'Assets/images/issues/sm1_christina1.png';
-// import sm1_christina2 from 'Assets/images/issues/sm1_christina2.png';
-// import sm1_christina3 from 'Assets/images/issues/sm1_christina3.png';
-// import sm1_cover1 from 'Assets/images/issues/sm1_cover1.jpg';
-// import sm1_cover2 from 'Assets/images/issues/sm1_cover2.jpg';
-// import sm1_kurmaz1 from 'Assets/images/issues/sm1_kurmaz1.jpg';
-// import sm1_kurmaz2 from 'Assets/images/issues/sm1_kurmaz2.jpg';
-// import sm1_kurmaz3 from 'Assets/images/issues/sm1_kuzmaz3.jpg';
-// import sm1_kurmaz4 from 'Assets/images/issues/sm1_kuzmaz4.jpg';
-// import sm1_portraits1 from 'Assets/images/issues/sm1_portraits1.jpg';
-// import sm1_portraits2 from 'Assets/images/issues/sm1_portraits2.jpg';
-// import sm1_portraits3 from 'Assets/images/issues/sm1_portraits3.jpg';
-// import sm1_portraits4 from 'Assets/images/issues/sm1_portraits4.jpg';
-// import sm1_portraits5 from 'Assets/images/issues/sm1_portraits5.jpg';
-// import sm1_ridnyi2 from 'Assets/images/issues/sm1_ridniy2.jpg';
-// import sm1_ridnyi1 from 'Assets/images/issues/sm1_ridnyi1.jpg';
-// import sm1_sonya from 'Assets/images/issues/sm1_sonya.jpg';
-// import sm1_vsevolod1 from 'Assets/images/issues/sm1_vsevolod1.jpg';
-// import sm1_vsevolod2 from 'Assets/images/issues/sm1_vsevolod2.jpg';
-
-// const imageBindings = {
-//   sm1_andrii: [sm1_andrii],
-//   sm1_vsevolod: [sm1_vsevolod1, sm1_vsevolod2],
-//   sm1_christina: [sm1_christina1, sm1_christina2, sm1_christina3],
-//   sm1_sonya: [sm1_sonya],
-//   sm1_portraits: [sm1_portraits1, sm1_portraits2, sm1_portraits3, sm1_portraits4, sm1_portraits5],
-//   sm1_kurmaz: [sm1_kurmaz1, sm1_kurmaz2, sm1_kurmaz3, sm1_kurmaz4],
-//   sm1_cover: [sm1_cover1, sm1_cover2],
-//   sm1_ridnyi: [sm1_ridnyi1, sm1_ridnyi2],
-//   sm1_bucha: [sm1_bucha1, sm1_bucha2, sm1_bucha3, sm1_bucha4]
-// };
-
 export const IssueTextImage = ({ image }: Props) => {
-  const imageData = issuesImagesData[image as keyof typeof issuesImagesData];
+  const { issue } = useParams();
+  const imageData = issuesImagesData[`issue${issue}` as keyof typeof issuesImagesData][image];
 
   return (
     <Dialog.Root>
@@ -61,7 +26,7 @@ export const IssueTextImage = ({ image }: Props) => {
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 bg-main-issue-1"></Dialog.Overlay>
-        <Dialog.Content className="fixed inset-5 z-20 h-[calc(100vh-40px)] bg-white p-6">
+        <Dialog.Content className="fixed inset-5 z-20 h-[calc(100vh-40px)] bg-white">
           <Dialog.Close className="fixed left-2 top-2 z-40">
             <img className="h-14 w-12" src={logo} alt="logo" />
           </Dialog.Close>
