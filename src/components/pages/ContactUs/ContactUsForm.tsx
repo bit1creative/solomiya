@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import { SectionTitle } from 'Components/common/SectionTitle';
+
 export const ContactUsForm = () => {
   const email = 'hrytsenko.svan@gmail.com';
   const [subject, setSubject] = useState('');
@@ -7,7 +9,7 @@ export const ContactUsForm = () => {
 
   return (
     <section className="flex min-h-[calc(100dvh-40px)] flex-col items-center gap-2 p-4">
-      <div className="text-center font-yuni-hair text-5xl">Contact</div>
+      <SectionTitle title={'Contact'} />
       <div className="flex w-full flex-col gap-2">
         <div className="relative flex h-6">
           <hr className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 border border-dashed border-gray-500" />

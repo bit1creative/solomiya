@@ -17,6 +17,16 @@ export default {
         'nice-regular': ['NICE_REGULAR', 'sans-serif'],
         'yuni-black': ['YUNI_BLACK', 'sans-serif'],
         'yuni-hair': ['YUNI_HAIR', 'sans-serif']
+      },
+      keyframes: {
+        'collapsible-open': {
+          '0%': { height: 0 },
+          '100%': { height: 'var(--radix-collapsible-content-height)' }
+        },
+        'collapsible-close': {
+          '0%': { height: 'var(--radix-collapsible-content-height)' },
+          '100%': { height: 0 }
+        }
       }
     }
   },

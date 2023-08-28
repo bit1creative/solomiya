@@ -1,10 +1,12 @@
 import { Link, useParams } from 'react-router-dom';
 
+import { SectionTitle } from 'Components/common/SectionTitle';
+
 export const AboutUsSection = () => {
   const { issue } = useParams();
   return (
     <section className="flex min-h-[calc(100dvh-40px)] flex-col items-center p-4">
-      <h3 className="my-4 text-center font-yuni-hair text-5xl">About Us</h3>
+      <SectionTitle title={'About Us'} />
       <div className="font-nice-regular text-4xl">
         <span className="italic">
           Ivanna Kozachenko, Vsevolod Kazarin , Andrii Ushytskyi, Sebastian Wells and Kollektiv Scrollan{' '}

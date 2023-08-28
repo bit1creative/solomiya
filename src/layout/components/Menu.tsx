@@ -87,7 +87,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
         <Link
           ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
           className="menu-item [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)]"
-          to="/"
+          to={`/issue/${issue}/stockists`}
           onClick={onCloseMenu}
         >
           stockists

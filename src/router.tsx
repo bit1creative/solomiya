@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 import { Layout } from 'Layout';
 
-import { AboutUsPage, ContactUsPage, HomePage } from 'Pages';
+import { AboutUsPage, ContactUsPage, HomePage, StockistsPage } from 'Pages';
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +24,10 @@ export const router = createBrowserRouter([
       {
         path: '/issue/:issue/contact-us',
         element: <ContactUsPage />
+      },
+      {
+        path: '/issue/:issue/stockists',
+        element: <StockistsPage />
       }
     ]
   }
