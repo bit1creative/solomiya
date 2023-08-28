@@ -4,10 +4,12 @@ import * as Dialog from '@radix-ui/react-dialog';
 
 import cross from 'Assets/icons/cross.svg';
 import logo from 'Assets/logo.png';
+import { useMainColor } from 'Hooks/useTheme';
 
 import { Menu } from './components/Menu';
 
 export const Layout = () => {
+  const mainColor = useMainColor();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleFrameClick = (e: React.MouseEvent) => {
@@ -19,7 +21,9 @@ export const Layout = () => {
 
   return (
     <Dialog.Root open={isMenuOpen} onOpenChange={() => setIsMenuOpen(!isMenuOpen)}>
-      <div className="relative min-h-screen w-screen overflow-hidden bg-main-issue-1 p-5" onClick={handleFrameClick}>
+      <div className="sr-only bg-main-issue-1" />
+      <div className="sr-only bg-main-issue-2" />
+      <div className={`relative min-h-screen w-screen overflow-hidden bg-${mainColor} p-5`} onClick={handleFrameClick}>
         <Dialog.Trigger className="absolute left-2 top-2 z-20">
           <img className="h-14 w-12" src={logo} alt="logo" />
         </Dialog.Trigger>

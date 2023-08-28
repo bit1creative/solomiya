@@ -1,9 +1,10 @@
 import { useLayoutEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import gsap from 'gsap';
 import SplitType from 'split-type';
 
 import { useIssueMatch } from 'Hooks/useIssueMatch';
+import { useMainColor } from 'Hooks/useTheme';
 import tailwindConfig from 'tailwind.config';
 
 interface Props {
@@ -11,6 +12,8 @@ interface Props {
 }
 
 export const Menu = ({ onCloseMenu }: Props) => {
+  const mainColor = useMainColor();
+  const { issue } = useParams();
   const rootRef = useRef(null);
   const bgRef = useRef(null);
   const menuItemsRef = useRef<HTMLElement[]>([]);
@@ -25,7 +28,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
       gsap
         .timeline()
         .to(bgRef.current, {
-          background: tailwindConfig.theme.extend.colors['main-issue-1'],
+          background: tailwindConfig.theme.extend.colors[mainColor],
           duration: 1,
           ease: 'power3.out'
         })
@@ -49,7 +52,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
     return () => {
       return ctx.revert();
     };
-  }, []);
+  }, [mainColor]);
 
   return (
     <div ref={rootRef} className="h-full">
@@ -68,19 +71,19 @@ export const Menu = ({ onCloseMenu }: Props) => {
         <Link
           ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
           className="menu-item [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)]"
-          to="/about-us"
+          to={`/issue/${issue}/about-us`}
           onClick={onCloseMenu}
         >
           about
         </Link>
-        <Link
+        {/* <Link
           ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
           className="menu-item [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)]"
           to="/"
           onClick={onCloseMenu}
         >
           shop
-        </Link>
+        </Link> */}
         <Link
           ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
           className="menu-item [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)]"
