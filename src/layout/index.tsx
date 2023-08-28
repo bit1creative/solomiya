@@ -33,7 +33,11 @@ export const Layout = () => {
           <Dialog.Close className="absolute -right-6 -top-6 z-50">
             <img src={cross} alt="close-btn" className="h-12 w-12" />
           </Dialog.Close>
-          <Menu onCloseMenu={() => setIsMenuOpen(false)} />
+          <Menu
+            onCloseMenu={() => {
+              setIsMenuOpen(false);
+            }}
+          />
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>

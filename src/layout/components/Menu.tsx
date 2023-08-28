@@ -89,21 +89,28 @@ export const Menu = ({ onCloseMenu }: Props) => {
         >
           stockists
         </Link>
-        <Link
+        <div
           ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-          to="/"
-          onClick={onCloseMenu}
           className="menu-item font-yuni-hair [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)]"
         >
           issues
-        </Link>
-
-        <div ref={(el) => menuItemsRef.current.push(el as HTMLElement)} className="menu-item flex space-x-4">
-          <Link to="/issue/2" onClick={onCloseMenu} className={`${useIssueMatch('2') ? 'pr-4 italic ' : ''}`}>
+        </div>
+        <div className="menu-item flex space-x-4">
+          <Link
+            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+            to="/issue/2"
+            onClick={onCloseMenu}
+            className={`${useIssueMatch('2') ? 'pr-4 italic ' : ''}`}
+          >
             N°2
           </Link>
 
-          <Link to="/" onClick={onCloseMenu} className={`${useIssueMatch('1') ? 'pr-4 italic' : ''}`}>
+          <Link
+            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+            to="/"
+            onClick={onCloseMenu}
+            className={`${useIssueMatch('1') ? 'pr-4 italic' : ''}`}
+          >
             N°1
           </Link>
         </div>
