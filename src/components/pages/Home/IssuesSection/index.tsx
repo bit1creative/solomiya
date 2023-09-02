@@ -5,7 +5,7 @@ import { IssueTextImage } from './IssueTextImage';
 export const IssuesSection = () => {
   if (useIssueMatch('1')) {
     return (
-      <section className="px-4 text-center font-nice-regular text-3xl">
+      <section className="snap-start px-4 text-center font-nice-regular text-3xl">
         In Soлomiya’s very first issue, you will encounter some of those who grew up in an independent Ukraine and are
         paying a huge price for the European integration they seek. We invite you to meet young creatives from Kyiv and
         elsewhere who write <IssueTextImage image="sm1_andrii" />

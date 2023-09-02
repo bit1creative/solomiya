@@ -27,7 +27,7 @@ export const Layout = () => {
         <Dialog.Trigger className="absolute left-2 top-2 z-20">
           <img className="h-14 w-12" src={logo} alt="logo" />
         </Dialog.Trigger>
-        <div className="z-0 h-max snap-y bg-white">
+        <div className="z-0 h-max bg-white">
           <Outlet />
         </div>
       </div>

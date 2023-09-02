@@ -31,7 +31,7 @@ export const IssuesDialogCarousel = ({ images }: Props) => {
             <img
               key={image}
               className="mx-auto w-3/4 snap-center object-scale-down first:ml-8 last:mr-8"
-              src={`/public/images/issues/${image}`}
+              src={`/public/images/${image}`}
             />
           ))
         ) : (

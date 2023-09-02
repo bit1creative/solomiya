@@ -23,8 +23,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: 'Something I Will Keep In Me Forever',
       author: 'by Andrii Ushytskyi',
-      previewImage: 'sm1_andrii-preview.jpg',
-      images: ['sm1_andrii.jpg']
+      previewImage: 'issue1/sm1_andrii-preview.jpg',
+      images: ['issue1/sm1_andrii.jpg']
     },
     sm1_vsevolod: {
       descriptionHtml: (
@@ -47,8 +47,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       title: 'Mono-No-Aware',
       author: 'by Vsevolod Kazarin',
       comments: 'Photographs by Vsevolod Kazarin & Sebastian Wells',
-      previewImage: 'sm1_vsevolod-preview.jpg',
-      images: ['sm1_vsevolod1.jpg', 'sm1_vsevolod2.jpg']
+      previewImage: 'issue1/sm1_vsevolod-preview.jpg',
+      images: ['issue1/sm1_vsevolod1.jpg', 'issue1/sm1_vsevolod2.jpg']
     },
     sm1_christina: {
       descriptionHtml: (
@@ -66,8 +66,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       title: 'P Is For Victory',
       author: 'by Christina Erturk',
       comments: 'Interview by Andrii Ushytskyi',
-      previewImage: 'sm1_christina-preview.jpg',
-      images: ['sm1_christina1.jpg', 'sm1_christina2.jpg', 'sm1_christina3.jpg']
+      previewImage: 'issue1/sm1_christina-preview.jpg',
+      images: ['issue1/sm1_christina1.jpg', 'issue1/sm1_christina2.jpg', 'issue1/sm1_christina3.jpg']
     },
     sm1_sonya: {
       descriptionHtml: (
@@ -79,8 +79,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: 'Realities',
       author: 'by Sonya Marian',
-      previewImage: 'sm1_sonya-preview.jpg',
-      images: ['sm1_sonya.jpg']
+      previewImage: 'issue1/sm1_sonya-preview.jpg',
+      images: ['issue1/sm1_sonya.jpg']
     },
     sm1_portraits: {
       descriptionHtml: (
@@ -96,13 +96,13 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: '32 Young People Photographed in Kyiv, Ukraine, April & May 2022',
       author: 'by Vsevolod Kazarin & Sebastian Wells',
-      previewImage: 'sm1_portraits-preview.jpg',
+      previewImage: 'issue1/sm1_portraits-preview.jpg',
       images: [
-        'sm1_portraits1.jpg',
-        'sm1_portraits2.jpg',
-        'sm1_portraits3.jpg',
-        'sm1_portraits4.jpg',
-        'sm1_portraits5.jpg'
+        'issue1/sm1_portraits1.jpg',
+        'issue1/sm1_portraits2.jpg',
+        'issue1/sm1_portraits3.jpg',
+        'issue1/sm1_portraits4.jpg',
+        'issue1/sm1_portraits5.jpg'
       ]
     },
     sm1_kurmaz: {
@@ -119,8 +119,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: 'Untitled (yet)',
       author: 'by Sasha Kurmaz',
-      previewImage: 'sm1_kurmaz-preview.jpg',
-      images: ['sm1_kurmaz1.jpg', 'sm1_kurmaz2.jpg', 'sm1_kurmaz3.jpg', 'sm1_kurmaz4.jpg']
+      previewImage: 'issue1/sm1_kurmaz-preview.jpg',
+      images: ['issue1/sm1_kurmaz1.jpg', 'issue1/sm1_kurmaz2.jpg', 'issue1/sm1_kurmaz3.jpg', 'issue1/sm1_kurmaz4.jpg']
     },
     sm1_cover: {
       descriptionHtml: (
@@ -135,8 +135,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: 'Living With The Fear of Being Harmed by Other Humans',
       author: 'by Sasha Kurmaz',
-      previewImage: 'sm1_cover-preview.jpg',
-      images: ['sm1_cover1.jpg', 'sm1_cover2.jpg']
+      previewImage: 'issue1/sm1_cover-preview.jpg',
+      images: ['issue1/sm1_cover1.jpg', 'issue1/sm1_cover2.jpg']
     },
     sm1_ridnyi: {
       descriptionHtml: (
@@ -155,8 +155,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: 'The Blind Spot',
       author: 'by Mykola Ridnyi',
-      previewImage: 'sm1_ridnyi-preview.jpg',
-      images: ['sm1_ridnyi1.jpg', 'sm1_ridnyi2.jpg']
+      previewImage: 'issue1/sm1_ridnyi-preview.jpg',
+      images: ['issue1/sm1_ridnyi1.jpg', 'issue1/sm1_ridnyi2.jpg']
     },
     sm1_bucha: {
       descriptionHtml: (
@@ -169,8 +169,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: 'Surviving Bucha',
       author: 'by Vsevolod Kazarin & Sebastian Wells',
-      previewImage: 'sm1_bucha-preview.jpg',
-      images: ['sm1_bucha1.jpg', 'sm1_bucha2.jpg', 'sm1_bucha3.jpg', 'sm1_bucha4.jpg']
+      previewImage: 'issue1/sm1_bucha-preview.jpg',
+      images: ['issue1/sm1_bucha1.jpg', 'issue1/sm1_bucha2.jpg', 'issue1/sm1_bucha3.jpg', 'issue1/sm1_bucha4.jpg']
     }
   }
 };
