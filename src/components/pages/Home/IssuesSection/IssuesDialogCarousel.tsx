@@ -35,7 +35,7 @@ export const IssuesDialogCarousel = ({ images }: Props) => {
             />
           ))
         ) : (
-          <img className="mx-auto w-3/4 object-scale-down" src={`/public/images/issues/${images[0]}`} />
+          <img className="mx-auto w-3/4 object-scale-down" src={`/public/images/issues/${images[0]}`} loading="lazy" />
         )}
       </div>
       {/* <div className="mt-4 flex justify-center">
