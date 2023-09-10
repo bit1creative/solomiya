@@ -26,17 +26,13 @@ export const IssuesDialogCarousel = ({ images }: Props) => {
   return (
     <div className="min-h-[150px] overflow-hidden">
       <div ref={sliderRef} className="no-scrollbar flex snap-x gap-x-4 overflow-x-scroll">
-        {images.length > 1 ? (
-          images.map((image) => (
-            <img
-              key={image}
-              className="mx-auto w-3/4 snap-center object-scale-down first:ml-8 last:mr-8"
-              src={`/public/images/${image}`}
-            />
-          ))
-        ) : (
-          <img className="mx-auto w-3/4 object-scale-down" src={`/public/images/issues/${images[0]}`} loading="lazy" />
-        )}
+        {images.map((image) => (
+          <img
+            key={image}
+            className={`mx-auto w-3/4 snap-center object-scale-down ${images.length > 1 && 'first:ml-8 last:mr-8'}`}
+            src={`/public/images/${image}`}
+          />
+        ))}
       </div>
       {/* <div className="mt-4 flex justify-center">
         {images.map((image, index) => (
