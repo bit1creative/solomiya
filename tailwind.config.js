@@ -10,8 +10,8 @@ export default {
         screen: ['100vh /* fallback for Opera, IE and etc. */', '100dvh']
       },
       colors: {
-        'main-issue-1': '#DC143C',
-        'main-issue-2': '#F0E68C'
+        'main-issue-1': '#e6363f',
+        'main-issue-2': '#ffee00'
       },
       fontFamily: {
         'nice-bold-italic': ['NICE_BOLD_ITALIC', 'cursive'],
