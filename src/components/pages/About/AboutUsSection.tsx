@@ -16,7 +16,7 @@ export const AboutUsSection = () => {
       <Link className="my-4 block text-center font-yuni-black text-5xl" to={`/issue/${issue}/contact-us`}>
         Contact Us
       </Link>
-      <img src={'/public/images/about-us.jpg'} loading="lazy" />
+      <img src={'/images/about-us.jpg'} loading="lazy" />
     </section>
   );
 };
