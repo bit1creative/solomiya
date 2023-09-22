@@ -13,6 +13,10 @@ export default {
         'main-issue-1': '#e6363f',
         'main-issue-2': '#ffee00'
       },
+      fontSize: {
+        'lg-xl': ['16rem'],
+        'lg-2xl': ['18rem']
+      },
       fontFamily: {
         'nice-bold-italic': ['NICE_BOLD_ITALIC', 'cursive'],
         'nice-bold': ['NICE_BOLD', 'sans-serif'],

@@ -30,17 +30,20 @@ export const Layout = () => {
     <Dialog.Root open={isMenuOpen} onOpenChange={() => setIsMenuOpen(!isMenuOpen)}>
       <div className="sr-only bg-main-issue-1" />
       <div className="sr-only bg-main-issue-2" />
-      <div className={`relative min-h-screen w-screen overflow-hidden bg-${mainColor} p-5`} onClick={handleFrameClick}>
+      <div
+        className={`relative min-h-screen w-screen overflow-hidden bg-${mainColor} p-5 lg:p-8`}
+        onClick={handleFrameClick}
+      >
         <Dialog.Trigger className="absolute left-2 top-2 z-20">
-          <img className="h-18 w-16" src={logo} alt="logo" />
+          <img className="h-18 w-16 lg:h-28 lg:w-24" src={logo} alt="logo" />
         </Dialog.Trigger>
         <div className="z-0 h-max bg-white">
           <Outlet />
         </div>
       </div>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed -inset-10 z-30 bg-white" />
-        <Dialog.Content className="fixed inset-5 z-30">
+        <Dialog.Overlay className="fixed -inset-10 z-30 bg-white lg:-inset-20" />
+        <Dialog.Content className="fixed inset-5 z-30 lg:inset-10">
           <Dialog.Close className="absolute -right-6 -top-6 z-50">
             <img src={cross} alt="close-btn" className="h-12 w-12" />
           </Dialog.Close>
