@@ -26,7 +26,7 @@ export const IssueTextImage = ({ image }: Props) => {
         <Dialog.Overlay className={`fixed inset-0 bg-${mainColor}`}></Dialog.Overlay>
         <Dialog.Content className="fixed inset-5 z-20 h-[calc(100vh-40px)] bg-white">
           <Dialog.Close className="fixed left-2 top-2 z-40">
-            <img className="h-14 w-12" src={logo} alt="logo" />
+            <img className="h-18 w-16" src={logo} alt="logo" />
           </Dialog.Close>
           <Dialog.Close className="absolute -right-6 -top-6 z-50">
             <img src={cross} alt="close-btn" className="h-12 w-12" />

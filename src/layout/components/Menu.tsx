@@ -16,6 +16,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
   const { issue } = useParams();
   const rootRef = useRef(null);
   const bgRef = useRef(null);
+  const underlinesRef = useRef<HTMLElement[]>([]);
   const menuItemsRef = useRef<HTMLElement[]>([]);
 
   useLayoutEffect(() => {
@@ -46,6 +47,17 @@ export const Menu = ({ onCloseMenu }: Props) => {
             ease: 'power4.out'
           },
           '-=.5'
+        )
+        .fromTo(
+          underlinesRef.current,
+          {
+            scaleX: 0
+          },
+          {
+            scaleX: 1,
+            duration: 0.7,
+            ease: 'power4.out'
+          }
         );
     }, rootRef);
 
@@ -99,23 +111,24 @@ export const Menu = ({ onCloseMenu }: Props) => {
           issues
         </div>
         <div className="menu-item flex space-x-4">
-          <Link
-            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-            to="/issue/2"
-            onClick={onCloseMenu}
-            className={`${useIssueMatch('2') ? 'pr-4 italic ' : ''}`}
-          >
-            N°2
-          </Link>
-
-          <Link
-            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-            to="/"
-            onClick={onCloseMenu}
-            className={`${useIssueMatch('1') ? 'pr-4 italic' : ''}`}
-          >
-            N°1
-          </Link>
+          <div>
+            <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/issue/2" onClick={onCloseMenu}>
+              N°2
+            </Link>
+            <div
+              ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+              className={`-mt-2 h-1 w-full bg-black ${useIssueMatch('2') ? '' : 'hidden'}`}
+            />
+          </div>
+          <div>
+            <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/" onClick={onCloseMenu}>
+              N°1
+            </Link>
+            <div
+              ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+              className={`-mt-2 h-1 w-full bg-black ${useIssueMatch('1') ? '' : 'hidden'}`}
+            />
+          </div>
         </div>
       </div>
     </div>
