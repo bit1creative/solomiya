@@ -18,7 +18,7 @@ export const SlideShow = () => {
         .timeline({
           repeat: -1
         })
-        .fromTo(slideShowImgRefs.current, { opacity: 0 }, { opacity: 1, stagger: 1, duration: 0.1 })
+        .fromTo(slideShowImgRefs.current, { opacity: 0 }, { opacity: 1, stagger: 0.5, duration: 0.1 })
         .to(slideShowImgRefs.current, { opacity: 0, duration: 0.1 }, '+=1');
     }, rootRef);
 
