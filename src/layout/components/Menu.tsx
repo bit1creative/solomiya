@@ -110,7 +110,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
     <div ref={rootRef} className="h-full">
       <div
         ref={bgRef}
-        className="flex h-full flex-col items-end justify-center overflow-hidden px-2 font-yuni-black text-8xl lg:flex-row lg:items-start lg:p-4 lg:text-lg-xl"
+        className="flex h-full select-none flex-col items-end justify-center overflow-hidden px-2 font-yuni-black text-8xl lg:flex-row lg:items-start lg:p-4 lg:text-lg-xl"
       >
         <Link
           ref={(el) => menuItemsRef.current.push(el as HTMLElement)}

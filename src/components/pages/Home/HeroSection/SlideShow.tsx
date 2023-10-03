@@ -33,7 +33,7 @@ export const SlideShow = () => {
         <img
           key={imageSrc}
           ref={(el) => slideShowImgRefs.current.push(el as HTMLElement)}
-          className="absolute left-1/2 h-[200px] -translate-x-1/2 opacity-0"
+          className="absolute left-1/2 h-[200px] -translate-x-1/2 opacity-0 shadow-2xl"
           src={`/images/${imageSrc}`}
         />
       ))}
