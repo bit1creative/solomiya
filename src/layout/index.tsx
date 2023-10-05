@@ -6,6 +6,7 @@ import cross from 'Assets/icons/cross.svg';
 import logo from 'Assets/logo.png';
 import { useMainColor } from 'Hooks/useTheme';
 
+import { Footer } from './components/Footer';
 import { Menu } from './components/Menu';
 
 export const Layout = () => {
@@ -40,6 +41,7 @@ export const Layout = () => {
         <div className="z-0 h-max bg-white">
           <Outlet />
         </div>
+        <Footer />
       </div>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed -inset-10 z-30 bg-white lg:-inset-20" />
