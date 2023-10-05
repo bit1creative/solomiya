@@ -39,15 +39,17 @@ export const Layout = () => {
           <img className="h-18 w-16 lg:h-28 lg:w-24" src={logo} alt="logo" />
         </Dialog.Trigger>
         <div className="z-0 h-max bg-white">
-          <Outlet />
+          <div className="mx-auto max-w-[1440px]">
+            <Outlet />
+          </div>
         </div>
         <Footer />
       </div>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed -inset-10 z-30 bg-white lg:-inset-20" />
         <Dialog.Content className="fixed inset-5 z-30 lg:inset-10">
-          <Dialog.Close className="absolute -right-6 -top-6 z-50">
-            <img src={cross} alt="close-btn" className="h-12 w-12" />
+          <Dialog.Close className="absolute -right-6 -top-6 z-50 lg:-right-12 lg:-top-12">
+            <img src={cross} alt="close-btn" className="h-12 w-12 lg:h-24 lg:w-24" />
           </Dialog.Close>
           <Menu
             onCloseMenu={() => {

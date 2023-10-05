@@ -24,12 +24,12 @@ export const IssueTextImage = ({ image }: Props) => {
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className={`fixed inset-0 bg-${mainColor}`}></Dialog.Overlay>
-        <Dialog.Content className="fixed inset-5 z-20 h-[calc(100vh-40px)] bg-white">
-          <Dialog.Close className="fixed left-2 top-2 z-40">
+        <Dialog.Content className="fixed inset-5 z-20 h-[calc(100vh-40px)] bg-white lg:inset-10 lg:grid lg:h-[calc(100vh-80px)] lg:place-items-center">
+          <Dialog.Close className="fixed left-2 top-2 z-40 lg:left-4 lg:top-5">
             <img className="h-18 w-16 lg:h-28 lg:w-24" src={logo} alt="logo" />
           </Dialog.Close>
-          <Dialog.Close className="absolute -right-6 -top-6 z-50">
-            <img src={cross} alt="close-btn" className="h-12 w-12" />
+          <Dialog.Close className="absolute -right-6 -top-6 z-50 lg:-right-12 lg:-top-12">
+            <img src={cross} alt="close-btn" className="h-12 w-12 lg:h-24 lg:w-24" />
           </Dialog.Close>
           <ImageDialogContent imageData={imageData} />
         </Dialog.Content>
