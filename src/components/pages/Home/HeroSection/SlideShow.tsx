@@ -28,12 +28,12 @@ export const SlideShow = () => {
   }, []);
 
   return (
-    <div ref={rootRef} className="relative h-[200px]">
+    <div ref={rootRef} className="relative h-[200px] lg:h-[800px]">
       {images.map((imageSrc: string) => (
         <img
           key={imageSrc}
           ref={(el) => slideShowImgRefs.current.push(el as HTMLElement)}
-          className="absolute left-1/2 h-[200px] -translate-x-1/2 opacity-0 shadow-2xl"
+          className="absolute left-1/2 h-[200px] -translate-x-1/2 opacity-0 shadow-2xl lg:h-[800px]"
           src={`/images/${imageSrc}`}
         />
       ))}
