@@ -19,7 +19,7 @@ export const SlideShow = () => {
           repeat: -1
         })
         .fromTo(slideShowImgRefs.current, { opacity: 0 }, { opacity: 1, stagger: 0.5, duration: 0.1 })
-        .to(slideShowImgRefs.current, { opacity: 0, duration: 0.1 }, '+=0.5');
+        .to(slideShowImgRefs.current.slice(1), { opacity: 0, duration: 0.1 }, '+=0.5');
     }, rootRef);
 
     return () => {
