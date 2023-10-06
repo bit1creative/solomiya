@@ -32,13 +32,13 @@ export const Layout = () => {
       <div className="sr-only bg-main-issue-1" />
       <div className="sr-only bg-main-issue-2" />
       <div
-        className={`relative min-h-screen w-screen overflow-hidden bg-${mainColor} p-5 lg:p-10`}
+        className={`relative left-0 top-0 h-screen w-screen overflow-hidden bg-${mainColor} p-5 lg:p-10`}
         onClick={handleFrameClick}
       >
         <Dialog.Trigger className="absolute left-2 top-2 z-20 lg:left-4 lg:top-5">
           <img className="h-18 w-16 lg:h-28 lg:w-24" src={logo} alt="logo" />
         </Dialog.Trigger>
-        <div className="z-0 h-max bg-white">
+        <div className="absolute bottom-5 left-5 right-5 top-5 z-0 h-[calc(100%-2.5rem)] overflow-y-scroll bg-white lg:bottom-10 lg:left-10 lg:right-10 lg:top-10 lg:h-[calc(100%-5rem)]">
           <div className="mx-auto max-w-[1440px]">
             <Outlet />
           </div>
