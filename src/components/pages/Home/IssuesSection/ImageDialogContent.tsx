@@ -12,7 +12,7 @@ export const ImageDialogContent = ({ imageData }: Props) => {
       <div className="mt-24 lg:mt-0">
         <IssuesDialogCarousel images={images} />
       </div>
-      <div className="mx-4 my-10 text-center font-nice-regular lg:mt-4 lg:self-start">
+      <div className="mx-4 my-10 text-center font-nice-regular lg:mb-12">
         <p className="text-3xl lg:text-5xl">{title}</p>
         <p className="italic lg:text-2xl">{author}</p>
         {!!comments && <p className="italic lg:text-2xl">{comments}</p>}
