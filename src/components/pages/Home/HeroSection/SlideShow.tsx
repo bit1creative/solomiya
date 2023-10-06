@@ -16,10 +16,19 @@ export const SlideShow = () => {
     const ctx = gsap.context(() => {
       gsap
         .timeline({
-          repeat: -1
+          repeat: -1,
+          repeatDelay: 1
         })
-        .fromTo(slideShowImgRefs.current, { opacity: 0 }, { opacity: 1, stagger: 0.5, duration: 0.1 })
-        .to(slideShowImgRefs.current.slice(1), { opacity: 0, duration: 0.1 }, '+=0.5');
+        .add('start')
+        .delay(1)
+        .fromTo(slideShowImgRefs.current, { opacity: 0 }, { opacity: 1, stagger: 1, duration: 0.1 }, 'start')
+        .to(
+          slideShowImgRefs.current,
+          { boxShadow: '0 25px 50px -12px rgb(0 0 0 / 0.25)', stagger: 1, duration: 0.1 },
+          '<'
+        )
+        .to(slideShowImgRefs.current, { boxShadow: 'none', stagger: 1, duration: 0 }, '<1')
+        .to(slideShowImgRefs.current, { opacity: 0, duration: 0.1 }, 'start1');
     }, rootRef);
 
     return () => {
@@ -29,11 +38,11 @@ export const SlideShow = () => {
 
   return (
     <div ref={rootRef} className="relative h-[200px] lg:h-[800px]">
-      {images.map((imageSrc: string) => (
+      {images.map((imageSrc: string, index: number) => (
         <img
           key={imageSrc}
-          ref={(el) => slideShowImgRefs.current.push(el as HTMLElement)}
-          className="absolute left-1/2 h-[200px] -translate-x-1/2 opacity-0 shadow-2xl lg:h-[800px]"
+          ref={(el) => index && slideShowImgRefs.current.push(el as HTMLElement)}
+          className="absolute left-1/2 h-[200px] -translate-x-1/2 opacity-0 first:opacity-100 first:shadow-2xl lg:h-[700px]"
           src={`/images/${imageSrc}`}
         />
       ))}
