@@ -42,8 +42,8 @@ export const Layout = () => {
           <div className="mx-auto max-w-[1440px]">
             <Outlet />
           </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed -inset-10 z-30 bg-white lg:-inset-20" />
