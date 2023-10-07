@@ -35,7 +35,7 @@ export const IssuesDialogCarousel = ({ images }: Props) => {
   };
 
   return (
-    <div className="min-h-[150px] overflow-hidden lg:h-[50vh]">
+    <div className="min-h-[150px] overflow-hidden lg:h-[75vh]">
       <div className="no-scrollbar flex snap-x gap-x-4 overflow-x-scroll lg:hidden lg:snap-none">
         {images.map((image) => (
           <img
@@ -47,13 +47,21 @@ export const IssuesDialogCarousel = ({ images }: Props) => {
           />
         ))}
       </div>
-      <div className="relative hidden h-full lg:block">
-        <div className="absolute left-0 top-0 h-full w-28 bg-transparent" onClick={() => handleImageChange('prev')} />
-        <img className="mx-auto h-[93%] select-none object-scale-down" src={`/images/${images[renderedImageIndex]}`} />
-        <div className="absolute right-0 top-0 h-full w-28 bg-transparent" onClick={() => handleImageChange('next')} />
+      <div className="hidden h-full lg:flex lg:flex-col lg:justify-center lg:gap-y-4">
+        <div className="relative h-full max-h-[90%]">
+          <div
+            className="absolute left-0 top-0 h-full w-1/2 bg-transparent"
+            onClick={() => handleImageChange('prev')}
+          />
+          <img className="mx-auto h-full select-none object-scale-down" src={`/images/${images[renderedImageIndex]}`} />
+          <div
+            className="absolute right-0 top-0 h-full w-1/2 bg-transparent"
+            onClick={() => handleImageChange('next')}
+          />
+        </div>
 
         {images.length > 1 && (
-          <div className="mt-6 flex justify-center">
+          <div className="flex justify-center">
             {images.map((image, index) => (
               <button key={image} onClick={() => setRenderedImageIndex(index)}>
                 {index === renderedImageIndex ? <FilledCircle /> : <EmptyCircle />}

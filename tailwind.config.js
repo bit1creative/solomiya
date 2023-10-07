@@ -16,8 +16,10 @@ export default {
       fontSize: {
         'lg-xl': 'clamp(10rem, 15vw, 16rem);',
         'lg-2xl': 'clamp(12rem, 10vw, 18rem);',
+        '4xl': 'clamp(1.5rem, 5vw, 2.5rem);',
+        '5xl': 'clamp(2rem, 5vw, 3rem);',
         '6xl': 'clamp(2.5rem, 5vw, 3.75rem);',
-        '8xl': 'clamp(3.5rem, 5vw, 4.75rem);'
+        '8xl': 'clamp(2.5rem, 5vw, 4.75rem);'
       },
       fontFamily: {
         'nice-bold-italic': ['NICE_BOLD_ITALIC', 'cursive'],
