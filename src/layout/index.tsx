@@ -38,7 +38,7 @@ export const Layout = () => {
         <Dialog.Trigger className="absolute left-2 top-2 z-20 lg:left-4 lg:top-5">
           <img className="h-18 w-16 lg:h-28 lg:w-24" src={logo} alt="logo" />
         </Dialog.Trigger>
-        <div className="absolute bottom-5 left-5 right-5 top-5 z-0 h-[calc(100%-2.5rem)] overflow-y-scroll bg-white lg:bottom-10 lg:left-10 lg:right-10 lg:top-10 lg:h-[calc(100%-5rem)]">
+        <div className="no-scrollbar absolute bottom-5 left-5 right-5 top-5 z-0 h-[calc(100%-2.5rem)] overflow-y-scroll bg-white lg:bottom-10 lg:left-10 lg:right-10 lg:top-10 lg:h-[calc(100%-5rem)]">
           <div className="mx-auto max-w-[1440px]">
             <Outlet />
           </div>

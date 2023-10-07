@@ -14,8 +14,8 @@ export default {
         'main-issue-2': '#ffee00'
       },
       fontSize: {
-        'lg-xl': ['16rem'],
-        'lg-2xl': ['18rem'],
+        'lg-xl': 'clamp(10rem, 15vw, 16rem);',
+        'lg-2xl': 'clamp(12rem, 10vw, 18rem);',
         '6xl': 'clamp(2.5rem, 5vw, 3.75rem);',
         '8xl': 'clamp(3.5rem, 5vw, 4.75rem);'
       },

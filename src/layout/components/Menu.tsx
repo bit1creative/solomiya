@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useLayoutEffect, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import gsap from 'gsap';
@@ -107,67 +108,61 @@ export const Menu = ({ onCloseMenu }: Props) => {
   }, [mainColor]);
 
   return (
-    <div ref={rootRef} className="h-full">
+    <div ref={rootRef} className="h-full w-full">
       <div
         ref={bgRef}
-        className="flex h-full select-none flex-col items-end justify-center overflow-hidden px-2 font-yuni-black text-8xl lg:flex-row lg:items-start lg:p-4 lg:text-lg-xl"
+        className="flex h-full w-full select-none items-center justify-center overflow-hidden px-2 lg:block lg:p-4"
       >
-        <Link
-          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-          className="menu-item [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-          to="/"
-          onClick={onCloseMenu}
-        >
-          home
-        </Link>
-        <Link
-          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-          className="menu-item [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-          to={`/issue/${issue}/about-us`}
-          onClick={onCloseMenu}
-        >
-          about
-        </Link>
-        {/* <Link
-          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-          className="menu-item [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)]"
-          to="/"
-          onClick={onCloseMenu}
-        >
-          shop
-        </Link> */}
-        <Link
-          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-          className="menu-item [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-          to={`/issue/${issue}/stockists`}
-          onClick={onCloseMenu}
-        >
-          stockists
-        </Link>
-        <div
-          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-          className="menu-item font-yuni-hair [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-        >
-          issues
-        </div>
-        <div className="menu-item flex space-x-4 lg:-mt-12 lg:flex-col lg:-space-y-2 lg:space-x-0 lg:text-lg-2xl">
-          <div>
-            <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/issue/2" onClick={onCloseMenu}>
-              N°2
-            </Link>
-            <div
-              ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-              className={`-mt-2 h-1 w-full bg-black lg:-mt-6 lg:h-3 ${useIssueMatch('2') ? '' : 'hidden'}`}
-            />
+        <div className="grid h-min w-full justify-end overflow-hidden text-end font-yuni-black text-8xl lg:grid-cols-5 lg:items-start lg:text-lg-xl">
+          <Link
+            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+            className="block h-max [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
+            to="/"
+            onClick={onCloseMenu}
+          >
+            home
+          </Link>
+          <Link
+            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+            className="block h-max [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
+            to={`/issue/${issue}/about-us`}
+            onClick={onCloseMenu}
+          >
+            about
+          </Link>
+          <Link
+            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+            className="block h-max [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
+            to={`/issue/${issue}/stockists`}
+            onClick={onCloseMenu}
+          >
+            stockists
+          </Link>
+          <div
+            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+            className="h-max font-yuni-hair [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
+          >
+            issues
           </div>
-          <div>
-            <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/" onClick={onCloseMenu}>
-              N°1
-            </Link>
-            <div
-              ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-              className={`-mt-2 h-1 w-full bg-black lg:-mt-6 lg:h-3 ${useIssueMatch('1') ? '' : 'hidden'}`}
-            />
+          <div className="flex h-max justify-end gap-x-4 text-center lg:-mt-20 lg:flex-col lg:gap-x-0 lg:text-lg-2xl">
+            <div className="w-max">
+              <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/issue/2" onClick={onCloseMenu}>
+                N°2
+              </Link>
+              <div
+                ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+                className={`-mt-5 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('2') ? '' : 'hidden'}`}
+              />
+            </div>
+            <div className="w-max lg:-mt-14">
+              <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/" onClick={onCloseMenu}>
+                N°1
+              </Link>
+              <div
+                ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+                className={`-mt-5 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('1') ? '' : 'hidden'}`}
+              />
+            </div>
           </div>
         </div>
       </div>
