@@ -8,7 +8,9 @@ export const Footer = () => {
   const issue = useGetIssue();
 
   return (
-    <div className={`mt-6 border-${mainColor} w-full border-0 border-t-[2.5rem] border-solid`}>
+    <div
+      className={`mt-6 border-${mainColor} -ml-[calc((100vw-1440px)/2)] w-screen border-0 border-t-[2.5rem] border-solid`}
+    >
       <div className="sr-only border-main-issue-1" />
       <div className="sr-only border-main-issue-2" />
       <div
