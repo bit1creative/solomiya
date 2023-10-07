@@ -8,7 +8,7 @@ export const IssuesSection = () => {
 
   if (isFirstIssue) {
     return (
-      <section className="snap-start px-4 text-center font-nice-regular text-3xl lg:px-20 lg:text-6xl lg:leading-normal">
+      <section className="snap-start px-4 text-center font-nice-regular text-3xl lg:px-20 lg:text-4xl lg:leading-normal xl:text-6xl">
         In Solomiya&apos;s very first issue, you will encounter some of those who grew up in an independent Ukraine and
         are paying a huge price for the European integration they seek. We invite you to meet young creatives from Kyiv
         and elsewhere who write <IssueTextImage image="sm1_andrii" />
@@ -23,7 +23,7 @@ export const IssuesSection = () => {
     );
   } else if (isSecondIssue) {
     return (
-      <section className="snap-start px-4 text-center font-nice-regular text-3xl lg:px-20 lg:text-6xl lg:leading-normal">
+      <section className="snap-start px-4 text-center font-nice-regular text-3xl lg:px-20 lg:text-4xl lg:leading-normal xl:text-6xl">
         Having established a distinct voice with the first issue of Solomiya, we continue to showcase the works of
         talented artists who reflect on the complexity and the urgency of the Ukrainian context{' '}
         <IssueTextImage image="sm2_vsevolod" /> <IssueTextImage image="sm2_dima_tolkachov" />
