@@ -52,7 +52,7 @@
               // Things that start with a letter (or digit or underscore), or `@` followed by a letter.
               ["^react", "^@?\\w"],
               // Aliases
-              ["^(Components|Pages|Assets|Hooks|tailwind.config)(/.*|$)"],
+              ["^(Components|Pages|Assets|Hooks|Layout|tailwind.config)(/.*|$)"],
               // Relative imports.
               ["^\\."]
             ]

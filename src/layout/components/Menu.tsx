@@ -145,22 +145,22 @@ export const Menu = ({ onCloseMenu }: Props) => {
             issues
           </div>
           <div className="flex h-max justify-end gap-x-4 text-center lg:-mt-20 lg:flex-col lg:gap-x-0 lg:text-lg-2xl">
-            <div className="w-max">
+            <div className="h-min w-max">
               <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/issue/2" onClick={onCloseMenu}>
                 N°2
               </Link>
               <div
                 ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-                className={`-mt-5 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('2') ? '' : 'hidden'}`}
+                className={`-mt-5 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('2') ? '' : 'opacity-0'}`}
               />
             </div>
-            <div className="w-max lg:-mt-14">
+            <div className="h-min w-max lg:-mt-6">
               <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/" onClick={onCloseMenu}>
                 N°1
               </Link>
               <div
                 ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-                className={`-mt-5 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('1') ? '' : 'hidden'}`}
+                className={`-mt-5 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('1') ? '' : 'opacity-0'}`}
               />
             </div>
           </div>
