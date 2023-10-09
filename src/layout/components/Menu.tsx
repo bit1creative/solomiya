@@ -19,12 +19,16 @@ export const Menu = ({ onCloseMenu }: Props) => {
   const bgRef = useRef(null);
   const underlinesRef = useRef<HTMLElement[]>([]);
   const menuItemsRef = useRef<HTMLElement[]>([]);
+  const issuesNumbersRef = useRef<HTMLElement[]>([]);
 
   useLayoutEffect(() => {
     const split = new SplitType(menuItemsRef.current, {
       types: 'chars'
     });
     const chars = split.chars;
+    const { chars: issuesNumbersChars } = new SplitType(issuesNumbersRef.current, {
+      types: 'chars'
+    });
 
     const ctx = gsap.context(() => {
       const mm = gsap.matchMedia();
@@ -39,6 +43,21 @@ export const Menu = ({ onCloseMenu }: Props) => {
           })
           .fromTo(
             chars,
+            {
+              y: 100,
+              opacity: 0
+            },
+            {
+              y: 0,
+              opacity: 1,
+              stagger: 0.05,
+              duration: 0.7,
+              ease: 'power4.out'
+            },
+            '-=.5'
+          )
+          .fromTo(
+            issuesNumbersChars,
             {
               y: -100,
               opacity: 0
@@ -89,6 +108,21 @@ export const Menu = ({ onCloseMenu }: Props) => {
             '-=.5'
           )
           .fromTo(
+            issuesNumbersChars,
+            {
+              y: 100,
+              opacity: 0
+            },
+            {
+              y: 0,
+              opacity: 1,
+              stagger: 0.05,
+              duration: 0.7,
+              ease: 'power4.out'
+            },
+            '-=.5'
+          )
+          .fromTo(
             underlinesRef.current,
             {
               scaleX: 0
@@ -113,7 +147,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
         ref={bgRef}
         className="flex h-full w-full select-none items-center justify-center overflow-hidden px-2 lg:block lg:p-4"
       >
-        <div className="grid h-min w-full justify-end overflow-hidden text-end font-yuni-black text-8xl lg:grid-cols-5 lg:items-start lg:text-lg-xl">
+        <div className="grid h-min w-full justify-end overflow-hidden text-end font-yuni-black text-8xl lg:grid-cols-5 lg:items-start lg:text-lg-heading">
           <Link
             ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
             className="block h-max [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
@@ -144,23 +178,23 @@ export const Menu = ({ onCloseMenu }: Props) => {
           >
             issues
           </div>
-          <div className="flex h-max justify-end gap-x-4 text-center lg:-mt-20 lg:flex-col lg:gap-x-0 lg:text-lg-2xl">
+          <div className="lg:text-lg-2xl flex h-max justify-end gap-x-4 text-center lg:-mt-20 lg:flex-col lg:gap-x-0">
             <div className="h-min w-max">
-              <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/issue/2" onClick={onCloseMenu}>
+              <Link ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)} to="/issue/2" onClick={onCloseMenu}>
                 N°2
               </Link>
               <div
                 ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-                className={`-mt-5 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('2') ? '' : 'opacity-0'}`}
+                className={`-mt-4 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('2') ? '' : 'opacity-0'}`}
               />
             </div>
             <div className="h-min w-max lg:-mt-6">
-              <Link ref={(el) => menuItemsRef.current.push(el as HTMLElement)} to="/" onClick={onCloseMenu}>
+              <Link ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)} to="/" onClick={onCloseMenu}>
                 N°1
               </Link>
               <div
                 ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-                className={`-mt-5 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('1') ? '' : 'opacity-0'}`}
+                className={`-mt-4 h-1 w-full bg-black lg:-mt-16 lg:h-3 ${useIssueMatch('1') ? '' : 'opacity-0'}`}
               />
             </div>
           </div>
