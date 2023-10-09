@@ -9,7 +9,7 @@ export const Footer = () => {
 
   return (
     <div
-      className={`mt-6 border-${mainColor} -ml-[calc((100vw-1440px)/2)] w-screen border-0 border-t-[2.5rem] border-solid`}
+      className={`mt-6 border-${mainColor} border-0 border-t-[2.5rem] border-solid 2xl:-ml-[calc((100vw-1440px)/2)] 2xl:w-[calc(100vw-40px)]`}
     >
       <div className="sr-only border-main-issue-1" />
       <div className="sr-only border-main-issue-2" />
