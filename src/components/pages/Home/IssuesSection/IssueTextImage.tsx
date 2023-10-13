@@ -19,8 +19,13 @@ export const IssueTextImage = ({ image }: Props) => {
 
   return (
     <Dialog.Root>
-      <Dialog.Trigger className="relative mx-1 inline-block w-10 lg:w-20">
-        <img className="w-full" src={`/images/${imageData.previewImage}`} alt={imageData.title} loading="lazy" />
+      <Dialog.Trigger className="mx-1 inline-block h-10 lg:h-14 xl:h-20">
+        <img
+          className="-mb-2 h-full xl:-mb-4"
+          src={`/images/${imageData.previewImage}`}
+          alt={imageData.title}
+          loading="lazy"
+        />
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className={`fixed inset-0 bg-${mainColor}`}></Dialog.Overlay>
