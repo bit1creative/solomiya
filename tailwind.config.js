@@ -21,9 +21,14 @@ export default {
         '4xl': ['clamp(2rem, 5vw, 2.25rem)', 'clamp(3rem, 5vw, 4rem)'],
         '5xl': ['3rem', '4rem'],
         '6xl': ['4rem', '5rem'],
+        '7xl': ['5rem', '6rem'],
         menu: ['4rem', '5rem'],
         'menu-lg': '10rem',
-        'menu-xl': ['15rem', '15rem']
+        'menu-xl': ['15rem', '15rem'],
+        title: '4rem',
+        'title-md': '5rem',
+        'title-lg': '6rem',
+        'title-xl': '8rem'
       },
       fontFamily: {
         'nice-bold-italic': ['NICE_BOLD_ITALIC', 'cursive'],
