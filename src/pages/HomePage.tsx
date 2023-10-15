@@ -7,7 +7,7 @@ export const HomePage = () => (
   <div className="flex snap-y flex-col gap-4">
     <ScrollRestoration />
     <HeroSection />
-    <Link to="about" relative="path" className="block text-center font-yuni-black text-4xl lg:text-6xl">
+    <Link to="about" relative="path" className="block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl">
       Read more
     </Link>
     <IssuesSection />

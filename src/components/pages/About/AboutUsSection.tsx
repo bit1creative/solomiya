@@ -5,7 +5,7 @@ import { SectionTitle } from 'Components/common/SectionTitle';
 export const AboutUsSection = () => {
   const { issue } = useParams();
   return (
-    <section className="flex min-h-[calc(100dvh-40px)] flex-col items-center justify-center p-4 lg:p-20 xl:p-32">
+    <section className="flex min-h-[calc(100dvh-40px)] flex-col items-center justify-center p-4 md:mx-10 lg:min-h-full lg:p-14 xl:gap-y-4 xl:p-32">
       <SectionTitle title={'About Us'} />
       <div className="font-nice-regular text-4xl lg:text-center xl:text-6xl">
         <span className="italic">
@@ -13,10 +13,13 @@ export const AboutUsSection = () => {
         </span>
         are working to make this magazine exist.
       </div>
-      <Link className="my-4 block text-center font-yuni-black text-5xl" to={`/issue/${issue}/contact-us`}>
+      <Link
+        className="my-4 block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl"
+        to={`/issue/${issue}/contact-us`}
+      >
         Contact Us
       </Link>
-      <img className="mx-auto max-w-[50vw]" src={'/images/about-us.jpg'} loading="lazy" />
+      <img className="mx-auto max-w-[80vw] lg:max-w-[60vw]" src={'/images/about-us.jpg'} loading="lazy" />
     </section>
   );
 };
