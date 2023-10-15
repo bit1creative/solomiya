@@ -19,9 +19,9 @@ export const IssueTextImage = ({ image }: Props) => {
 
   return (
     <Dialog.Root>
-      <Dialog.Trigger className="mx-1 inline-block h-10 lg:h-14 xl:h-20">
+      <Dialog.Trigger className="mx-1 inline-block h-10 lg:h-20 xl:h-20">
         <img
-          className="-mb-2 h-full xl:-mb-4"
+          className="-mb-2 h-full lg:-mb-6 xl:-mb-4"
           src={`/images/${imageData.previewImage}`}
           alt={imageData.title}
           loading="lazy"

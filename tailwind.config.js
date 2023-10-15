@@ -9,18 +9,21 @@ export default {
       minHeight: {
         screen: ['100vh /* fallback for Opera, IE and etc. */', '100dvh']
       },
+      maxWidth: {
+        limit: '1440px'
+      },
       colors: {
         'main-issue-1': '#e6363f',
         'main-issue-2': '#ffee00'
       },
       fontSize: {
-        'lg-heading': 'clamp(10rem, 15vw, 16rem);',
-        'lg-heading-xl': 'clamp(12rem, 10vw, 18rem);',
-        '4xl': 'clamp(1.5rem, 5vw, 2.5rem);',
-        '5xl': 'clamp(2rem, 5vw, 3rem);',
-        '6xl': 'clamp(2.5rem, 5vw, 3.75rem);',
-        '8xl': 'clamp(2.5rem, 5vw, 4.75rem);',
-        '10xl': 'clamp(4rem, 10vw, 6rem);'
+        '3xl': ['1.875rem', '2.5rem'],
+        '4xl': ['clamp(2rem, 5vw, 2.25rem)', 'clamp(3rem, 5vw, 4rem)'],
+        '5xl': ['3rem', '4rem'],
+        '6xl': ['4rem', '5rem'],
+        menu: ['4rem', '5rem'],
+        'menu-lg': '10rem',
+        'menu-xl': ['15rem', '15rem']
       },
       fontFamily: {
         'nice-bold-italic': ['NICE_BOLD_ITALIC', 'cursive'],

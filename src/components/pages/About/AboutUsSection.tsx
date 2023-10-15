@@ -13,7 +13,7 @@ export const AboutUsSection = () => {
         </span>
         are working to make this magazine exist.
       </div>
-      <Link className="my-4 block text-center font-yuni-black text-5xl lg:text-8xl" to={`/issue/${issue}/contact-us`}>
+      <Link className="my-4 block text-center font-yuni-black text-5xl" to={`/issue/${issue}/contact-us`}>
         Contact Us
       </Link>
       <img className="mx-auto max-w-[50vw]" src={'/images/about-us.jpg'} loading="lazy" />

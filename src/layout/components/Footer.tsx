@@ -14,7 +14,7 @@ export const Footer = () => {
       <div className="sr-only border-main-issue-1" />
       <div className="sr-only border-main-issue-2" />
       <div
-        className={`mx-auto grid max-w-[1440px] grid-cols-3 place-items-center gap-x-4 gap-y-2 bg-white text-center font-yuni-black text-2xl lg:grid-cols-5 lg:py-4 lg:text-6xl lg:leading-normal`}
+        className={`mx-auto grid max-w-[1440px] grid-cols-3 place-items-center gap-x-4 gap-y-2 bg-white text-center font-yuni-black text-2xl md:text-3xl lg:grid-cols-5 lg:py-4 lg:text-6xl lg:leading-normal`}
       >
         <a href="https://instagram.com/solomiyamag?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
           Instagram
