@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom';
-
+import { AnimatedLink } from 'Components/common/AnimatedLink';
 import { useGetIssue } from 'Hooks/useGetIssue';
 import { useMainColor } from 'Hooks/useTheme';
 
@@ -16,11 +15,16 @@ export const Footer = () => {
       <div
         className={`mx-auto grid max-w-[1440px] grid-cols-3 place-items-center gap-x-4 gap-y-2 bg-white text-center font-yuni-black text-2xl md:text-3xl lg:grid-cols-5 lg:py-4 lg:text-6xl lg:leading-normal`}
       >
-        <a href="https://instagram.com/solomiyamag?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+        <AnimatedLink
+          isReactLink={false}
+          href="https://instagram.com/solomiyamag?igshid=MzRlODBiNWFlZA=="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Instagram
-        </a>
+        </AnimatedLink>
         <span>Newsletter</span>
-        <Link to={`/issue/${issue}/contact-us`}>Contact</Link>
+        <AnimatedLink to={`/issue/${issue}/contact-us`}>Contact</AnimatedLink>
         <span>Legals</span>
         <span>Privacy Policy</span>
       </div>

@@ -1,5 +1,6 @@
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
+import { AnimatedLink } from 'Components/common/AnimatedLink';
 import { SectionTitle } from 'Components/common/SectionTitle';
 
 export const AboutUsSection = () => {
@@ -13,12 +14,12 @@ export const AboutUsSection = () => {
         </span>
         are working to make this magazine exist.
       </div>
-      <Link
+      <AnimatedLink
         className="my-4 block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl"
         to={`/issue/${issue}/contact-us`}
       >
         Contact Us
-      </Link>
+      </AnimatedLink>
       <img className="mx-auto max-w-[80vw] lg:max-w-[60vw]" src={'/images/about-us.jpg'} loading="lazy" />
     </section>
   );
