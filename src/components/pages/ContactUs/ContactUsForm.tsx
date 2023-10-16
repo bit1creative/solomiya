@@ -8,7 +8,7 @@ export const ContactUsForm = () => {
   const [body, setBody] = useState('');
 
   return (
-    <section className="flex min-h-[calc(100dvh-60px)] flex-col items-center justify-center gap-2 p-4 md:mx-auto md:max-w-[60vw] lg:gap-8 xl:min-h-[calc(100dvh-120px)]">
+    <section className="flex min-h-[calc(100dvh-60px)] flex-col items-center justify-center gap-2 p-4 md:mx-auto md:max-w-[60vw] lg:gap-8 xl:min-h-[calc(100dvh-120px)] xl:max-w-limit">
       <SectionTitle title={'Contact'} />
       <div className="flex w-full flex-col gap-2 xl:gap-4">
         <div className="relative flex h-6">
