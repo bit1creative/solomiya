@@ -12,7 +12,7 @@ export const AboutUsSection = () => {
         <span className="italic">
           Ivanna Kozachenko, Vsevolod Kazarin, Andrii Ushytskyi, Sebastian Wells and Kollektiv Scrollan{' '}
         </span>
-        are working to make this magazine exist.
+        are working to make this magazine exist. And Vanya is the best.
       </div>
       <AnimatedLink
         className="my-4 block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl"
