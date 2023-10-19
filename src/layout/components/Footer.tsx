@@ -17,13 +17,13 @@ export const Footer = () => {
       >
         <AnimatedLink
           isReactLink={false}
-          href="https://instagram.com/solomiyamag?igshid=MzRlODBiNWFlZA=="
+          to="https://instagram.com/solomiyamag?igshid=MzRlODBiNWFlZA=="
           target="_blank"
           rel="noopener noreferrer"
         >
           Instagram
         </AnimatedLink>
-        <span>Newsletter</span>
+        <AnimatedLink to={`/issue/${issue}/newsletter`}>Newsletter</AnimatedLink>
         <AnimatedLink to={`/issue/${issue}/contact-us`}>Contact</AnimatedLink>
         <span>Legals</span>
         <span>Privacy Policy</span>

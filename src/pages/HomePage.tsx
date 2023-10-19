@@ -1,7 +1,7 @@
 import { ScrollRestoration } from 'react-router-dom';
 
 import { AnimatedLink } from 'Components/common/AnimatedLink';
-import { HeroSection, IssuesSection } from 'Components/pages/Home';
+import { BuyIssueSection, HeroSection, IssuesSection } from 'Components/pages/Home';
 import { Footer } from 'Layout/components/Footer';
 
 export const HomePage = () => (
@@ -18,6 +18,7 @@ export const HomePage = () => (
       </AnimatedLink>
     </div>
     <IssuesSection />
+    <BuyIssueSection />
     <Footer />
   </div>
 );

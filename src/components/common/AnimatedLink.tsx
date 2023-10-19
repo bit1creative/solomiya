@@ -1,18 +1,19 @@
-import { HTMLProps, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { Link, LinkProps } from 'react-router-dom';
 import gsap from 'gsap';
 
-interface ReactAnimatedLinkProps extends LinkProps {
-  isReactLink?: true;
+interface AnimatedLinkProps extends LinkProps {
+  isReactLink?: boolean;
 }
 
-interface AnimatedLinkProps extends HTMLProps<HTMLAnchorElement> {
-  isReactLink?: false;
-}
-
-export const AnimatedLink = ({ isReactLink = true, ...props }: AnimatedLinkProps | ReactAnimatedLinkProps) => {
+export const AnimatedLink = ({ isReactLink = true, ...props }: AnimatedLinkProps) => {
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const underlinedRef = useRef<HTMLDivElement | null>(null);
+
+  const overrideProps = {
+    ...props,
+    reloadDocument: !isReactLink
+  } satisfies LinkProps;
 
   useEffect(() => {
     let playAnimation: () => void;
@@ -48,7 +49,7 @@ export const AnimatedLink = ({ isReactLink = true, ...props }: AnimatedLinkProps
 
   return (
     <div ref={wrapperRef} className="inline w-max">
-      {isReactLink ? <Link {...(props as LinkProps)} /> : <a {...(props as HTMLProps<HTMLAnchorElement>)} />}
+      <Link {...overrideProps} />
       <div ref={underlinedRef} className="mx-auto block h-1 w-0 bg-black lg:h-3" />
     </div>
   );

@@ -37,38 +37,100 @@ export const AboutUsSection = () => {
       </AnimatedLink>
       <SectionTitle title={'Editorial Team'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        Andrii Ushytskyi grew up in Western Ukraine but has been living in Kyiv since 2021. Andrii studied English
-        Culture and Literature.
+        <div className="flex flex-col">
+          <p className="inline">
+            <a
+              href={`mailto:andrii@solomiyamag.com`}
+              className="italic transition-all hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Andrii Ushytskyi
+            </a>
+          </p>{' '}
+          grew up in Western Ukraine but has been living in Kyiv since 2021. Andrii studied English Culture and
+          Literature.
+        </div>
         <br></br>
         <br></br>
       </div>
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        Ivanna Kozachenko works as a curator in Kyiv and graduated from Taras Shevchenko National University with a
-        bachelor&apos;s degree in mathematics.
+        <p className="inline">
+          <a
+            href={`mailto:ivanna@solomiyamag.com`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ivanna Kozachenko
+          </a>
+        </p>{' '}
+        works as a curator in Kyiv and graduated from Taras Shevchenko National University with a bachelor&apos;s degree
+        in mathematics.
         <br></br>
         <br></br>
       </div>
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        Sebastian Wells comes from Berlin and is a member of the photographer&apos;s collective OSTKREUZ.
+        <p className="inline">
+          <a
+            href={`mailto:sebastian@solomiyamag.com`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sebastian Wells
+          </a>
+        </p>{' '}
+        comes from Berlin and is a member of the photographer&apos;s collective OSTKREUZ.
         <br></br>
         <br></br>
       </div>
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        Vsevolod Kazarin is a photographer from Kyiv, fluent in Japanese and the co-founder of this magazine.
+        <p className="inline">
+          <a
+            href={`mailto:vsevolod@solomiyamag.com`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vsevolod Kazarin
+          </a>
+        </p>{' '}
+        is a photographer from Kyiv, fluent in Japanese and the co-founder of this magazine.
         <br></br>
         <br></br>
       </div>
       <SectionTitle title={'Art Direction'} />
+      <p className="inline">
+        <a
+          href={`https://kollektiv-scrollan.com`}
+          className="italic transition-all hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Kollektiv Scrollan
+        </a>
+      </p>{' '}
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        Kollektiv Scrollan is a design studio based in Berlin. Their members, Anne-Lene Proff and Peter B&uuml;nnagel,
-        develop the visual appearance of the magazine.
+        is a design studio based in Berlin. Their members, Anne-Lene Proff and Peter B&uuml;nnagel, develop the visual
+        appearance of the magazine.
         <br></br>
         <br></br>
       </div>
       <SectionTitle title={'Publisher'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        SHIFT BOOKS is a Berlin-based independent publisher run by Helena Melikov and Christian Dettler specialized in
-        photography, contemporary art and social interest. SHIFT BOOKS are produced sustainably and printed vegan.
+        <p className="inline">
+          <a
+            href={`https://www.shiftbooks.de`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SHIFT BOOKS
+          </a>
+        </p>{' '}
+        is a Berlin-based independent publisher run by Helena Melikov and Christian Dettler specialized in photography,
+        contemporary art and social interest. SHIFT BOOKS are produced sustainably and printed vegan.
         <br></br>
         <br></br>
       </div>
