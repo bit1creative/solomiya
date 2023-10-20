@@ -2,7 +2,6 @@ import { ScrollRestoration } from 'react-router-dom';
 
 import { AnimatedLink } from 'Components/common/AnimatedLink';
 import { BuyIssueSection, HeroSection, IssuesSection } from 'Components/pages/Home';
-import { Footer } from 'Layout/components/Footer';
 
 export const HomePage = () => (
   <div className="flex snap-y flex-col gap-4">
@@ -19,6 +18,5 @@ export const HomePage = () => (
     </div>
     <IssuesSection />
     <BuyIssueSection />
-    <Footer />
   </div>
 );
