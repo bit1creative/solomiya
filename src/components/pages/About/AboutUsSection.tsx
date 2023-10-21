@@ -37,20 +37,18 @@ export const AboutUsSection = () => {
       </AnimatedLink>
       <SectionTitle title={'Editorial Team'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        <div className="flex flex-col">
-          <p className="inline">
-            <a
-              href={`mailto:andrii@solomiyamag.com`}
-              className="italic transition-all hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Andrii Ushytskyi
-            </a>
-          </p>{' '}
+        <p className="inline">
+          <a
+            href={`mailto:andrii@solomiyamag.com`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Andrii Ushytskyi
+          </a>{' '}
           grew up in Western Ukraine but has been living in Kyiv since 2021. Andrii studied English Culture and
           Literature.
-        </div>
+        </p>
         <br></br>
         <br></br>
       </div>
