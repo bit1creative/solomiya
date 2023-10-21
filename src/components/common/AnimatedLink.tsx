@@ -48,7 +48,7 @@ export const AnimatedLink = ({ isReactLink = true, ...props }: AnimatedLinkProps
   }, [wrapperRef, underlinedRef]);
 
   return (
-    <div ref={wrapperRef} className="inline w-max">
+    <div ref={wrapperRef} className="inline w-full">
       <Link {...overrideProps} />
       <div ref={underlinedRef} className="mx-auto block h-1 w-0 bg-black lg:h-3" />
     </div>
