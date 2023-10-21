@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { SectionTitle } from 'Components/common/SectionTitle';
 
 export const ContactUsForm = () => {
-  const email = 'hrytsenko.svan@gmail.com';
+  const email = 'hello@solomiyamag.com';
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
 

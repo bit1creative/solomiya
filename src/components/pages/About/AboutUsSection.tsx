@@ -99,17 +99,17 @@ export const AboutUsSection = () => {
         <br></br>
       </div>
       <SectionTitle title={'Art Direction'} />
-      <p className="inline">
-        <a
-          href={`https://kollektiv-scrollan.com`}
-          className="italic transition-all hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Kollektiv Scrollan
-        </a>
-      </p>{' '}
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
+        <p className="inline">
+          <a
+            href={`https://kollektiv-scrollan.com`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Kollektiv Scrollan
+          </a>
+        </p>{' '}
         is a design studio based in Berlin. Their members, Anne-Lene Proff and Peter B&uuml;nnagel, develop the visual
         appearance of the magazine.
         <br></br>
