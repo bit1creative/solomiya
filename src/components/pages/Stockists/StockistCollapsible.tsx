@@ -16,7 +16,7 @@ export const StockistCollapsible = ({ country }: Props) => {
       </Collapsible.Trigger>
       <Collapsible.Content className="overflow-hidden data-[state=closed]:animate-[collapsible-close_300ms_ease-in] data-[state=open]:animate-[collapsible-open_300ms_ease-out]">
         {stockists.map((place) => (
-          <div key={place} className="text-center md:text-xl lg:text-3xl xl:text-4xl">
+          <div key={place} className="text-center font-nice-regular md:text-xl lg:text-3xl xl:text-4xl">
             {place}
           </div>
         ))}
