@@ -336,8 +336,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           done their part to liberate the deoccupied territories in the Ukraine, and rebuilt countless homes and
           schools. With the financial support of its benefactors, Livyj Bereh has recently been able to repair more than
           90 house roofs in the Kharkiv region alone. An art of its own. Support Livyj Bereh{' '}
-          <a href="https://linktr.ee/livyj_bereh" target="_blank" rel="noopener noreferrer">
-            here
+          <a href="https://linktr.ee/livyj_bereh" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            here.
           </a>
         </div>
       ),
