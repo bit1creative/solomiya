@@ -56,10 +56,10 @@ export const AboutUsSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Sebastian Wells
+            Sebastian Wells,
           </a>
         </p>{' '}
-        , both trained as photographers, cultural worker&nbsp;
+        both trained as photographers, cultural worker&nbsp;
         <p className="inline">
           <a
             href={`mailto:andrii@solomiyamag.com`}
