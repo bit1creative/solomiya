@@ -14,7 +14,7 @@ export const CookiesPoints = () => (
         user.
         <br />
         <br />
-        The cookies used by Soлomiya Collective or a third party acting on its behalf, are associated only with an
+        The cookies used by Solomiya Collective or a third party acting on its behalf, are associated only with an
         anonymous user and your computer, and we do not store sensitive personal identification information in the
         cookies we use.
       </p>
@@ -22,12 +22,12 @@ export const CookiesPoints = () => (
     <div>
       <p className="font-nice-bold">2. PURPOSE</p>
       <p>
-        Thanks to the cookies, it is possible for Soлomiya Collective’s server, or of the third party acting on its
+        Thanks to the cookies, it is possible for Solomiya Collective’s server, or of the third party acting on its
         behalf, to recognize the browser of the computer used by the user in order to make navigation easier. They are
         also used to measure the audience and traffic parameters, monitor the progress and the number of entries.
         <br />
         <br />
-        In the same way, Soлomiya Collective’s web site servers will automatically detect the IP address and domain name
+        In the same way, Solomiya Collective’s web site servers will automatically detect the IP address and domain name
         used by the user. All this information is later recorded in a server activity file that allows the subsequent
         processing of the data in order to obtain statistical measurements that allow knowing the number of page
         impressions, the number of visits made to the Web services, etc. In any case, said file is subject to
