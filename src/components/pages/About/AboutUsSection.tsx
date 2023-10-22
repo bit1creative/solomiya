@@ -37,53 +37,7 @@ export const AboutUsSection = () => {
       </AnimatedLink>
       <SectionTitle title={'Editorial Team'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        <p className="inline">
-          <a
-            href={`mailto:andrii@solomiyamag.com`}
-            className="italic transition-all hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Andrii Ushytskyi
-          </a>{' '}
-          grew up in Western Ukraine but has been living in Kyiv since 2021. Andrii studied English Culture and
-          Literature.
-        </p>
-        <br></br>
-        <br></br>
-      </div>
-      <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        <p className="inline">
-          <a
-            href={`mailto:ivanna@solomiyamag.com`}
-            className="italic transition-all hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ivanna Kozachenko
-          </a>
-        </p>{' '}
-        works as a curator in Kyiv and graduated from Taras Shevchenko National University with a bachelor&apos;s degree
-        in mathematics.
-        <br></br>
-        <br></br>
-      </div>
-      <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        <p className="inline">
-          <a
-            href={`mailto:sebastian@solomiyamag.com`}
-            className="italic transition-all hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Sebastian Wells
-          </a>
-        </p>{' '}
-        comes from Berlin and is a member of the photographer&apos;s collective OSTKREUZ.
-        <br></br>
-        <br></br>
-      </div>
-      <div className="text-center font-nice-regular text-2xl xl:text-5xl">
+        The two founders
         <p className="inline">
           <a
             href={`mailto:vsevolod@solomiyamag.com`}
@@ -94,7 +48,40 @@ export const AboutUsSection = () => {
             Vsevolod Kazarin
           </a>
         </p>{' '}
-        is a photographer from Kyiv, fluent in Japanese and the co-founder of this magazine.
+        and&nbsp;
+        <p className="inline">
+          <a
+            href={`mailto:sebastian@solomiyamag.com`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sebastian Wells
+          </a>
+        </p>{' '}
+        , both trained as photographers, cultural worker&nbsp;
+        <p className="inline">
+          <a
+            href={`mailto:andrii@solomiyamag.com`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Andrii Ushytskyi
+          </a>{' '}
+        </p>
+        and curator&nbsp;
+        <p className="inline">
+          <a
+            href={`mailto:ivanna@solomiyamag.com`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ivanna Kozachenko
+          </a>
+        </p>{' '}
+        form the editorial team of Solomiya Magazine.
         <br></br>
         <br></br>
       </div>
