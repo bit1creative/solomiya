@@ -6,7 +6,7 @@ import {
   AboutUsPage,
   ContactUsPage,
   HomePage,
-  LegalsPage,
+  ImprintPage,
   NewsLetterPage,
   PrivacyPolicyPage,
   StockistsPage
@@ -46,8 +46,8 @@ export const router = createBrowserRouter([
         element: <NewsLetterPage />
       },
       {
-        path: '/issue/:issue/legals',
-        element: <LegalsPage />
+        path: '/issue/:issue/imprint',
+        element: <ImprintPage />
       }
     ]
   }
