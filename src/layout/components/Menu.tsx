@@ -194,7 +194,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
               />
             </div>
             <div className="h-min w-max lg:-mt-6 lg:h-full">
-              <Link ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)} to="/" onClick={onCloseMenu}>
+              <Link ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)} to="/issue/1" onClick={onCloseMenu}>
                 N°1
               </Link>
               <div
