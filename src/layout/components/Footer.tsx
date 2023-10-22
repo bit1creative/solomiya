@@ -23,7 +23,7 @@ export const Footer = () => {
         </AnimatedLink>
         <AnimatedLink to={`/issue/${issue}/newsletter`}>Newsletter</AnimatedLink>
         <AnimatedLink to={`/issue/${issue}/contact-us`}>Contact</AnimatedLink>
-        <span>Legals</span>
+        <AnimatedLink to={`/issue/${issue}/legals`}>Legals</AnimatedLink>
         <AnimatedLink to={`/issue/${issue}/privacy-policy`}>Privacy Policy</AnimatedLink>
       </div>
     </div>

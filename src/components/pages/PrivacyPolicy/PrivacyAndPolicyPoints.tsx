@@ -1,5 +1,5 @@
 export const PrivacyAndPolicyPoints = () => (
-  <div className="mt-4 flex flex-col gap-y-4 font-nice-regular text-lg md:text-xl lg:text-2xl xl:text-3xl">
+  <div className="mt-4 flex flex-col gap-y-4 font-nice-regular text-lg md:text-xl lg:mt-12 lg:gap-y-12 lg:text-2xl xl:text-3xl">
     <div>
       <p className="font-nice-bold">1. RESPONSIBLE FOR THE TREATMENT</p>
       <p>

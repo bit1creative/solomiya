@@ -3,45 +3,43 @@ import { useState } from 'react';
 import { SectionTitle } from 'Components/common/SectionTitle';
 
 export const ContactUsForm = () => {
-  const email = 'hrytsenko.svan@gmail.com';
+  const email = 'hello@solomiyamag.com';
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
 
   return (
-    <section className="flex min-h-[calc(100dvh-60px)] flex-col items-center justify-center gap-2 p-4 md:mx-auto md:max-w-[60vw] lg:gap-8 xl:min-h-[calc(100dvh-120px)] xl:max-w-limit">
+    <section className="mx-auto flex min-h-[calc(100dvh-60px)] w-full max-w-[80%] flex-col items-center justify-center p-4 px-0 lg:max-w-[50%] xl:min-h-[calc(100dvh-120px)]">
       <SectionTitle title={'Contact'} />
-      <div className="flex w-full flex-col gap-2 xl:gap-4">
-        <div className="relative flex h-6">
-          <hr className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 border border-dashed border-gray-500" />
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-2 font-nice-regular md:text-xl xl:text-2xl">
-            Subject
-          </div>
-        </div>
+      <div className="flex w-full flex-col font-nice-regular">
+        <label className="md:text-2xl xl:text-3xl" htmlFor="subject">
+          Subject
+        </label>
         <input
-          className="w-full rounded-md border border-solid border-gray-500 px-4 py-2 xl:py-4"
+          name="subject"
+          className="block w-full rounded-lg border border-gray-700 bg-gray-200 p-2.5 text-sm text-gray-900 md:mt-4 md:py-4 lg:text-xl xl:py-6 xl:text-3xl"
           type="text"
           onChange={(e) => setSubject(e.target.value)}
         />
       </div>
-      <div className="flex w-full flex-col gap-2 xl:gap-4">
-        <div className="relative flex h-6">
-          <hr className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 border border-dashed border-gray-500" />
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-2 font-nice-regular md:text-xl xl:text-2xl">
-            Message
-          </div>
-        </div>
+      <div className="mt-4 flex w-full flex-col font-nice-regular lg:mt-8">
+        <label className="md:text-2xl xl:text-3xl" htmlFor="message">
+          Message
+        </label>
         <input
-          className="w-full rounded-md border border-solid border-gray-500 px-4 py-2 xl:py-4"
+          name="message"
+          className="block w-full rounded-lg border border-gray-700 bg-gray-200 p-2.5 text-sm text-gray-900 md:mt-4 md:py-4 lg:text-xl xl:py-6 xl:text-3xl"
           type="text"
           onChange={(e) => setBody(e.target.value)}
         />
       </div>
-      <a
-        className="mt-4 w-full rounded-md border border-solid px-4 py-2 text-center font-nice-regular transition-all hover:bg-neutral-900 hover:text-neutral-50 md:text-xl xl:py-4 xl:text-2xl"
-        href={`mailto:${email}?subject=${subject}&body=${body}`}
-      >
-        Click to Send an Email
-      </a>
+      <div className="mx-auto mt-4 w-full md:mt-8">
+        <a
+          className="block w-full rounded-lg border-2 border-solid border-gray-700 py-2 text-center font-nice-regular md:text-2xl xl:py-4 xl:text-3xl"
+          href={`mailto:${email}?subject=${subject}&body=${body}`}
+        >
+          Click to Send an Email
+        </a>
+      </div>
     </section>
   );
 };

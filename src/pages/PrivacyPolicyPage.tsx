@@ -1,4 +1,5 @@
 import { SectionTitle } from 'Components/common/SectionTitle';
+import { CookiesPoints } from 'Components/pages/PrivacyPolicy/CookiesPoints';
 import { PrivacyAndPolicyPoints } from 'Components/pages/PrivacyPolicy/PrivacyAndPolicyPoints';
 import { PrivacyPolicyDescription } from 'Components/pages/PrivacyPolicy/PrivacyPolicyDescription';
 
@@ -7,5 +8,9 @@ export const PrivacyPolicyPage = () => (
     <SectionTitle title="Privacy Policy" />
     <PrivacyPolicyDescription />
     <PrivacyAndPolicyPoints />
+    <div className="mt-4 md:mt-8 lg:mt-12 xl:mt-20">
+      <SectionTitle title="Cookies" />
+    </div>
+    <CookiesPoints />
   </div>
 );

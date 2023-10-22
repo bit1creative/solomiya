@@ -2,7 +2,15 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 
 import { Layout } from 'Layout';
-import { AboutUsPage, ContactUsPage, HomePage, NewsLetterPage, PrivacyPolicyPage, StockistsPage } from 'Pages';
+import {
+  AboutUsPage,
+  ContactUsPage,
+  HomePage,
+  LegalsPage,
+  NewsLetterPage,
+  PrivacyPolicyPage,
+  StockistsPage
+} from 'Pages';
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +44,10 @@ export const router = createBrowserRouter([
       {
         path: '/issue/:issue/newsletter',
         element: <NewsLetterPage />
+      },
+      {
+        path: '/issue/:issue/legals',
+        element: <LegalsPage />
       }
     ]
   }
