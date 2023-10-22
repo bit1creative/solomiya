@@ -151,7 +151,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
           <Link
             ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
             className="block h-max [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-            to="/issue/2"
+            to={`/issue/${issue}`}
             onClick={onCloseMenu}
           >
             home
