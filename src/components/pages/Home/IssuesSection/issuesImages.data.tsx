@@ -283,12 +283,10 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           immediately established herself as one of the leading voices of the Crimean Tatar nation. In an interview with
           Andrii Ushytskyi, Lia reflects on the importance of re-examining the Crimean Tatar history to combat russian
           imperialism, speaks about the power of language, and shares her experiences of being an activist while not
-          having been able to visit her home since 2014. Emine Ziyatdinova&apos;s photographs tell the story of her
-          family — who like so many other Crimean Tatars were deported to Uzbekistan in 1944 — and at the same time that
-          of an entire population group, whose past and present are full of humiliations that have never been properly
-          addressed. Ziyatdinova was three years old when her family returned to Crimea in 1990, where they had to
-          overcome many hurdles to arrive and find work. Seeing fellow members of the Muslim minority being accused of
-          terrorism for resisting russian annexation, Ziyatdinova advocates against the stripping of their human rights.
+          having been able to visit her home since 2014. Emine Ziyatdinova&apos;s photographs accompany the interview,
+          and tell the story of the photographer&apos;s family — who like so many other Crimean Tatars were deported to
+          Uzbekistan in 1944 — and at the same time that of an entire population group, whose past and present are full
+          of humiliations that have never been properly addressed.
         </div>
       ),
       title: 'I am Ukrainian, but I Am Also Qirimli',
@@ -300,7 +298,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm2_daniil: {
       descriptionHtml: (
         <div>
-          The second issue of Soлomiya opens with photographs taken by Daniil Russov, who captured the Ukrainian wartime
+          The second issue of Solomiya opens with photographs taken by Daniil Russov, who captured the Ukrainian wartime
           realities. Those images do not leave the viewer indifferent — they catch our attention and leave us at a loss
           for words, offering space for the heavy silence to take over.
         </div>
@@ -351,11 +349,11 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm2_alevtina: {
       descriptionHtml: (
         <div>
-          For Soлomiya&apos;s second issue, the artist Alevtina Kakhidze designed an exclusive cover for us - with
+          For Solomiya&apos;s second issue, the artist Alevtina Kakhidze designed an exclusive cover for us - with
           drawings that speak for themselves.
         </div>
       ),
-      title: 'Soлomiya&apos;s Second Issue&apos;s Cover',
+      title: 'Our Hands Became More Skilful During the War - The Cover',
       author: 'by Alevtina Kakhidze',
       previewImage: 'issue2/sm2_alevtina-preview.jpg',
       images: ['issue2/sm2_alevtina1.jpg', 'issue2/sm2_alevtina2.jpg', 'issue2/sm2_alevtina3.jpg']
