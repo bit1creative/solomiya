@@ -13,5 +13,21 @@ export const LegalsSection = () => (
         <br />
       </p>
     </div>
+    <div>
+      <p className="font-nice-bold">WEB DESIGN</p>
+      <p>
+        <br />
+        Mélan Rouillon, Peter B&uuml;nnagel (Kollektiv Scrollan)
+        <br />
+      </p>
+    </div>
+    <div>
+      <p className="font-nice-bold">WEB DEVELOPMENT</p>
+      <p>
+        <br />
+        Vanya Hrytsenko
+        <br />
+      </p>
+    </div>
   </div>
 );
