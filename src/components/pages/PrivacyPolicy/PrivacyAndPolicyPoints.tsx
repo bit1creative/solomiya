@@ -3,13 +3,13 @@ export const PrivacyAndPolicyPoints = () => (
     <div>
       <p className="font-nice-bold">1. RESPONSIBLE FOR THE TREATMENT</p>
       <p>
-        Soлomiya Collective NGO
+        Solomiya Collective NGO
         <br />
         29, Vyshneva street, Tatsenky village, Obukhiv raion, Kyivs&apos;ka oblast
         <br /> 08700 Ukraine
         <br />
         hello@solomiyamag.com
-        <br /> Hereinafter “Soлomiya Collective”, “We” or the “Responsible for the Treatment”.
+        <br /> Hereinafter “Solomiya Collective”, “We” or the “Responsible for the Treatment”.
       </p>
     </div>
     <div>
@@ -21,7 +21,7 @@ export const PrivacyAndPolicyPoints = () => (
         through cookies.
         <br />
         <br />
-        This privacy policy covers all personal data collected and used by Soлomiya Collective.
+        This privacy policy covers all personal data collected and used by Solomiya Collective.
         <br />
         <br />
         Hereby, the user (you) guarantees that the Personal Data provided is true and accurate and undertakes to notify
@@ -39,10 +39,9 @@ export const PrivacyAndPolicyPoints = () => (
     <div>
       <p className="font-nice-bold">3. PURPOSES, LEGITIMACY AND STORAGE DURATION</p>
       <p>for the processing of the data sent through:</p>
+      <br />
+      <span className="font-bold">PURCHASE FORM</span>
       <ul>
-        <li className="list-inside list-disc">
-          <span className="font-bold">PURCHASE FORM</span>
-        </li>
         <li className="list-inside list-disc">
           <span className="underline">Personal data collected:</span> When you make a purchase, you will need to
           complete a form with your full name, email address, postal address and your credit or debit card number.
@@ -84,14 +83,13 @@ export const PrivacyAndPolicyPoints = () => (
         </li>
       </ul>
       <p>
-        For your security, Soлomiya Collective has a payment method through a secure payment gateway. The bank data that
+        For your security, Solomiya Collective has a payment method through a secure payment gateway. The bank data that
         you provide is encrypted and transmitted to the servers of the bank. Afterwards the data is verified with the
         issuing bank to avoid fraud.
       </p>
+      <br />
+      <span className="font-bold">NEWSLETTER FORM</span>
       <ul className="mt-2">
-        <li className="list-inside list-disc">
-          <span className="font-bold">NEWSLETTER FORM</span>
-        </li>
         <li className="list-inside list-disc">
           <span className="underline">Personal data collected:</span> E-mail address.
         </li>
@@ -107,10 +105,9 @@ export const PrivacyAndPolicyPoints = () => (
           of the service.
         </li>
       </ul>
+      <br />
+      <span className="font-bold">SENDING OF E-MAILS</span>
       <ul className="mt-2">
-        <li className="list-inside list-disc">
-          <span className="font-bold">SENDING OF E-MAILS</span>
-        </li>
         <li className="list-inside list-disc">
           <span className="underline">Purpose:</span> To answer your requests for information, attend your requests and
           respond to your queries or issues. In case of receiving your Curriculum Vitae, your personal and curricular
@@ -132,12 +129,9 @@ export const PrivacyAndPolicyPoints = () => (
         rights in front of a Judge) or for historical and statistical purposes. Once we do not need to use your personal
         data, will delete it from our systems and registers and/ or we will anonymize it
       </p>
-      <span className="font-bold">
-        Obligation to provide us with your personal data and consequences of not doing so.
-      </span>
       <p>
         The submission of personal data requires a minimum age of 16 years old and, where applicable, sufficient legal
-        capacity to sign contracts
+        capacity to sign contracts.
         <br />
         The personal data requested is necessary in order to manage your requests and/or provide you with the services
         that you may contract, whereby if you do not give this to us, we will not be able to correctly attend to you or
@@ -207,11 +201,6 @@ export const PrivacyAndPolicyPoints = () => (
         “Personal Data” in the subject line, and specifying the right wished to be exercised and with respect to which
         specific personal data.
       </p>
-      <br />
-      <p>
-        In the event of disagreements with the company in relation to the processing of your data, you may submit a
-        claim with the Spanish Data Protection Agency (www.agpd.es).
-      </p>
     </div>
     <div>
       <p className="font-nice-bold">6. SECURITY OF YOUR PERSONAL DATA</p>
@@ -241,7 +230,7 @@ export const PrivacyAndPolicyPoints = () => (
         Policy of each one of them. We inform you that this document does not apply for those cases.
         <br />
         <br />
-        Soлomiya Collective will not treat your personal data in the case you acquire any product of one of our
+        Solomiya Collective will not treat your personal data in the case you acquire any product of one of our
         suppliers.
       </p>
     </div>
