@@ -130,7 +130,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           violence of people against people. “I believe that it is possible to wage an individual struggle against the
           current state of affairs,” says the artist, reflecting on the fact that all throughout history humans have
           inflicted pain and suffering onto each other. Images from this series have been used to envelope the first
-          issue of.
+          issue.
         </div>
       ),
       title: 'Living With The Fear of Being Harmed by Other Humans',
