@@ -119,6 +119,34 @@ export const AboutUsSection = () => {
         <br></br>
         <br></br>
       </div>
+      <SectionTitle title={'Partnerships'} />
+      <div className="text-center font-nice-regular text-2xl xl:text-5xl">
+        Our magazine productions would not have been possible without the support of the
+        <p className="inline">
+          <a
+            href={`https://www.adk.de/`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Akademie der K&uuml;nste
+          </a>
+        </p>{' '}   
+        and the
+        <p className="inline">
+          <a
+            href={`http://www.klausstemmler.de`}
+            className="italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Klaus Stemmler Foundation.
+          </a>
+        </p>{' '}
+        Help us with our mission, benefit from our network and feel free to contact us about possible partnerships!
+        <br></br>
+        <br></br>
+      </div>
     </section>
   );
 };
