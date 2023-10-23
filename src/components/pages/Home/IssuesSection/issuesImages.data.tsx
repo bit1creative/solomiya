@@ -29,19 +29,12 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm1_vsevolod: {
       descriptionHtml: (
         <div>
-          <span className="italic">Excerpt from the essay: </span>Spring of 2022. I sit by the window of the Japanese
-          library in Kyiv. Opposite is the old building of one of the Kyiv Polytechnic Institute campuses, built at the
-          end of the 19th century. It has a frail, slightly dilapidated appearance with a cracked facade constructed out
-          of already darkened bricks. With time, some of them fell off. The lawn around is strewn with the white petals
-          of an already blooming apri-cot tree, while the new stalks of green grass sprout from the concrete walk
-          leading towards the entrance. The strong gusts of wind rocked the trees and bushes, giving the scene a dynamic
-          effect. And life. All of this is accompanied by a loud howl of an air raid siren. During the war, time feels
-          differently. I would say that it is its finiteness that is felt, rather than time itself. In Japanese, there
-          is a particular term for the elevated, bittersweet feeling that arises from contemplating the transience of
-          life and the realization that nothing around can be eternal —もののあはれ [mono no aware]. This term, which is
-          often translated as “the sad charm of things”, in fact, has no English equivalent. Such aesthetic principle
-          appeals to the search for beauty in the ephemeral and the impermanent — to the desire of the soul to grasp and
-          realize the elusive essence of things.
+          When Vsevolod Kazarin, a fashion photographer, and Sebastian Wells, a documentary photographer, met in Kyiv,
+          they decided to team up and combine their skills. Being both interested in the young generation of creatives
+          in Kyiv, they started to work on a series of portraits that focuses on young people that don’t stop
+          self-expressing their identities through their fashion. While using the means of documentary photography and
+          portraying the protagonists out of the situation and in their respective environment, are a witness of a
+          historical moment. 
         </div>
       ),
       title: 'Mono-No-Aware',
