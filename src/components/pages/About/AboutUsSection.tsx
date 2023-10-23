@@ -131,7 +131,7 @@ export const AboutUsSection = () => {
           >
             Akademie der K&uuml;nste
           </a>
-        </p>{' '}   
+        </p>{' '}
         and the
         <p className="inline">
           <a
