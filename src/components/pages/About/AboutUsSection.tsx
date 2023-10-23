@@ -29,12 +29,6 @@ export const AboutUsSection = () => {
         core of its creation process conducted in both Kyiv and Berlin. Solomiya is proud to be printed vegan, shipped
         worldwide and available in all major European capitals.
       </div>
-      <AnimatedLink
-        className="my-4 block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl"
-        to={`/issue/${issue}/contact-us`}
-      >
-        Contact Us
-      </AnimatedLink>
       <SectionTitle title={'Editorial Team'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
         The two founders&nbsp;
@@ -147,6 +141,12 @@ export const AboutUsSection = () => {
         <br></br>
         <br></br>
       </div>
+      <AnimatedLink
+        className="my-4 block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl"
+        to={`/issue/${issue}/contact-us`}
+      >
+        Contact Us
+      </AnimatedLink>
     </section>
   );
 };
