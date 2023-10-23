@@ -9,7 +9,7 @@ export const ImageDialogContent = ({ imageData }: Props) => {
   const { title, author, descriptionHtml, images, comments = null } = imageData;
   return (
     <div className="h-full max-w-limit overflow-y-scroll lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-8 lg:overflow-hidden lg:p-10 lg:py-20 xl:mx-auto xl:p-20">
-      <div className="mt-24 lg:mt-0">
+      <div className="mt-24 lg:mt-0 lg:w-full">
         <IssuesDialogCarousel images={images} />
       </div>
       <div className="no-scrollbar mx-4 my-10 text-center font-nice-regular md:mt-0 md:px-10 lg:mb-12 lg:mt-8 lg:max-h-[70vh] lg:overflow-hidden lg:overflow-y-scroll lg:px-0">
