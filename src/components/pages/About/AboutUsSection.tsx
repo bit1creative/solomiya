@@ -28,6 +28,8 @@ export const AboutUsSection = () => {
         Publishing annually and entirely in English, unconventional design and exceptional visual approaches are at the
         core of its creation process conducted in both Kyiv and Berlin. Solomiya is proud to be printed vegan, shipped
         worldwide and available in all major European capitals.
+        <br></br>
+        <br></br>
       </div>
       <SectionTitle title={'Editorial Team'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
