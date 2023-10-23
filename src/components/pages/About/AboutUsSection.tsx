@@ -37,7 +37,7 @@ export const AboutUsSection = () => {
       </AnimatedLink>
       <SectionTitle title={'Editorial Team'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        The two founders
+        The two founders&nbsp;
         <p className="inline">
           <a
             href={`mailto:vsevolod@solomiyamag.com`}
@@ -121,7 +121,7 @@ export const AboutUsSection = () => {
       </div>
       <SectionTitle title={'Partnerships'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        Our magazine productions would not have been possible without the support of the
+        Our magazine productions would not have been possible without the support of the&nbsp;
         <p className="inline">
           <a
             href={`https://www.adk.de/`}
@@ -132,7 +132,7 @@ export const AboutUsSection = () => {
             Akademie der K&uuml;nste
           </a>
         </p>{' '}
-        and the
+        and the&nbsp;
         <p className="inline">
           <a
             href={`http://www.klausstemmler.de`}
