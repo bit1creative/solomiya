@@ -139,16 +139,27 @@ export const AboutUsSection = () => {
             Klaus Stemmler Foundation.
           </a>
         </p>{' '}
-        Help us with our mission, benefit from our network and feel free to contact us about possible partnerships!
+        Help us with our mission, benefit from our network and feel free to contact us about possible partnerships. Or
+        help us directly with a donation.
         <br></br>
         <br></br>
       </div>
-      <AnimatedLink
-        className="my-4 block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl"
-        to={`/issue/${issue}/contact-us`}
-      >
-        Contact Us
-      </AnimatedLink>
+      <div className="mx-auto w-max">
+        <AnimatedLink
+          className="my-4 block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl"
+          to={`/issue/${issue}/contact-us`}
+        >
+          Contact Us
+        </AnimatedLink>
+      </div>
+      <div className="mx-auto w-max">
+        <AnimatedLink
+          className="my-4 block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl"
+          to={`/issue/${issue}/imprint`}
+        >
+          Donate
+        </AnimatedLink>
+      </div>
     </section>
   );
 };
