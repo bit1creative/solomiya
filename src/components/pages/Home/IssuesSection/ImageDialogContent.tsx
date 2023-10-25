@@ -8,7 +8,7 @@ interface Props {
 export const ImageDialogContent = ({ imageData }: Props) => {
   const { title, author, descriptionHtml, images, comments = null } = imageData;
   return (
-    <div className="h-full max-w-limit overflow-y-scroll lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-8 lg:overflow-hidden lg:p-10 lg:py-20 xl:mx-auto xl:p-20">
+    <div className="h-full max-w-limit overflow-y-scroll pb-20 md:pb-0 lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-8 lg:overflow-hidden lg:p-10 lg:py-20 xl:mx-auto xl:p-20">
       <div className="mt-24 lg:mt-0 lg:w-full">
         <IssuesDialogCarousel images={images} />
       </div>
