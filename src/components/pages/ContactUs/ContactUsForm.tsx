@@ -16,7 +16,7 @@ export const ContactUsForm = () => {
         </label>
         <input
           name="subject"
-          className="block w-full rounded-lg border border-gray-700 bg-gray-200 p-2.5 text-sm text-gray-900 md:mt-4 md:py-4 lg:text-xl xl:py-6 xl:text-3xl"
+          className="block w-full rounded-lg border border-solid border-gray-700 bg-gray-200 p-2.5 text-sm text-gray-900 md:mt-4 md:py-4 lg:text-xl xl:py-6 xl:text-3xl"
           type="text"
           onChange={(e) => setSubject(e.target.value)}
         />
@@ -27,7 +27,7 @@ export const ContactUsForm = () => {
         </label>
         <input
           name="message"
-          className="block w-full rounded-lg border border-gray-700 bg-gray-200 p-2.5 text-sm text-gray-900 md:mt-4 md:py-4 lg:text-xl xl:py-6 xl:text-3xl"
+          className="block w-full rounded-lg border border-solid border-gray-700 bg-gray-200 p-2.5 text-sm text-gray-900 md:mt-4 md:py-4 lg:text-xl xl:py-6 xl:text-3xl"
           type="text"
           onChange={(e) => setBody(e.target.value)}
         />
