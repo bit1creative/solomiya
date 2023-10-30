@@ -89,8 +89,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           they decided to team up and combine their skills. Being both interested in the young generation of creatives
           in Kyiv, they started to work on a series of portraits that focuses on young people that don’t stop
           self-expressing their identities through their fashion. While using the means of documentary photography and
-          portraying the protagonists out of the situation and in their respective environment, are a witness of a
-          historical moment.
+          portraying the protagonists out of the situation and in their respective environment, the photographs are
+          also a witness of a historical moment.
         </div>
       ),
       title: '32 Young People Photographed in Kyiv, Ukraine, April & May 2022',
