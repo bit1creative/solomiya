@@ -18,9 +18,9 @@ export const AboutUsSection = () => {
       </div>
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
         The magazine is a platform for both emerging and established Ukrainian creatives, using a wide range of
-        expressions from visual arts to text that represent personal experiences, emotional observations and
-        intellectual discourses and offer its readers profound, diverse and subjective perspectives on current realities
-        and complex social issues in Ukraine - and beyond.
+        forms of expressions from visual arts to text that entail personal experiences, emotional observations and
+        intellectual discourses. Solomiya offers its readers profound, diverse and subjective perspectives on current 
+        realities and complex social issues in Ukraine - and beyond.
         <br></br>
         <br></br>
       </div>

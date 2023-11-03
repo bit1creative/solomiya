@@ -26,14 +26,14 @@ export const IssuesSection = () => {
       {isSecondIssue && (
         <>
           Having established a distinct voice with the first issue of Solomiya, we continue to showcase the works of
-          talented artists who reflect on the complexity and the urgency of the Ukrainian context{' '}
+          talented artists who reflect on the complexity and the of the Ukrainian context{' '}
           <IssueTextImage image="sm2_vsevolod" /> <IssueTextImage image="sm2_dima_tolkachov" />
           <IssueTextImage image="sm2_dmytro" />. In the magazine&rsquo;s second issue, we invite you to appreciate
           artworks that were created in Kherson despite the russian occupation <IssueTextImage image="sm2_kherart" />;
-          to read the stories of Ukrainians who had to run from the war twice — in 2014 and 2022{' '}
+          to read the stories of Ukrainians who had to flee the war twice — in 2014 and 2022{' '}
           <IssueTextImage image="sm2_occupation" />; to engage in conversations that explore the concept of the heroic{' '}
           <IssueTextImage image="sm2_hero" /> and the language of witnessing; and to highlight perspectives of Crimean
-          tatars <IssueTextImage image="sm2_ziyatdinova_crimea" /> that russia has been attempting to silence for many
+          Tatars <IssueTextImage image="sm2_ziyatdinova_crimea" /> that russia has been attempting to silence for many
           years. This issue brings together texts, artworks, and photographs from Daniil Russov{' '}
           <IssueTextImage image="sm2_daniil" />, Oleksii (Lesha) Berezovskiy{' '}
           <IssueTextImage image="sm2_lesha_berezovskiy" />, Livyj Bereh <IssueTextImage image="sm2_liviy_bereh" />,
