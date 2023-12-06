@@ -1,3 +1,5 @@
+import { AnimatedLink } from 'Src/components/common/AnimatedLink';
+
 export interface IssueImageData {
   descriptionHtml: JSX.Element;
   title: string;
@@ -362,35 +364,32 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm3_khustka: {
       descriptionHtml: (
         <div>
-          Meet the &quot;khustka&quot; — a traditional Ukrainian garment that translates into &quot;handkerchief&quot;
-          or &quot;scarf&quot; in English. Throughout Ukrainian history, khustkas were typically worn by women to cover
-          their heads, necks, or shoulders, carrying both traditional and symbolic significance. They were passed from
-          mothers to daughters and believed to serve as talismans, protecting their owners from the evil eye.
+          Introducing the &quot;khustka&quot; — a traditional Ukrainian garment that translates to
+          &quot;handkerchief&quot; or &quot;scarf&quot; in English. Throughout Ukrainian history, khustkas were
+          primarily worn by women to cover their heads, necks, or shoulders and held both traditional and symbolic
+          meaning. Passed down from mothers to daughters, they were believed to offer protection against the evil eye.
           <br />
           <br />
-          In contemporary Ukraine, khustkas have taken on various variations, yet their cultural significance remains
-          present. In collaboration with the @SOC.I.A artistic collective, we are delighted to present our unique
-          khustka, serving as both a garment and an art object.
+          In present-day Ukraine, khustkas have taken on various forms, yet their cultural significance remains present.
+          In collaboration with the SOC.I.A collective, we are delighted to present our khustka edition, which serves as
+          both a garment and an art object.
           <br />
           <br />
-          With only 23 pieces available, each khustka is unique and exclusive to our micro sponsors, who chose the €200
-          pre-order option.
+          With only 23 pieces available, each khustka is a unique part of a large-scale SOC.I.A painting-performance on
+          chiffon and exclusive to our micro sponsors, who chose the €200 pre-order option. Don&apos;t miss out on
+          reserving your very own khustka before they fly off the shelves, and decorate your home or outfit with it!
           <br />
           <br />
-          About SOC.I.A:
-          <br />
-          The practice of SOC.I.A team members — Arthur and Igor Spaskyi — focuses on identifying the balance between
-          spray culture brush technique and other experimental tools depending on sound and music, and its
-          representation in the gallery or street space.
-          <br />
-          <br />
-          In their musical-performative videos they initiate the process of materialization of sound, bringing it to a
-          graphic form. In this practice, artists serve as conductors of musical and sound waves, turning off
-          consciousness, they feel complete freedom and pleasure in a timely manner, this is a meditative process.
-          <br />
-          <br />
-          The balance of dance plastics in conjunction with specially selected or composed music transforms into
-          paintings on surfaces.
+          <div className="w-max">
+            <AnimatedLink to="https://www.instagram.com/soc.i.a/" target="_blank" rel="noopener noreferrer">
+              About SOC.I.A:
+            </AnimatedLink>
+          </div>
+          The members of SOC.I.A - Arthur and Igor Spaskyi - focus on finding the balance between spray culture brush
+          technique and experimental tools, depending on sound, music and its representation in a gallery or public
+          space. In their performative videos, they initiate the process of materialization of sound, bringing it to a
+          graphic form through the combination of dance movements and carefully selected or composed music. Acting as
+          conductors of musical and sound waves, they experience complete freedom and pleasure in a meditative process.
         </div>
       ),
       title: 'Khustka - Limited Edition',
