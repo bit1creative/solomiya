@@ -31,6 +31,7 @@ export const Layout = () => {
     <Dialog.Root open={isMenuOpen} onOpenChange={() => setIsMenuOpen(!isMenuOpen)}>
       <div className="sr-only bg-main-issue-1" />
       <div className="sr-only bg-main-issue-2" />
+      <div className="sr-only bg-main-issue-3" />
       <div
         className={`relative left-0 top-0 h-screen w-screen overflow-hidden bg-${mainColor} p-5 lg:p-10`}
         onClick={handleFrameClick}

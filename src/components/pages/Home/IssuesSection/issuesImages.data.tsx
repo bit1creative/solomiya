@@ -357,5 +357,53 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       previewImage: 'issue2/sm2_alevtina-preview.jpg',
       images: ['issue2/sm2_alevtina1.jpg', 'issue2/sm2_alevtina2.jpg', 'issue2/sm2_alevtina3.jpg']
     }
+  },
+  issue3: {
+    sm3_khustka: {
+      descriptionHtml: (
+        <div>
+          Meet the &quot;khustka&quot; — a traditional Ukrainian garment that translates into &quot;handkerchief&quot;
+          or &quot;scarf&quot; in English. Throughout Ukrainian history, khustkas were typically worn by women to cover
+          their heads, necks, or shoulders, carrying both traditional and symbolic significance. They were passed from
+          mothers to daughters and believed to serve as talismans, protecting their owners from the evil eye.
+          <br />
+          <br />
+          In contemporary Ukraine, khustkas have taken on various variations, yet their cultural significance remains
+          present. In collaboration with the @SOC.I.A artistic collective, we are delighted to present our unique
+          khustka, serving as both a garment and an art object.
+          <br />
+          <br />
+          With only 23 pieces available, each khustka is unique and exclusive to our micro sponsors, who chose the €200
+          pre-order option.
+          <br />
+          <br />
+          About SOC.I.A:
+          <br />
+          The practice of SOC.I.A team members — Arthur and Igor Spaskyi — focuses on identifying the balance between
+          spray culture brush technique and other experimental tools depending on sound and music, and its
+          representation in the gallery or street space.
+          <br />
+          <br />
+          In their musical-performative videos they initiate the process of materialization of sound, bringing it to a
+          graphic form. In this practice, artists serve as conductors of musical and sound waves, turning off
+          consciousness, they feel complete freedom and pleasure in a timely manner, this is a meditative process.
+          <br />
+          <br />
+          The balance of dance plastics in conjunction with specially selected or composed music transforms into
+          paintings on surfaces.
+        </div>
+      ),
+      title: 'Khustka - Limited Edition',
+      author: 'By SOC.I.A & Solomiya Magazine',
+      previewImage: 'issue3/sm3_khustka-preview.jpg',
+      images: [
+        'issue3/sm3_khustka1.jpg',
+        'issue3/sm3_khustka2.jpg',
+        'issue3/sm3_khustka3.jpg',
+        'issue3/sm3_khustka4.jpg',
+        'issue3/sm3_khustka5.jpg',
+        'issue3/sm3_khustka6.jpg'
+      ]
+    }
   }
 };

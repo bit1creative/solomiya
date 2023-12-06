@@ -5,6 +5,7 @@ import { IssueTextImage } from './IssueTextImage';
 export const IssuesSection = () => {
   const isFirstIssue = useIssueMatch('1');
   const isSecondIssue = useIssueMatch('2');
+  const isThirdIssue = useIssueMatch('3');
 
   return (
     <section className="snap-start px-4 text-center font-nice-regular text-3xl md:px-10 lg:px-20 lg:text-5xl xl:text-6xl">
@@ -40,6 +41,35 @@ export const IssuesSection = () => {
           Alevtina Kakhidze <IssueTextImage image="sm2_alevtina" />, Max Tsukan, Oleksandr Naselenko, Oleksandra
           Kalinichenko and others. This issue created in Kyiv and designed in Berlin, is a testament to resistance
           through the means of art.
+        </>
+      )}
+      {isThirdIssue && (
+        <>
+          Time flies by. Russia&apos;s ongoing war against Ukraine enters its 10th year in the upcoming spring. As the
+          cruel tides of war persist, we find ourselves increasingly averse to the harrowing tales of unspeakable
+          violence, making it ever more challenging to envision a world beyond this insidious conflict. &quot;The war
+          put Ukraine on the map,&quot; proclaimed the resolute refrain in the war&apos;s nascent stages. However, its
+          interminable nature threatens to erase Ukraine from the map of collective consciousness to the shadowed realms
+          of indifference once again.
+          <br />
+          <br />
+          Amidst entering the third year of the full-scale invasion, we may announce some auspicious news:
+          Solomiya&apos;s third issue is soon to be released. Between Kyiv and Berlin, we embark on a quest for artistic
+          transcendence that escapes the fatigue and offers new perspectives on Ukraine and beyond. Our exploration
+          delves into the burgeoning Ukrainian exile community, ever shaping Berlin&apos;s cultural scene; we unravel
+          the threads that bind war to the reawakening of masculinity; and we examine how the prism of Western
+          post-colonial perceptions intertwines with Ukraine&apos;s cartographic narratives. Through a kaleidoscope of
+          photography, visual arts, interviews and essays, we confront the recesses of imperial oppression and the fear
+          and endurance to resist it - without losing sight of the fragility of beauty, subjectivity and nativity.
+          <br />
+          <br />
+          Please join us on this journey! From now on, you can already pre-order your copy of Solomiya&apos;s third
+          issue for 20€ and even become our micro-sponsor for €100. Among the two micro-sponsorship options available,
+          in both of them you will receive your copy of Solomiya 3, and have your name mentioned in the magazine&apos;s
+          page of supporters. Further, you have the chance to receive some pleasant bits of Solomiya merch. For €200,
+          you will additionally receive a unique piece of garment: a khustka
+          <IssueTextImage image="sm3_khustka" />, produced in collaboration with the Kyiv-based grafitti-duo @SOC.I.A.
+          Each khustka is one of a kind, and the number of pieces is limited.
         </>
       )}
     </section>
