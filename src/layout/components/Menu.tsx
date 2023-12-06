@@ -193,7 +193,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
                 className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('3') ? '' : 'opacity-0'}`}
               />
             </div>
-            <div className="h-min w-max lg:-mt-6 lg:h-full">
+            <div className="h-min w-max lg:-mt-6 lg:h-full xl:-mt-7">
               <Link
                 className="block"
                 ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
@@ -207,7 +207,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
                 className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('2') ? '' : 'opacity-0'}`}
               />
             </div>
-            <div className="h-min w-max lg:-mt-6 lg:h-full">
+            <div className="h-min w-max lg:-mt-6 lg:h-full xl:-mt-7">
               <Link ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)} to="/issue/1" onClick={onCloseMenu}>
                 N°1
               </Link>
