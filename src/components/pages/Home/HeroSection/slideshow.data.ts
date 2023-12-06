@@ -21,4 +21,4 @@ SlideShowDataMap.set('issue-2', [
   'issue2/slideshow/8.jpg'
 ]);
 
-SlideShowDataMap.set('issue-3', ['issue3/slideshow/1.jpg', 'issue3/slideshow/2.jpg']);
+SlideShowDataMap.set('issue-3', ['issue3/slideshow/1.png', 'issue3/slideshow/2.png']);
