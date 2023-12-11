@@ -14,7 +14,8 @@ export default {
       },
       colors: {
         'main-issue-1': '#e6363f',
-        'main-issue-2': '#ffee00'
+        'main-issue-2': '#ffee00',
+        'main-issue-3': '#008dc7'
       },
       fontSize: {
         '3xl': ['1.875rem', '2.5rem'],

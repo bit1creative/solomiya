@@ -4,18 +4,26 @@ import { useGetIssue } from 'Hooks/useGetIssue';
 const IssuesAvailabilityMap = {
   1: {
     isAvailable: false,
+    isPreorder: false,
     internationalUrl: ''
   },
   2: {
     isAvailable: true,
+    isPreorder: false,
     internationalUrl: 'https://shiftbooks.de/en/produkt/solomiya-2/'
+  },
+  3: {
+    isAvailable: true,
+    isPreorder: true,
+    internationalUrl: 'https://shiftbooks.de/en/produkt/solomiya-3/'
   }
 };
 
 export const BuyIssueSection = () => {
   const issue = useGetIssue();
 
-  const isIssueAvailable = IssuesAvailabilityMap[issue as keyof typeof IssuesAvailabilityMap].isAvailable;
+  const isIssueAvailable = IssuesAvailabilityMap[issue as keyof typeof IssuesAvailabilityMap]?.isAvailable ?? false;
+  const isIssuePreorder = IssuesAvailabilityMap[issue as keyof typeof IssuesAvailabilityMap]?.isPreorder ?? false;
 
   return (
     <div className="mx-auto w-max">
@@ -26,7 +34,7 @@ export const BuyIssueSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Buy issue
+            {isIssuePreorder ? 'Pre-order' : 'Buy issue'}
           </AnimatedLink>
         ) : (
           <p className="select-none">SOLD OUT</p>
