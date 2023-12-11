@@ -375,7 +375,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           both a garment and an art object.
           <br />
           <br />
-          With only 23 pieces available, each khustka is a unique part of a large-scale SOC.I.A painting-performance on
+          With 23 pieces available, each khustka is a unique part of a large-scale SOC.I.A painting-performance on
           chiffon and exclusive to our micro sponsors, who chose the €200 pre-order option. Don&apos;t miss out on
           reserving your very own khustka before they fly off the shelves, and decorate your home or outfit with it!
           <br />
@@ -387,9 +387,9 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           </div>
           The members of SOC.I.A - Arthur and Igor Spaskyi - focus on finding the balance between spray culture brush
           technique and experimental tools, depending on sound, music and its representation in a gallery or public
-          space. In their performative videos, they initiate the process of materialization of sound, bringing it to a
-          graphic form through the combination of dance movements and carefully selected or composed music. Acting as
-          conductors of musical and sound waves, they experience complete freedom and pleasure in a meditative process.
+          space. In their performative videos, they materialize sound through the combination of dance movements,
+          painting, and carefully selected or composed music. Acting as conductors of musical and sound waves, they
+          experience complete freedom and pleasure in a meditative process.
         </div>
       ),
       title: 'Khustka - Limited Edition',
