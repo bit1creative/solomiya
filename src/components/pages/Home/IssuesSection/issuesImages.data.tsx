@@ -364,10 +364,10 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm3_khustka: {
       descriptionHtml: (
         <div>
-          Introducing the &quot;khustka&quot; — a traditional Ukrainian garment that translates to
-          &quot;handkerchief&quot; or &quot;scarf&quot; in English. Throughout Ukrainian history, khustkas were
-          primarily worn by women to cover their heads, necks, or shoulders and held both traditional and symbolic
-          meaning. Passed down from mothers to daughters, they were believed to offer protection against the evil eye.
+          Introducing the ”khustka” — a traditional Ukrainian garment that translates to ”handkerchief” or ”scarf” in
+          English. Throughout Ukrainian history, khustkas were primarily worn by women to cover their heads, necks, or
+          shoulders and held both traditional and symbolic meaning. Passed down from mothers to daughters, they were
+          believed to offer protection against the evil eye.
           <br />
           <br />
           In present-day Ukraine, khustkas have taken on various forms, yet their cultural significance remains present.
