@@ -17,22 +17,22 @@
 
 @font-face {
   font-family: "NICE_BOLD_ITALIC";
-  src: url("./assets/fonts/nice-bold-italic.otf");
+  src: url("./assets/fonts/nice-bold-italic.woff2");
 }
 
 @font-face {
   font-family: "NICE_BOLD";
-  src: url("./assets/fonts/nice-bold.otf");
+  src: url("./assets/fonts/nice-bold.woff2");
 }
 
 @font-face {
   font-family: "NICE_ITALIC";
-  src: url("./assets/fonts/nice-italic.otf");
+  src: url("./assets/fonts/nice-italic.woff2");
 }
 
 @font-face {
   font-family: "NICE_REGULAR";
-  src: url("./assets/fonts/nice-regular.otf");
+  src: url("./assets/fonts/nice-regular.woff2");
 }
 
 @font-face {
