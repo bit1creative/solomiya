@@ -72,7 +72,7 @@ export const PrivacyAndPolicyPoints = () => (
         </li>
         <li className="list-inside list-disc">
           <span className="underline">Legitimacy:</span> Your express consent, the contractual relationship with us and
-          the legitimate interest of Soлomiya Collective. In this sense, the processing of your data is necessary for
+          the legitimate interest of Solomiya Collective. In this sense, the processing of your data is necessary for
           the execution of the terms that regulate the use of the website, as well as for the execution of the contract
           of sale.
         </li>
@@ -144,7 +144,7 @@ export const PrivacyAndPolicyPoints = () => (
       <p className="font-nice-bold">4. RECIPIENTS OF YOUR DATA</p>
       <p>
         The Personal Data we collect from you may be treated by the Responsible of the treatment, on the legal basis of
-        the legitimate interest of Soлomiya Collective, and/ or to fulfill administrative purposes.
+        the legitimate interest of Solomiya Collective, and/ or to fulfill administrative purposes.
         <br />
         <br />
         Your personal data may be communicated to:
