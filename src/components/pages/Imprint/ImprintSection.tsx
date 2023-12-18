@@ -75,7 +75,7 @@ export const ImprintSection = () => (
         <br />
         Name of the recipient: NGO SOLOMIYA COLLECTIVE / ГО СОЛОМІЯ КОЛЛЕКТІВ / GO SOLOMIIA KOLLEKTIV
         <br />
-        Name of the bank: JSC CB &quot;PRIVATBANK&quot;, 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE
+        Name of the bank: JSC CB ”PRIVATBANK”, 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE
         <br />
         Bank SWIFT code: PBANUA2X
         <br />
