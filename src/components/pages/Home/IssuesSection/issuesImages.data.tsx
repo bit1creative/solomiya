@@ -14,13 +14,13 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm1_andrii: {
       descriptionHtml: (
         <div>
-          <span className="italic">Excerpt from the essay: </span>It is the time when you ask questions, like “Who am
-          I?” “What can I give?” “Which values hold my world together?” And also you make lots and lots of mistakes. And
-          I have to say that my grandpa was right. Somehow, he always is. I am 22, and I am going through all of this
-          now, but this time, those phases are exacerbated by the war. As I discussed this with auntie Olha, she said
-          that the war does not really instill the new qualities in you, but rather amplifies those that have been
-          hiding deep down in your soul. The equation is simple: the shitheads will be even bigger shitheads, and those
-          who took responsibility and helped others will be the true heroes of this war. And I agree with her.
+          <span className="font-nice-italic">Excerpt from the essay: </span>It is the time when you ask questions, like
+          “Who am I?” “What can I give?” “Which values hold my world together?” And also you make lots and lots of
+          mistakes. And I have to say that my grandpa was right. Somehow, he always is. I am 22, and I am going through
+          all of this now, but this time, those phases are exacerbated by the war. As I discussed this with auntie Olha,
+          she said that the war does not really instill the new qualities in you, but rather amplifies those that have
+          been hiding deep down in your soul. The equation is simple: the shitheads will be even bigger shitheads, and
+          those who took responsibility and helped others will be the true heroes of this war. And I agree with her.
         </div>
       ),
       title: 'Something I Will Keep In Me Forever',
@@ -31,19 +31,19 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm1_vsevolod: {
       descriptionHtml: (
         <div>
-          <span className="italic">Excerpt from the essay: </span>Spring of 2022. I sit by the window of the Japanese
-          library in Kyiv. Opposite is the old building of one of the Kyiv Polytechnic Institute campuses, built at the
-          end of the 19th century. It has a frail, slightly dilapidated appearance with a cracked facade constructed out
-          of already darkened bricks. With time, some of them fell off. The lawn around is strewn with the white petals
-          of an already blooming apri-cot tree, while the new stalks of green grass sprout from the concrete walk
-          leading towards the entrance. The strong gusts of wind rocked the trees and bushes, giving the scene a dynamic
-          effect. And life. All of this is accompanied by a loud howl of an air raid siren. During the war, time feels
-          differently. I would say that it is its finiteness that is felt, rather than time itself. In Japanese, there
-          is a particular term for the elevated, bittersweet feeling that arises from contemplating the transience of
-          life and the realization that nothing around can be eternal —もののあはれ [mono no aware]. This term, which is
-          often translated as “the sad charm of things”, in fact, has no English equivalent. Such aesthetic principle
-          appeals to the search for beauty in the ephemeral and the impermanent — to the desire of the soul to grasp and
-          realize the elusive essence of things.
+          <span className="font-nice-italic">Excerpt from the essay: </span>Spring of 2022. I sit by the window of the
+          Japanese library in Kyiv. Opposite is the old building of one of the Kyiv Polytechnic Institute campuses,
+          built at the end of the 19th century. It has a frail, slightly dilapidated appearance with a cracked facade
+          constructed out of already darkened bricks. With time, some of them fell off. The lawn around is strewn with
+          the white petals of an already blooming apri-cot tree, while the new stalks of green grass sprout from the
+          concrete walk leading towards the entrance. The strong gusts of wind rocked the trees and bushes, giving the
+          scene a dynamic effect. And life. All of this is accompanied by a loud howl of an air raid siren. During the
+          war, time feels differently. I would say that it is its finiteness that is felt, rather than time itself. In
+          Japanese, there is a particular term for the elevated, bittersweet feeling that arises from contemplating the
+          transience of life and the realization that nothing around can be eternal —もののあはれ [mono no aware]. This
+          term, which is often translated as “the sad charm of things”, in fact, has no English equivalent. Such
+          aesthetic principle appeals to the search for beauty in the ephemeral and the impermanent — to the desire of
+          the soul to grasp and realize the elusive essence of things.
         </div>
       ),
       title: 'Mono-No-Aware',
@@ -178,7 +178,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm2_vsevolod: {
       descriptionHtml: (
         <div>
-          <span className="italic">Essay excerpt: </span>
+          <span className="font-nice-italic">Essay excerpt: </span>
           It was one of their last December missile attacks on Kyiv that caused major interruptions in the city’s water
           supply and broke our boiler. For the twelve residents of our co-living space, the topic of the broken boiler
           became the central theme of our gatherings and discussions. The apartment owner, who was contacted numerous
@@ -196,7 +196,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm2_dima_tolkachov: {
       descriptionHtml: (
         <div>
-          <span className="italic">Essay excerpt: </span>
+          <span className="font-nice-italic">Essay excerpt: </span>
           To understand something, you must be able to picture it yourself. In order to understand what is going on in
           Ukraine, we should allow ourselves to imagine it. The term &lsquo;imagination&lsquo; implies the ability to
           create a narrative from an image or photograph, filling the void of space where the picture has been taken.
@@ -215,8 +215,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm2_dmytro: {
       descriptionHtml: (
         <div>
-          <span className="italic">Essay excerpt: </span>During the russian full-scale invasion of Ukraine, I visited
-          the village of Moshchun during April and May 2022 on the Irpin River, the place near Kyiv where a key
+          <span className="font-nice-italic">Essay excerpt: </span>During the russian full-scale invasion of Ukraine, I
+          visited the village of Moshchun during April and May 2022 on the Irpin River, the place near Kyiv where a key
           breakthrough and containment of the russian army took place. I came here to help to reconstruct my wife&apos;s
           grandparents&apos; house, which was partly damaged after the battle. The missile smashed an old bookshelf —
           novels by Dostoevsky, Tolstoy, Fadeev, Ostrovsky spilled out. All of them, of which millions of copies were

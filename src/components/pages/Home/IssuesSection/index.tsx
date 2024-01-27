@@ -46,7 +46,7 @@ export const IssuesSection = () => {
       {isThirdIssue && (
         <>
           Time flies by. Russia&apos;s war against Ukraine enters its 10th year next spring. The persistent cruelty
-          makes us increasingly averse to the unspeakable violence that seems to be growing globally. ”The war put
+          makes us increasingly averse to the unspeakable violence that seems to be growing globally. “The war put
           Ukraine on the map” was the resolute refrain that echoed in the language of the international community during
           the nascent stages of the war, but the question remains: for how long? The seemingly endless nature of the
           ongoing bloodshed poses a very real threat for Ukraine to once again “disappear from the map” and be shadowed
