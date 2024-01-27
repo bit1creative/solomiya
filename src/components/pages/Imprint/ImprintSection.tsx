@@ -48,7 +48,7 @@ export const ImprintSection = () => (
         <p className="inline">
           <a
             href={`https://www.solomiyamag.com/ngo_solomiya_collective.pdf`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -65,7 +65,7 @@ export const ImprintSection = () => (
         <p className="inline">
           <a
             href={`https://www.solomiyamag.com/ngo_solomiya_collective.pdf`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
