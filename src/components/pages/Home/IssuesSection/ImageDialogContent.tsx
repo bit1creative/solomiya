@@ -14,8 +14,8 @@ export const ImageDialogContent = ({ imageData }: Props) => {
       </div>
       <div className="no-scrollbar mx-4 my-10 text-center font-nice-regular md:mt-0 md:px-10 lg:mb-12 lg:mt-8 lg:max-h-[70vh] lg:overflow-hidden lg:overflow-y-scroll lg:px-0">
         <p className="text-3xl md:text-4xl xl:text-5xl">{title}</p>
-        <p className="italic md:text-xl lg:text-2xl xl:text-3xl">{author}</p>
-        {!!comments && <p className="italic md:text-xl lg:text-2xl xl:text-3xl">{comments}</p>}
+        <p className="font-nice-italic md:text-xl lg:text-2xl xl:text-3xl">{author}</p>
+        {!!comments && <p className="font-nice-italic md:text-xl lg:text-2xl xl:text-3xl">{comments}</p>}
         <div className="mt-8 text-left md:text-xl lg:text-xl xl:text-2xl">{descriptionHtml}</div>
       </div>
     </div>

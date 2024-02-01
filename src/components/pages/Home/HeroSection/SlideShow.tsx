@@ -24,10 +24,10 @@ export const SlideShow = () => {
         .fromTo(slideShowImgRefs.current, { opacity: 0 }, { opacity: 1, stagger: 1, duration: 0.1 }, 'start')
         .to(
           slideShowImgRefs.current,
-          { dropShadow: '0 25px 50px -12px rgb(0 0 0 / 0.25)', stagger: 1, duration: 0.1 },
+          { boxShadow: '0 25px 50px -12px rgb(0 0 0 / 0.25)', stagger: 1, duration: 0.1 },
           '<'
         )
-        .to(slideShowImgRefs.current, { dropShadow: 'none', stagger: 1, duration: 0 }, '<1')
+        .to(slideShowImgRefs.current, { boxShadow: 'none', stagger: 1, duration: 0 }, '<1')
         .to(slideShowImgRefs.current, { opacity: 0, duration: 0.1 }, 'start1');
     }, rootRef);
 
@@ -42,7 +42,7 @@ export const SlideShow = () => {
         <img
           key={imageSrc}
           ref={(el) => index && slideShowImgRefs.current.push(el as HTMLElement)}
-          className={`absolute left-1/2 h-[200px] -translate-x-1/2 opacity-0 first:opacity-100 first:drop-shadow-2xl md:h-[300px] lg:h-[30rem] xl:h-[35rem] 2xl:h-[40rem]`}
+          className="absolute left-1/2 h-full -translate-x-1/2 opacity-0 first:opacity-100 first:shadow-2xl"
           src={`/images/${imageSrc}`}
         />
       ))}

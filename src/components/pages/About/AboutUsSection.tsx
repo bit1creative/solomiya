@@ -37,7 +37,7 @@ export const AboutUsSection = () => {
         <p className="inline">
           <a
             href={`mailto:vsevolod@solomiyamag.com`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,7 +48,7 @@ export const AboutUsSection = () => {
         <p className="inline">
           <a
             href={`mailto:sebastian@solomiyamag.com`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +59,7 @@ export const AboutUsSection = () => {
         <p className="inline">
           <a
             href={`mailto:andrii@solomiyamag.com`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -70,7 +70,7 @@ export const AboutUsSection = () => {
         <p className="inline">
           <a
             href={`mailto:ivanna@solomiyamag.com`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -86,7 +86,7 @@ export const AboutUsSection = () => {
         <p className="inline">
           <a
             href={`https://kollektiv-scrollan.com`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -103,7 +103,7 @@ export const AboutUsSection = () => {
         <p className="inline">
           <a
             href={`https://www.shiftbooks.de`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -121,7 +121,7 @@ export const AboutUsSection = () => {
         <p className="inline">
           <a
             href={`https://www.adk.de/`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -132,7 +132,7 @@ export const AboutUsSection = () => {
         <p className="inline">
           <a
             href={`http://www.klausstemmler.de`}
-            className="italic transition-all hover:underline"
+            className="font-nice-italic transition-all hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >

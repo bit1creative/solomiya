@@ -55,14 +55,14 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm1_christina: {
       descriptionHtml: (
         <div>
-          With the beginning of Russia&apos;s invasion of Ukraine, Odesa-born multimedia artist Christina Erturk started
-          to feel an unbearable longing for returning home. Although she has made Warsaw her home after 5 years of
-          living and starting a career there, Christina&apos;s connection with her homeland only became stronger as the
-          war came to her country. In an interview with her close friend Andrii Ushytskyi, Christina meditates on how
-          her vision of Ukraine evolved since February 24 and speaks on expressing her feelings through the art project
-          titled 33 letters for Ukraine. With all the emotional weight she bears, Christina illustrated each letter of
-          the Ukrainian alphabet by implementing deliberate details that allow her to ultimately showcase the real
-          senses behind her works and search for ways to emotional healing.
+          With the beginning of Russia&rsquo;s invasion of Ukraine, Odesa-born multimedia artist Christina Erturk
+          started to feel an unbearable longing for returning home. Although she has made Warsaw her home after 5 years
+          of living and starting a career there, Christina&rsquo;s connection with her homeland only became stronger as
+          the war came to her country. In an interview with her close friend Andrii Ushytskyi, Christina meditates on
+          how her vision of Ukraine evolved since February 24 and speaks on expressing her feelings through the art
+          project titled 33 letters for Ukraine. With all the emotional weight she bears, Christina illustrated each
+          letter of the Ukrainian alphabet by implementing deliberate details that allow her to ultimately showcase the
+          real senses behind her works and search for ways to emotional healing.
         </div>
       ),
       title: 'P Is For Victory',
@@ -89,7 +89,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
         <div>
           When Vsevolod Kazarin, a fashion photographer, and Sebastian Wells, a documentary photographer, met in Kyiv,
           they decided to team up and combine their skills. Being both interested in the young generation of creatives
-          in Kyiv, they started to work on a series of portraits that focuses on young people that don’t stop
+          in Kyiv, they started to work on a series of portraits that focuses on young people that don&rsquo;t stop
           self-expressing their identities through their fashion. While using the means of documentary photography and
           portraying the protagonists out of the situation and in their respective environment, the photographs are also
           a witness of a historical moment.
@@ -110,12 +110,12 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       descriptionHtml: (
         <div>
           Shortly after the outbreak of the full-scale war Sasha Kurmaz had to leave his hometown Kyiv. In
-          Ivano-Frankivsk he found himself in the “Working Room” (ukr. «Робоча кімната») together with a group of
-          artists who, like him, were looking for a safe place. Together they tried to understand through artistic
-          practice what was happening. Untitled yet (2022, work in progress) is a series of collages that were inspired
-          by some of the banners made for the anti-Russia protests taking place throughout Europe. Similar to those DIY
-          protest banners which combined different images along with text, Sasha works on his collages by using
-          photographs and images he finds in the media, gluing them onto cardboard, and writing over them.
+          Ivano-Frankivsk he found himself in the “Working Room” (ukr. Робоча кімната) together with a group of artists
+          who, like him, were looking for a safe place. Together they tried to understand through artistic practice what
+          was happening. Untitled yet (2022, work in progress) is a series of collages that were inspired by some of the
+          banners made for the anti-Russia protests taking place throughout Europe. Similar to those DIY protest banners
+          which combined different images along with text, Sasha works on his collages by using photographs and images
+          he finds in the media, gluing them onto cardboard, and writing over them.
         </div>
       ),
       title: 'Untitled (yet)',
@@ -143,13 +143,13 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       descriptionHtml: (
         <div>
           Fighting has been going on in the Donbass eversince separatists in eastern Ukraine declared the so-called
-          “people&apos;s republics” in the cities of Donetsk and Luhansk in 2014. Over 13,000 people had already died by
-          the time the full-scale war began. The artist Mykola Ridnyi was already looking for an answer to the war and
-          its images back then. His work The Blind Spot is named after the epony-mous part of the retina, which is
+          “people&rsquo;s republics” in the cities of Donetsk and Luhansk in 2014. Over 13,000 people had already died
+          by the time the full-scale war began. The artist Mykola Ridnyi was already looking for an answer to the war
+          and its images back then. His work The Blind Spot is named after the epony-mous part of the retina, which is
           actually blind, but whose missing visual information is filled in to form a complete image in the brain. Under
           this title, Mykola assembles a series of photographs from media reports on the war in the Donbas in order to
           almost completely destroy them with black ink. Similar to the Blind Spot syndrome, only the outer-most or
-          innermost circle of the image remains visible — the rest is subject to the viewer&apos;s imagina-tion. For
+          innermost circle of the image remains visible — the rest is subject to the viewer&rsquo;s imagina-tion. For
           Mykola, the disease is an apt metaphor for the propaganda-induced social blindness in times of war, which
           creates a polarized view of reality and divides society into us and them, ours and theirs.
         </div>
@@ -165,7 +165,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           As Russian forces faltered in reaching Kyiv, they transformed Bucha from an once-coveted commuter suburb into
           a landscape of terror, killing unsuspicious civilians who carried out their everyday activities. Vsevolod
           Kazarin and Sebastian Wells protocol what two young residents from Bucha, Christina and Artem, endured during
-          the city&apos;s occupation and while escaping it.
+          the city&rsquo;s occupation and while escaping it.
         </div>
       ),
       title: 'Surviving Bucha',
@@ -179,13 +179,13 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       descriptionHtml: (
         <div>
           <span className="italic">Essay excerpt: </span>
-          It was one of their last December missile attacks on Kyiv that caused major interruptions in the city’s water
-          supply and broke our boiler. For the twelve residents of our co-living space, the topic of the broken boiler
-          became the central theme of our gatherings and discussions. The apartment owner, who was contacted numerous
-          times, promised to call plumbers, but weeks passed, and neither the owner nor the plumbers were anywhere to be
-          seen. We tried to fix the boiler ourselves since Max, one of the apartment residents, works in a plumbing
-          company. But even his professional knowledge and experience were not enough to get the hot water running again
-          in our place.
+          It was one of their last December missile attacks on Kyiv that caused major interruptions in the city&rsquo;s
+          water supply and broke our boiler. For the twelve residents of our co-living space, the topic of the broken
+          boiler became the central theme of our gatherings and discussions. The apartment owner, who was contacted
+          numerous times, promised to call plumbers, but weeks passed, and neither the owner nor the plumbers were
+          anywhere to be seen. We tried to fix the boiler ourselves since Max, one of the apartment residents, works in
+          a plumbing company. But even his professional knowledge and experience were not enough to get the hot water
+          running again in our place.
         </div>
       ),
       title: 'Russians Stole My Hot Water or the Last Day of the Year',
@@ -201,7 +201,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           Ukraine, we should allow ourselves to imagine it. The term &lsquo;imagination&lsquo; implies the ability to
           create a narrative from an image or photograph, filling the void of space where the picture has been taken.
           [...] Talking about open wounds in the middle of the tragedy, every Ukrainian artist is chained to the context
-          of war. You can&apos;t escape it. The simple picture of a flower made during the war will have an enormous
+          of war. You can&rsquo;t escape it. The simple picture of a flower made during the war will have an enormous
           semantic load. Images survived despite everything and hence require a major effort of imagination to be
           received and assimilated.
         </div>
@@ -217,12 +217,12 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
         <div>
           <span className="italic">Essay excerpt: </span>During the russian full-scale invasion of Ukraine, I visited
           the village of Moshchun during April and May 2022 on the Irpin River, the place near Kyiv where a key
-          breakthrough and containment of the russian army took place. I came here to help to reconstruct my wife&apos;s
-          grandparents&apos; house, which was partly damaged after the battle. The missile smashed an old bookshelf —
-          novels by Dostoevsky, Tolstoy, Fadeev, Ostrovsky spilled out. All of them, of which millions of copies were
-          published during the Soviet era, lie mixed with dust after the explosion. It is difficult to breathe here
-          because of fiberglass particles in the air. I carefully gather these books and put them in boxes, wiping the
-          dust from them. Apparently, this is how hegemony collapses.
+          breakthrough and containment of the russian army took place. I came here to help to reconstruct my
+          wife&rsquo;s grandparents&rsquo; house, which was partly damaged after the battle. The missile smashed an old
+          bookshelf — novels by Dostoevsky, Tolstoy, Fadeev, Ostrovsky spilled out. All of them, of which millions of
+          copies were published during the Soviet era, lie mixed with dust after the explosion. It is difficult to
+          breathe here because of fiberglass particles in the air. I carefully gather these books and put them in boxes,
+          wiping the dust from them. Apparently, this is how hegemony collapses.
         </div>
       ),
       title: 'Unpacking My Library',
@@ -247,7 +247,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
         <div>
           “For people living in occupied territories, life is a matter of merely existing. However, moving away is no
           easy task. Imagine your family, and generations preceding it, had lived in the Donbas all their life, and
-          suddenly you&apos;re forced to start your life from zero.” Encounters with young people from Kyiv who grew up
+          suddenly you&rsquo;re forced to start your life from zero.” Encounters with young people from Kyiv who grew up
           in the now occupied territories in the south and east of Ukraine.
         </div>
       ),
@@ -284,8 +284,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           immediately established herself as one of the leading voices of the Crimean Tatar nation. In an interview with
           Andrii Ushytskyi, Lia reflects on the importance of re-examining the Crimean Tatar history to combat russian
           imperialism, speaks about the power of language, and shares her experiences of being an activist while not
-          having been able to visit her home since 2014. Emine Ziyatdinova&apos;s photographs accompany the interview,
-          and tell the story of the photographer&apos;s family — who like so many other Crimean Tatars were deported to
+          having been able to visit her home since 2014. Emine Ziyatdinova&rsquo;s photographs accompany the interview,
+          and tell the story of the photographer&rsquo;s family — who like so many other Crimean Tatars were deported to
           Uzbekistan in 1944 — and at the same time that of an entire population group, whose past and present are full
           of humiliations that have never been properly addressed.
         </div>
@@ -333,7 +333,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       descriptionHtml: (
         <div>
           The volunteer group Livyj Bereh is most active in the villages in Kyiv, Chernihiv and now Kharkiv regions.
-          Since May, Livyj Bereh&apos;s small crew has sent 25 vehicles, including a bus, to the military, which have
+          Since May, Livyj Bereh&rsquo;s small crew has sent 25 vehicles, including a bus, to the military, which have
           done their part to liberate the deoccupied territories in the Ukraine, and rebuilt countless homes and
           schools. With the financial support of its benefactors, Livyj Bereh has recently been able to repair more than
           90 house roofs in the Kharkiv region alone. An art of its own. Support Livyj Bereh{' '}
@@ -350,7 +350,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm2_alevtina: {
       descriptionHtml: (
         <div>
-          For Solomiya&apos;s second issue, the artist Alevtina Kakhidze designed an exclusive cover for us - with
+          For Solomiya&rsquo;s second issue, the artist Alevtina Kakhidze designed an exclusive cover for us - with
           drawings that speak for themselves.
         </div>
       ),
@@ -364,7 +364,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
     sm3_khustka: {
       descriptionHtml: (
         <div>
-          Introducing the ”khustka” — a traditional Ukrainian garment that translates to ”handkerchief” or ”scarf” in
+          Introducing the “khustka” — a traditional Ukrainian garment that translates to “handkerchief” or “scarf” in
           English. Throughout Ukrainian history, khustkas were primarily worn by women to cover their heads, necks, or
           shoulders and held both traditional and symbolic meaning. Passed down from mothers to daughters, they were
           believed to offer protection against the evil eye.
@@ -376,7 +376,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           <br />
           <br />
           With 23 pieces available, each khustka is a unique part of a large-scale SOC.I.A painting-performance on
-          chiffon and exclusive to our micro sponsors, who chose the €200 pre-order option. Don&apos;t miss out on
+          chiffon and exclusive to our micro sponsors, who chose the €200 pre-order option. Don&rsquo;t miss out on
           reserving your very own khustka before they fly off the shelves, and decorate your home or outfit with it!
           <br />
           <br />
