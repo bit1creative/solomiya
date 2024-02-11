@@ -3,6 +3,8 @@ export const stockistsData = {
     'The Naked Books, Kyiv',
     'Avangarden Gallery & Wine Bar, Kyiv',
     'Readellion, Kyiv',
+    'Dovzhenko Books, Kyiv',
+    'Laska Store, Kyiv',
     'Lviv Municipal Art Center, Lviv'
   ],
   Germany: [
