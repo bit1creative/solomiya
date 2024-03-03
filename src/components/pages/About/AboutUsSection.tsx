@@ -9,10 +9,10 @@ export const AboutUsSection = () => {
     <section className="flex min-h-[calc(100dvh-40px)] flex-col items-center justify-center p-4 md:mx-10 lg:min-h-full lg:p-14 xl:gap-y-4 xl:p-32">
       <SectionTitle title={'About Us'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        For Solomiya Magazine, Ukraine is one of the very hearts of Europe&apos;s democratic societies. As an
-        independent magazine founded in response to Russia&apos;s full-scale invasion of Ukraine, Solomiya is the result
-        of an engaged, decolonial involvement of artists with their environment shaped by an unprecedented imperial
-        aggression.
+        For Solomiya Magazine, Ukraine is one of the very hearts of Europe&rsquo;s democratic societies. As an
+        independent magazine founded in response to Russia&rsquo;s full-scale invasion of Ukraine, Solomiya is the
+        result of an engaged, decolonial involvement of artists with their environment shaped by an unprecedented
+        imperial aggression.
         <br></br>
         <br></br>
       </div>
