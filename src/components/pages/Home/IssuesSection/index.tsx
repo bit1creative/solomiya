@@ -45,25 +45,23 @@ export const IssuesSection = () => {
       )}
       {isThirdIssue && (
         <>
-          Time flies by. Russia&rsquo;s war against Ukraine enters its 10th year next spring. The persistent cruelty
-          makes us increasingly averse to the unspeakable violence that seems to be growing globally. “The war put
-          Ukraine on the map” was the resolute refrain that echoed in the language of the international community during
-          the nascent stages of the war, but the question remains: for how long? The seemingly endless nature of the
-          ongoing bloodshed poses a very real threat for Ukraine to once again “disappear from the map” and be shadowed
-          by indifference. Will we ever see the world beyond this horror? Amidst all the uncertainty, we come to you
-          with some auspicious news: Solomiya&rsquo;s third issue is soon to be released. Between Kyiv and Berlin, we
-          embark on a quest for artistic reflection voicing new perspectives on Ukraine and beyond. Our exploration
-          delves into the burgeoning Ukrainian exile community that is shaping Berlin&rsquo;s cultural scene; we unravel
-          the threads connecting war to the reinvigoration of masculinity; and we examine the prism of Western
-          post-colonial perceptions of Ukraine. Through a kaleidoscope of photography, visual arts, interviews and
-          essays, we contest the terrors of imperial oppression without losing sight of fragility, beauty, subjectivity
-          and nativity. Please join us on this journey! From now on, you can already pre-order your copy of
-          Solomiya&rsquo;s third issue for €20 and even become our micro-sponsor. We offer two Solomiya
-          micro-sponsorship options. By supporting the magazine with either €100 or €200, you will receive a copy of our
-          latest issue as well as an honorary mention on the magazine&rsquo;s supporter&rsquo;s board. In addition, for
-          a €200 support, you will receive a unique piece of garment: a khustka <IssueTextImage image="sm3_khustka" />,
-          produced in collaboration with the Kyiv-based grafitti-duo @SOC.I.A. Each khustka is one of a kind, and the
-          number of pieces is limited to 23.
+          The third issue of Solomiya is as desperate <IssueTextImage image="sm3_polovinko" /> as it is full of love,
+          beauty, courage, and an unsettling longing for “a journey, an escape, and freedom,” as Yevhen, a young soldier
+          from Odesa, puts it in War Dreams, a poignant series of portraits by Italian photographers Caimi&Piccini{' '}
+          <IssueTextImage image="sm3_war_dreams" />. While raising thought-provoking questions about masculinity in war
+          through the recent work of Vsevolod Kazarin <IssueTextImage image="sm3_vsevolod" />, Alex Mashtaler&rsquo;s
+          yet unpublished photographs <IssueTextImage image="sm3_mashtaler" /> juxtapose the innocence of youth with the
+          unforgiving harshness of reality - a reality shaped by Ukraine&rsquo;s colonial past and a present challenged
+          by ongoing militarization. In interviews with editors of Solomiya, Asia Bazdyrieva{' '}
+          <IssueTextImage image="sm3_bazdyrieva" />, Maxim Dondyuk <IssueTextImage image="sm3_dondyuk" />, and Henrike
+          Naumann <IssueTextImage image="sm3_naumann" /> further explore these complexities through their own
+          perspectives and artistic practices. While Ivanna Kozachenko and the artist collective Commercial Public Art
+          <IssueTextImage image="sm3_cpa" /> dissect the spatial strategies of the architecture built by Russian forces
+          in the occupied territories of Ukraine, the writings of Lucy Zoria <IssueTextImage image="sm3_zoria" /> and
+          Sebastian Wells <IssueTextImage image="sm3_wells" /> offer diverse insights into the lived experiences of
+          young Ukrainians abroad. The third issue was designed under the art direction Anne-Lene Proff and Peter
+          Bünnagel of Kollektiv Scrollan and realized with the support of the Klaus-Stemmler-Foundation and Lessebo
+          Paper distributed by IGEPA.
         </>
       )}
     </section>

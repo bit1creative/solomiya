@@ -14,7 +14,7 @@ const IssuesAvailabilityMap = {
   },
   3: {
     isAvailable: true,
-    isPreorder: true,
+    isPreorder: false,
     internationalUrl: 'https://shiftbooks.de/en/produkt/solomiya-3/'
   }
 };
