@@ -580,7 +580,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           “No.” I smile, but draw the conversation to a close.
         </div>
       ),
-      title: 'A Stalled Traveler&rsquo;s Account',
+      title: 'Hopeless Kyivites. A Stalled Traveler’s Account',
       author: 'Lucy Zoria',
       previewImage: 'issue3/sm3_zoria-preview.jpg',
       images: ['issue3/sm3_zoria.jpg']
