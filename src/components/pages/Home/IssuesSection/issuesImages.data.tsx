@@ -403,6 +403,208 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
         'issue3/sm3_khustka5.jpg',
         'issue3/sm3_khustka6.jpg'
       ]
+    },
+    sm3_polovinko: {
+      descriptionHtml: (
+        <div>
+          Margaryta Polovinko channels her deep sensitivity to wartime events and loss into her art. She uses her own
+          blood in her art to represent ongoing trauma, symbolizing the physical manifestation of inner pain and the
+          changing colors of blood mirroring emotional pain.
+        </div>
+      ),
+      title: 'Painting From Wounds',
+      author: 'Margarita Polovinko',
+      previewImage: 'issue3/sm3_polovinko-preview.jpg',
+      images: ['issue3/sm3_polovinko1.jpg', 'issue3/sm3_polovinko2.jpg', 'issue3/sm3_polovinko3.jpg']
+    },
+    sm3_war_dreams: {
+      descriptionHtml: (
+        <div>
+          In Pisky, a small town near the Donetsk airport, a holiday campground for children has been transformed into a
+          training ground for a paramilitary militia. Young and old, most of whom had never held a weapon in their hands
+          before, are now learning how to kill. While the full-scale war is still in the distant future, the invasion of
+          Donbas by Russian separatists has been going on for a year already. Two Italian photographers, Jean-Marc Caimi
+          and Valentina Piccinni spent over a week with these soon-to-be soldiers. Most of them are eager to have their
+          portraits taken. In their work War Dreams (2015), Caimi and Piccinni approach their subjects with what they
+          call a “psychoanalytic therapy session,” asking them to pause, close their eyes, and reflect on their
+          thoughts. After taking the photograph, the soldiers open their eyes again and jot down what they saw while
+          having their eyes shut. Shortly after, they head out to battle. For many of them, this would be the last
+          photograph of their lives.
+        </div>
+      ),
+      title: 'War Dreams',
+      author: 'Jean-Marc Caimi and Valentina Piccinni',
+      previewImage: 'issue3/sm3_war_dreams-preview.jpg',
+      images: [
+        'issue3/sm3_war_dreams1.jpg',
+        'issue3/sm3_war_dreams2.jpg',
+        'issue3/sm3_war_dreams3.jpg',
+        'issue3/sm3_war_dreams4.jpg',
+        'issue3/sm3_war_dreams5.jpg'
+      ]
+    },
+    sm3_vsevolod: {
+      descriptionHtml: (
+        <div>
+          <span className="italic">What happens if Ukraine loses? What makes me a man? Am I useful?</span> Article 65 of
+          the Constitution of Ukraine states that the defense of the Fatherland, independence, and territorial integrity
+          of Ukraine, as well as respect for its state symbols, are the duties of Ukrainian citizens - a duty, which is
+          exemplified by the story of Denys, a young volunteer who died defending his country against Russian troops.
+          The war in Ukraine has led to the mobilization of hundreds of thousands of men, subordinating their bodies to
+          the demands of the conflict. As the conflict continues, the boundaries of individual identity are blurred, and
+          bodies become interchangeable, serving as resources for the war effort. With questions and photographs,
+          Vsevolod Kazarin reflects on the impact of war on individuals and society, raising questions about the nature
+          of human existence in times of conflict.
+        </div>
+      ),
+      title: 'Article 65',
+      author: 'Vsevolod Kazarin',
+      previewImage: 'issue3/sm3_vsevolod-preview.jpg',
+      images: [
+        'issue3/sm3_vsevolod1.jpg',
+        'issue3/sm3_vsevolod2.jpg',
+        'issue3/sm3_vsevolod3.jpg',
+        'issue3/sm3_vsevolod4.jpg'
+      ]
+    },
+    sm3_mashtaler: {
+      descriptionHtml: (
+        <div>
+          <span className="italic">Alex Mashtaler</span> captures the vibrant and diverse world around him through his
+          lens, showcasing a range of motifs oscillating between street photography and post-industrial subculture. His
+          deeply personal touch is evident in every photograph, offering a glimpse into his own soul. Growing up in
+          difficult circumstances, Alex&rsquo;s journey to become a photographer was one of resilience and
+          determination. Through his photography, Alex challenges conventional notions of beauty and perfection, instead
+          opting for raw and honest images that reflect the harshness of reality. Solomiya&rsquo;s third issue dedicates
+          its cover and an extensive portfolio of yet unpublished works to the young photographer.
+        </div>
+      ),
+      title: 'The World of Alex Mashtaler',
+      author: 'Alex Mashtaler',
+      previewImage: 'issue3/sm3_mashtaler-preview.jpg',
+      images: [
+        'issue3/sm3_mashtaler1.jpg',
+        'issue3/sm3_mashtaler2.jpg',
+        'issue3/sm3_mashtaler3.jpg',
+        'issue3/sm3_mashtaler4.jpg',
+        'issue3/sm3_mashtaler5.jpg'
+      ]
+    },
+    sm3_bazdyrieva: {
+      descriptionHtml: (
+        <div>
+          What do Western European, well-intentioned efforts to address climate change have to do with Russia&rsquo;s
+          war in Ukraine? A lot, says Asia Bazdyrieva in a conversation about unsustainable sustainability, partial
+          perspectives and the colonial gaze.
+        </div>
+      ),
+      title: 'So Here I Lend My Body',
+      author: 'Asia Bazdyrieva in conversation with Sebastian Wells',
+      previewImage: 'issue3/sm3_bazdyrieva-preview.jpg',
+      images: ['issue3/sm3_bazdyrieva.jpg']
+    },
+    sm3_dondyuk: {
+      descriptionHtml: (
+        <div>
+          Maxim Dondyuk&rsquo;s photographs are extraordinary documents of contemporary Ukrainian history. His immersive
+          images of the Ukrainian Revolution of Dignity in 2014 brought him worldwide fame. In conversation with
+          Solomiya, Maxim shares his personal journey as an artist and photojournalist, gives insights into the evolving
+          landscape of war journalism, and discusses the challenges posed by propaganda. The interview unfolds as a
+          compelling exploration of the complexities inherent in conveying the emotional depth of war, and of the
+          intricate relationship between art and documentation.
+        </div>
+      ),
+      title: 'War Through The Looking Glass or When Salt Looks Like Sugar',
+      author: 'Maxim Dondyuk in conversation with Andrii Ushytskyi',
+      previewImage: 'issue3/sm3_dondyuk-preview.jpg',
+      images: [
+        'issue3/sm3_dondyuk1.jpg',
+        'issue3/sm3_dondyuk2.jpg',
+        'issue3/sm3_dondyuk3.jpg',
+        'issue3/sm3_dondyuk4.jpg'
+      ]
+    },
+    sm3_naumann: {
+      descriptionHtml: (
+        <div>
+          Strongly influenced by her upbringing in the former GDR, <span className="italic">Henrike Naumann</span> is
+          best known for creating large-scale installations using second-hand furniture. Invited to showcase her work at
+          the Ivano-Frankivsk Drama Theater for the 2023 edition of the Kyiv Biennial, the show&rsquo;s final outcome
+          was different from her usual practice. A dialog about the differences between Eastern and Western
+          perspectives, German and Ukrainian socialist legacies, and a toy rabbit from Naumann&rsquo;s childhood that
+          became a soldier.
+        </div>
+      ),
+      title: 'Making Memories. The Dangers of Nostalgia.',
+      author: 'Henrike Naumann in conversation with Ivanna Kozachenko, Photo by Polina Polikarpova/ArtsLooker',
+      previewImage: 'issue3/sm3_naumann-preview.jpg',
+      images: ['issue3/sm3_naumann.jpg']
+    },
+    sm3_cpa: {
+      descriptionHtml: (
+        <div>
+          The Russian invasion of Ukraine is not only a means of seizing new territory. Extensive architectural and
+          infrastructural projects highlight how the occupiers transform space to shape social interactions and the
+          memories of its inhabitants. While Ivanna Kozachenko provides insights into such violent transformations under
+          occupation, Commercial Public Art illustrated the article exclusively for Solomiya, referring to the biography
+          of the collective, whose members grew up in Crimea.
+        </div>
+      ),
+      title: 'Architecture of Occupation',
+      author: 'Ivanna Kozachenko and Commercial Public Art',
+      previewImage: 'issue3/sm3_cpa-preview.jpg',
+      images: ['issue3/sm3_cpa.jpg']
+    },
+    sm3_zoria: {
+      descriptionHtml: (
+        <div>
+          Excerpt from the Essay: When I travel to visit them, I dress up for the airport after my all-night and all-day
+          trains. At times, I play up my American accent, obtained during childhood, to remain invisible. Code-switching
+          as a method of camouflage. It&rsquo;s easier to play the tired westerner than bearing the preconceptions of
+          the war-battered Ukrainian woman. That I never seem to meet.
+          <br />
+          <br />
+          “Where are you from?”
+          <br />
+          <br />
+          The ultimate bummer.
+          <br />
+          <br />
+          “Are you Spanish?” I get asked, rather bewilderingly, by a Polish man on an airplane. For a moment, I am
+          intrigued by the mental image of a Spanish woman of this man, and how I could possibly fit it. Of course, I
+          could not. I decide to take the gesture as it is - a friendly, if not clumsy attempt to establish a
+          connection. I weigh the implications of revealing myself, the conversation playing out in my head, from
+          awkward beginning to prescient end.
+          <br />
+          <br />
+          “No.” I smile, but draw the conversation to a close.
+        </div>
+      ),
+      title: 'A Stalled Traveler&rsquo;s Account',
+      author: 'Lucy Zoria',
+      previewImage: 'issue3/sm3_zoria-preview.jpg',
+      images: ['issue3/sm3_zoria.jpg']
+    },
+    sm3_wells: {
+      descriptionHtml: (
+        <div>
+          Millions of Ukrainians fled the country with the outbreak of full-scale war, and tens of thousands of them
+          sought refuge in Berlin. The city had a profound impact on them, and they, in turn, left their mark on the
+          city. In exile in Berlin and other European cities, they ask themselves: Who are we? On a question of
+          perspective on a tightrope walk between two worlds.
+        </div>
+      ),
+      title: 'Here, Elsewhere, Everywhere',
+      author: 'Sebastian Wells',
+      previewImage: 'issue3/sm3_wells-preview.jpg',
+      images: [
+        'issue3/sm3_wells1.jpg',
+        'issue3/sm3_wells2.jpg',
+        'issue3/sm3_wells3.jpg',
+        'issue3/sm3_wells4.jpg',
+        'issue3/sm3_wells5.jpg',
+        'issue3/sm3_wells6.jpg'
+      ]
     }
   }
 };

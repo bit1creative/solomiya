@@ -5,7 +5,7 @@ export const PrivacyAndPolicyPoints = () => (
       <p>
         Solomiya Collective NGO
         <br />
-        29, Vyshneva street, Tatsenky village, Obukhiv raion, Kyivs&apos;ka oblast
+        29, Vyshneva street, Tatsenky village, Obukhiv raion, Kyivs&rsquo;ka oblast
         <br /> 08700 Ukraine
         <br />
         hello@solomiyamag.com
