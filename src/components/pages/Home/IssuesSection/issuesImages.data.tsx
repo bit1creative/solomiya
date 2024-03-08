@@ -454,8 +454,10 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           the demands of the conflict. As the conflict continues, the boundaries of individual identity are blurred, and
           bodies become interchangeable, serving as resources for the war effort. With questions and photographs,
           Vsevolod Kazarin reflects on the impact of war on individuals and society, raising questions about the nature
-          of human existence in times of conflict. This project was realized in collaboration with Kommission
-          Alltagskulturforschung für Westfalen - Graugold Magazine.
+          of human existence in times of conflict.
+          <br />
+          This project was realized in collaboration with Kommission Alltagskulturforschung für Westfalen - Graugold
+          Magazine.
         </div>
       ),
       title: 'Article 65',
