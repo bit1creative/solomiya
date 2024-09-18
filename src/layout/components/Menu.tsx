@@ -14,7 +14,7 @@ interface Props {
 
 export const Menu = ({ onCloseMenu }: Props) => {
   const mainColor = useMainColor();
-  const { issue } = useParams();
+  const { issue = 4 } = useParams();
   const rootRef = useRef(null);
   const bgRef = useRef(null);
   const underlinesRef = useRef<HTMLElement[]>([]);
@@ -179,6 +179,20 @@ export const Menu = ({ onCloseMenu }: Props) => {
             issues
           </div>
           <div className="flex h-max justify-end gap-x-4 text-center lg:mt-6 lg:h-full lg:flex-col lg:gap-x-0 xl:-mt-4">
+            <div className="h-min w-max lg:h-full">
+              <Link
+                className="block"
+                ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
+                to="/issue/4"
+                onClick={onCloseMenu}
+              >
+                N°4
+              </Link>
+              <div
+                ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+                className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('4') ? '' : 'opacity-0'}`}
+              />
+            </div>
             <div className="h-min w-max lg:h-full">
               <Link
                 className="block"

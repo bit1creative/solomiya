@@ -127,8 +127,8 @@ export const AboutUsSection = () => {
           >
             Akademie der K&uuml;nste
           </a>
-        </p>{' '}
-        and the&nbsp;
+        </p>
+        {', '}
         <p className="inline">
           <a
             href={`http://www.klausstemmler.de`}
@@ -136,11 +136,12 @@ export const AboutUsSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Klaus Stemmler Foundation.
+            Klaus Stemmler Foundation
           </a>
         </p>{' '}
-        Help us with our mission, benefit from our network and feel free to contact us about possible partnerships. Or
-        help us directly with a donation.
+        and IWM. For the years 2024-2025, Solomiya Magazine is proud to be supported by WeTransfer&rsquo;s Supporting
+        Act Foundation. Help us with our mission, benefit from our network and feel free to contact us about possible
+        partnerships. Or help us directly with a donation.
         <br></br>
         <br></br>
       </div>

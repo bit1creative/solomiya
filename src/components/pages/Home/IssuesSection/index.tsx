@@ -6,6 +6,7 @@ export const IssuesSection = () => {
   const isFirstIssue = useIssueMatch('1');
   const isSecondIssue = useIssueMatch('2');
   const isThirdIssue = useIssueMatch('3');
+  const isFourthIssue = useIssueMatch('4');
 
   return (
     <section className="snap-start px-4 text-center font-nice-regular text-3xl md:px-10 lg:px-20 lg:text-5xl xl:text-6xl">
@@ -62,6 +63,19 @@ export const IssuesSection = () => {
           young Ukrainians abroad. The third issue was designed under the art direction Anne-Lene Proff and Peter
           Bünnagel of Kollektiv Scrollan and realized with the support of the Klaus-Stemmler-Foundation and Lessebo
           Paper distributed by IGEPA.
+        </>
+      )}
+      {isFourthIssue && (
+        <>
+          For the first time, Solomiya will publish a monothematic magazine. The “Solomiya - Environmental Issue” will
+          showcase different perspectives on Ukraine&rsquo;s environment from artists and scientists in light of
+          Russia&rsquo;s war against Ukraine. The fourth issue will highlight the connections between fossil fuel-driven
+          climate change and Russian military aggression, explore the history of environmental art in Ukraine, and
+          examine environmental issues in various Ukrainian regions, from Polissya and the Chornobyl Exclusion Zone to
+          the Kakhovka Dam. The Environmental Issue is a collaboration between Solomiya and the Ukrainian Environmental
+          Humanities Network (UEHN), a collective of researchers, artists, curators, designers, and academics forging
+          the interdisciplinary field of the Ukrainian Environmental Humanities, with a strong focus on decolonising
+          approaches to Ukrainian ecologies.
         </>
       )}
     </section>
