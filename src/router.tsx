@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Navigate to="/issue/3" />
+        element: <Navigate to="/issue/4" />
       },
       {
         path: '/issue/:issue',
