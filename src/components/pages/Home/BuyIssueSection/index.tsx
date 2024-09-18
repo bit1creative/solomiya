@@ -4,37 +4,43 @@ import { useGetIssue } from 'Hooks/useGetIssue';
 const IssuesAvailabilityMap = {
   1: {
     isAvailable: false,
-    isPreorder: false,
-    internationalUrl: ''
+    buyButtonText: 'Buy issue',
+    isThirdPartyReseller: true,
+    url: ''
   },
   2: {
     isAvailable: true,
-    isPreorder: false,
-    internationalUrl: 'https://shiftbooks.de/en/produkt/solomiya-2/'
+    buyButtonText: 'Buy issue',
+    isThirdPartyReseller: true,
+    url: 'https://shiftbooks.de/en/produkt/solomiya-2/'
   },
   3: {
     isAvailable: true,
-    isPreorder: false,
-    internationalUrl: 'https://shiftbooks.de/en/produkt/solomiya-3/'
+    buyButtonText: 'Buy issue',
+    isThirdPartyReseller: true,
+    url: 'https://shiftbooks.de/en/produkt/solomiya-3/'
+  },
+  4: {
+    isAvailable: true,
+    buyButtonText: 'Stay Tuned!',
+    isThirdPartyReseller: false,
+    url: '/issue/4/newsletter'
   }
 };
 
 export const BuyIssueSection = () => {
   const issue = useGetIssue();
 
-  const isIssueAvailable = IssuesAvailabilityMap[issue as keyof typeof IssuesAvailabilityMap]?.isAvailable ?? false;
-  const isIssuePreorder = IssuesAvailabilityMap[issue as keyof typeof IssuesAvailabilityMap]?.isPreorder ?? false;
+  const { isAvailable, buyButtonText, url, isThirdPartyReseller } =
+    IssuesAvailabilityMap[issue as keyof typeof IssuesAvailabilityMap];
 
   return (
     <div className="mx-auto w-max">
       <div className="block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl">
-        {isIssueAvailable ? (
-          <AnimatedLink
-            to={IssuesAvailabilityMap[issue as keyof typeof IssuesAvailabilityMap].internationalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {isIssuePreorder ? 'Pre-order' : 'Buy issue'}
+        {isAvailable ? (
+          // <AnimatedLink to={url} target="_blank" rel="noopener noreferrer">
+          <AnimatedLink to={url} {...(isThirdPartyReseller && { target: '_blank', rel: 'noopener noreferrer' })}>
+            {buyButtonText}
           </AnimatedLink>
         ) : (
           <p className="select-none">SOLD OUT</p>
