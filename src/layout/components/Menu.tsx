@@ -15,7 +15,6 @@ interface Props {
 export const Menu = ({ onCloseMenu }: Props) => {
   const mainColor = useMainColor();
   const { issue = 4 } = useParams();
-  const rootRef = useRef(null);
   const bgRef = useRef(null);
   const underlinesRef = useRef<HTMLElement[]>([]);
   const menuItemsRef = useRef<HTMLElement[]>([]);
@@ -134,7 +133,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
             }
           );
       });
-    }, rootRef);
+    });
 
     return () => {
       return ctx.revert();
@@ -142,94 +141,101 @@ export const Menu = ({ onCloseMenu }: Props) => {
   }, [mainColor]);
 
   return (
-    <div ref={rootRef} className="h-full w-full">
-      <div
-        ref={bgRef}
-        className="flex h-full w-full select-none items-center justify-center overflow-hidden px-2 lg:block lg:p-4"
-      >
-        <div className="grid h-min w-full max-w-limit justify-end overflow-hidden text-end font-yuni-black text-menu lg:grid-cols-5 lg:items-start lg:text-menu-lg xl:mx-auto xl:text-menu-xl">
-          <Link
-            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-            className="block h-max [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-            to={`/issue/${issue}`}
-            onClick={onCloseMenu}
-          >
-            home
-          </Link>
-          <Link
-            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-            className="block h-max [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-            to={`/issue/${issue}/about`}
-            onClick={onCloseMenu}
-          >
-            about
-          </Link>
-          <Link
-            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-            className="block h-max [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-            to={`/issue/${issue}/stockists`}
-            onClick={onCloseMenu}
-          >
-            stockists
-          </Link>
-          <div
-            ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
-            className="h-max font-yuni-hair [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%)] lg:-scale-100 lg:[writing-mode:vertical-rl]"
-          >
-            issues
+    <div
+      ref={bgRef}
+      className="flex h-full w-full select-none items-center justify-center overflow-hidden px-2 lg:block lg:p-4"
+    >
+      <div className="grid h-min w-full max-w-limit justify-end text-end font-yuni-black text-menu lg:h-full lg:grid-cols-5 lg:text-center lg:text-menu-lg xl:mx-auto xl:text-menu-xl">
+        <Link
+          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+          className="block h-max lg:-scale-100 lg:[writing-mode:vertical-rl]"
+          to={`/issue/${issue}`}
+          onClick={onCloseMenu}
+        >
+          home
+        </Link>
+
+        <Link
+          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+          className="block h-max lg:-scale-100 lg:[writing-mode:vertical-rl]"
+          to={`/issue/${issue}/about`}
+          onClick={onCloseMenu}
+        >
+          about
+        </Link>
+
+        <Link
+          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+          className="block h-max lg:-scale-100 lg:[writing-mode:vertical-rl]"
+          to={`/issue/${issue}/stockists`}
+          onClick={onCloseMenu}
+        >
+          stockists
+        </Link>
+
+        <div
+          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+          className="h-max self-end font-yuni-hair lg:-scale-100 lg:self-start lg:justify-self-center lg:[writing-mode:vertical-rl] xl:justify-self-end"
+        >
+          issues
+        </div>
+
+        <div className="mt-3 flex flex-row-reverse gap-5 overflow-y-hidden overflow-x-scroll lg:-mt-1 lg:flex-col lg:gap-8 lg:overflow-x-auto lg:overflow-y-scroll xl:-mt-10 xl:gap-2">
+          <div className="w-max lg:mt-3 xl:mt-0">
+            <Link
+              className="block"
+              ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
+              to="/issue/4"
+              onClick={onCloseMenu}
+            >
+              N°4
+            </Link>
+            <div
+              ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+              className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('4') ? '' : 'opacity-0'}`}
+            />
           </div>
-          <div className="flex h-max justify-end gap-x-4 text-center lg:mt-6 lg:h-full lg:flex-col lg:gap-x-0 xl:-mt-4">
-            <div className="h-min w-max lg:h-full">
-              <Link
-                className="block"
-                ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
-                to="/issue/4"
-                onClick={onCloseMenu}
-              >
-                N°4
-              </Link>
-              <div
-                ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-                className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('4') ? '' : 'opacity-0'}`}
-              />
-            </div>
-            <div className="h-min w-max lg:h-full">
-              <Link
-                className="block"
-                ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
-                to="/issue/3"
-                onClick={onCloseMenu}
-              >
-                N°3
-              </Link>
-              <div
-                ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-                className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('3') ? '' : 'opacity-0'}`}
-              />
-            </div>
-            <div className="h-min w-max lg:mt-4 lg:h-full xl:-mt-4">
-              <Link
-                className="block"
-                ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
-                to="/issue/2"
-                onClick={onCloseMenu}
-              >
-                N°2
-              </Link>
-              <div
-                ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-                className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('2') ? '' : 'opacity-0'}`}
-              />
-            </div>
-            <div className="h-min w-max lg:mt-4 lg:h-full xl:-mt-4">
-              <Link ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)} to="/issue/1" onClick={onCloseMenu}>
-                N°1
-              </Link>
-              <div
-                ref={(el) => underlinesRef.current.push(el as HTMLElement)}
-                className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('1') ? '' : 'opacity-0'}`}
-              />
-            </div>
+          <div className="w-max">
+            <Link
+              className="block"
+              ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
+              to="/issue/3"
+              onClick={onCloseMenu}
+            >
+              N°3
+            </Link>
+            <div
+              ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+              className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('3') ? '' : 'opacity-0'}`}
+            />
+          </div>
+          <div className="w-max">
+            <Link
+              className="block"
+              ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
+              to="/issue/2"
+              onClick={onCloseMenu}
+            >
+              N°2
+            </Link>
+            <div
+              ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+              className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('2') ? '' : 'opacity-0'}`}
+            />
+          </div>
+          <div className="w-max">
+            <Link
+              className="block"
+              ref={(el) => issuesNumbersRef.current.push(el as HTMLElement)}
+              to="/issue/1"
+              onClick={onCloseMenu}
+            >
+              N°1
+            </Link>
+            <div
+              ref={(el) => underlinesRef.current.push(el as HTMLElement)}
+              className={`-mt-4 h-1 w-full bg-black lg:mt-4 lg:h-3 xl:-mt-8 ${useIssueMatch('1') ? '' : 'opacity-0'}`}
+            />
           </div>
         </div>
       </div>
