@@ -3,4 +3,5 @@
 
 
 Website link: https://www.solomiyamag.com/
-Stack: Nextjs + Tailwind (w/ RadixUI & GSAP for animations)
+
+Stack: Vite + React(TS) + Tailwind (w/ RadixUI & GSAP for animations)
