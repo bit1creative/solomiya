@@ -1,4 +1,4 @@
-# Per project for the Ukrainian Magazine Solomiya
+# Pet project for the Ukrainian Magazine Solomiya
 @inst: https://www.instagram.com/solomiyamag
 
 
