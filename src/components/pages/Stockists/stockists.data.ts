@@ -11,11 +11,9 @@ export const stockistsData = {
     'OSTKREUZ, Berlin',
     'Akademie der Künste, Berlin',
     'DoYouReadMe, Berlin',
-    'Westberlin, Berlin',
     'ROSA WOLF, Berlin',
     'Willy-Brandt-Haus, Berlin',
     'Bildband Berlin, Berlin',
-    'Neues Deutschland, Berlin',
     'Safelight, Berlin',
     'Funk Magazine, Köln',
     'Walther König, Köln',
@@ -37,10 +35,11 @@ export const stockistsData = {
     'New Bridge Books, Newcastle'
   ],
   Poland: ['Karma Crew, Warsaw'],
-  USA: ['Skylight Books, Los Angeles'],
+  USA: ['Skylight Books, Los Angeles', 'Printed Matter, New York'],
+  Ireland: ['The Library Projekt, Dublin'],
   Switzerland: ['Arphilein Books, Lugano'],
   Italy: ['Leporello Books, Rome'],
   Sweden: ['Papercut, Stockholm'],
   Netherlands: ['Athenaeum Nieuwscentrum, Amsterdam'],
-  Bulgaria: ['Mahala ODD']
+  Bulgaria: ['Mahala Independent Bookstore, Sofia']
 };
