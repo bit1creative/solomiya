@@ -22,9 +22,9 @@ const IssuesAvailabilityMap = {
   },
   4: {
     isAvailable: true,
-    buyButtonText: 'Stay Tuned!',
-    isThirdPartyReseller: false,
-    url: '/issue/4/newsletter'
+    buyButtonText: 'Pre-Order here!',
+    isThirdPartyReseller: true,
+    url: 'https://shiftbooks.de/en/produkt/solomiya-4/'
   }
 };
 
@@ -37,8 +37,24 @@ export const BuyIssueSection = () => {
   return (
     <div className="mx-auto w-max">
       <div className="block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl">
-        {isAvailable ? (
-          // <AnimatedLink to={url} target="_blank" rel="noopener noreferrer">
+        {/* TODO: they add requirenments here back and forth so here is such a mess, yeah..... */}
+        {issue === 4 ? (
+          <>
+            For Ukraine:{' '}
+            <AnimatedLink
+              to={
+                'https://docs.google.com/forms/d/e/1FAIpQLSeX8ZnpuKxumDZo9eaLuFTaHluMZYZi7d_V0S0fAEJdRPOQLg/viewform?usp=header'
+              }
+            >
+              {buyButtonText}
+            </AnimatedLink>
+            <br />
+            For All other countries:{' '}
+            <AnimatedLink to={url} target="_blank" rel="noopener noreferrer">
+              {buyButtonText}
+            </AnimatedLink>
+          </>
+        ) : isAvailable ? (
           <AnimatedLink to={url} {...(isThirdPartyReseller && { target: '_blank', rel: 'noopener noreferrer' })}>
             {buyButtonText}
           </AnimatedLink>
