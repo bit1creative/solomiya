@@ -1,5 +1,3 @@
-import { AnimatedLink } from 'Src/components/common/AnimatedLink';
-
 import { useIssueMatch } from 'Hooks/useIssueMatch';
 
 import { IssueTextImage } from './IssueTextImage';
@@ -71,14 +69,11 @@ export const IssuesSection = () => {
         <>
           The first monothematic issue of Solomiya—The Environmental Issue—brings together a collection of artists and
           researchers reflecting and advocating on behalf of Ukraine&rsquo;s more-than-human communities and ecologies.
-          In collaboration with the{' '}
-          <AnimatedLink to="https://uehn.org/" isReactLink={false}>
-            Ukrainian Environmental Humanities Network
-          </AnimatedLink>
-          (UEHN)—an international collective of curators, artists, and scholars—we&rsquo;ve created an issue that
-          celebrates the richness and complexity of Ukrainian landscapes that is currently being threatened by the war.
-          This issue offers a diverse range of perspectives, amplifying voices that challenge the colonial, imperial,
-          and extractive narratives that have long shaped external perceptions of Ukraine&rsquo;s environment.
+          In collaboration with the Ukrainian Environmental Humanities Network (UEHN) — an international collective of
+          curators, artists, and scholars—we&rsquo;ve created an issue that celebrates the richness and complexity of
+          Ukrainian landscapes that is currently being threatened by the war. This issue offers a diverse range of
+          perspectives, amplifying voices that challenge the colonial, imperial, and extractive narratives that have
+          long shaped external perceptions of Ukraine&rsquo;s environment.
           <br />
           <br />
           Through written essays and visual works, the contributors take us on a journey across the country: from the

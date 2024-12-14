@@ -53,6 +53,10 @@ export const BuyIssueSection = () => {
             <AnimatedLink to={url} target="_blank" rel="noopener noreferrer">
               {buyButtonText}
             </AnimatedLink>
+            <br />
+            <AnimatedLink to="https://uehn.org/" isReactLink={false}>
+              Ukrainian Environmental Humanities Network
+            </AnimatedLink>
           </>
         ) : isAvailable ? (
           <AnimatedLink to={url} {...(isThirdPartyReseller && { target: '_blank', rel: 'noopener noreferrer' })}>
