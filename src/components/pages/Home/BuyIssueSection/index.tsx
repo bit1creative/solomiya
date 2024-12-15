@@ -35,12 +35,12 @@ export const BuyIssueSection = () => {
     IssuesAvailabilityMap[issue as keyof typeof IssuesAvailabilityMap];
 
   return (
-    <div className="mx-auto w-max">
-      <div className="block text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl">
+    <div className="mx-auto w-full md:w-max">
+      <div className="block break-words text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl">
         {/* TODO: they add requirenments here back and forth so here is such a mess, yeah..... */}
         {issue === 4 ? (
           <>
-            For Ukraine:{' '}
+            For Ukraine: <br className="md:hidden" />
             <AnimatedLink
               to={
                 'https://docs.google.com/forms/d/e/1FAIpQLSeX8ZnpuKxumDZo9eaLuFTaHluMZYZi7d_V0S0fAEJdRPOQLg/viewform?usp=header'
@@ -49,13 +49,14 @@ export const BuyIssueSection = () => {
               {buyButtonText}
             </AnimatedLink>
             <br />
-            For All other countries:{' '}
+            For All other countries: <br className="md:hidden" />
             <AnimatedLink to={url} target="_blank" rel="noopener noreferrer">
               {buyButtonText}
             </AnimatedLink>
             <br />
             <AnimatedLink to="https://uehn.org/" isReactLink={false}>
-              Ukrainian Environmental Humanities Network
+              Ukrainian Environmental
+              <br className="md:hidden" /> Humanities Network
             </AnimatedLink>
           </>
         ) : isAvailable ? (
