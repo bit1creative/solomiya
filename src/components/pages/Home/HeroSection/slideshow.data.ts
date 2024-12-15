@@ -23,7 +23,7 @@ SlideShowDataMap.set('issue-2', [
 
 SlideShowDataMap.set('issue-3', [
   'issue3/slideshow/1.jpg',
-  'issue3/slideshow/2.jpg'
+  'issue3/slideshow/2.jpg',
   'issue3/slideshow/3.jpg',
   'issue3/slideshow/4.jpg',
   'issue3/slideshow/5.jpg'
