@@ -67,15 +67,20 @@ export const IssuesSection = () => {
       )}
       {isFourthIssue && (
         <>
-          For the first time, Solomiya will publish a monothematic magazine. The “Solomiya - Environmental Issue” will
-          showcase different perspectives on Ukraine&rsquo;s environment from artists and scientists in light of
-          Russia&rsquo;s war against Ukraine. The fourth issue will highlight the connections between fossil fuel-driven
-          climate change and Russian military aggression, explore the history of environmental art in Ukraine, and
-          examine environmental issues in various Ukrainian regions, from Polissya and the Chornobyl Exclusion Zone to
-          the Kakhovka Dam. The Environmental Issue is a collaboration between Solomiya and the Ukrainian Environmental
-          Humanities Network (UEHN), a collective of researchers, artists, curators, designers, and academics forging
-          the interdisciplinary field of the Ukrainian Environmental Humanities, with a strong focus on decolonising
-          approaches to Ukrainian ecologies.
+          The first monothematic issue of Solomiya—The Environmental Issue—brings together a collection of artists and
+          researchers reflecting and advocating on behalf of Ukraine&rsquo;s more-than-human communities and ecologies.
+          In collaboration with the Ukrainian Environmental Humanities Network (UEHN) — an international collective of
+          curators, artists, and scholars—we&rsquo;ve created an issue that celebrates the richness and complexity of
+          Ukrainian landscapes that is currently being threatened by the war. This issue offers a diverse range of
+          perspectives, amplifying voices that challenge the colonial, imperial, and extractive narratives that have
+          long shaped external perceptions of Ukraine&rsquo;s environment.
+          <br />
+          <br />
+          Through written essays and visual works, the contributors take us on a journey across the country: from the
+          Chornobyl Exclusion Zone in Polissya to the submerged ruins of the Kakhovka Dam in Kherson, from the vibrant
+          wetlands of Odesa to the unique but threatened steppe. Shrinking rivers, displaced scientific collections,
+          traditional ecological knowledge, nuclear legacies, and the scars of industrial agriculture are just a few of
+          the urgent themes explored in this issue.
         </>
       )}
     </section>
