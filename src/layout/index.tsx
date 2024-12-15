@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { Outlet } from 'react-router-dom';
+import { useEffect, useRef, useState } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 import * as Dialog from '@radix-ui/react-dialog';
 
 import cross from 'Assets/icons/cross.svg';
@@ -12,6 +12,15 @@ import { Menu } from './components/Menu';
 export const Layout = () => {
   const mainColor = useMainColor();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = useLocation();
+
+  const contentRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      contentRef.current.scrollTop = 0;
+    }
+  }, [pathname]);
 
   useEffect(() => {
     document.body.classList.add(`bg-${mainColor}`);
@@ -40,7 +49,10 @@ export const Layout = () => {
         <Dialog.Trigger className="absolute left-2 top-2 z-20 lg:left-4 lg:top-5">
           <img className="h-18 w-16 lg:h-28 lg:w-24" src={logo} alt="logo" />
         </Dialog.Trigger>
-        <div className="no-scrollbar absolute bottom-5 left-5 right-5 top-5 z-0 h-[calc(100%-2.5rem)] overflow-y-scroll bg-white lg:bottom-10 lg:left-10 lg:right-10 lg:top-10 lg:h-[calc(100%-5rem)]">
+        <div
+          ref={contentRef}
+          className="no-scrollbar absolute bottom-5 left-5 right-5 top-5 z-0 h-[calc(100%-2.5rem)] overflow-y-scroll bg-white lg:bottom-10 lg:left-10 lg:right-10 lg:top-10 lg:h-[calc(100%-5rem)]"
+        >
           <div className="mx-auto max-w-[1440px]">
             <Outlet />
           </div>
