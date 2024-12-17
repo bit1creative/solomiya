@@ -180,7 +180,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
           issues
         </div>
 
-        <div className="mt-3 flex flex-row-reverse gap-5 overflow-y-hidden overflow-x-scroll lg:-mt-1 lg:flex-col lg:gap-8 lg:overflow-x-auto lg:overflow-y-scroll xl:-mt-10 xl:gap-2">
+        <div className="no-scrollbar mt-3 flex flex-row-reverse gap-5 overflow-y-hidden overflow-x-scroll lg:-mt-1 lg:flex-col lg:gap-8 lg:overflow-x-auto lg:overflow-y-scroll xl:-mt-10 xl:gap-2">
           <div className="w-max lg:mt-3 xl:mt-0">
             <Link
               className="block"
