@@ -22,7 +22,7 @@ const IssuesAvailabilityMap = {
   },
   4: {
     isAvailable: true,
-    buyButtonText: 'Pre-Order here!',
+    buyButtonText: 'Pre-Order here',
     isThirdPartyReseller: true,
     url: 'https://shiftbooks.de/en/produkt/solomiya-4/'
   }
@@ -40,24 +40,28 @@ export const BuyIssueSection = () => {
         {/* TODO: they add requirenments here back and forth so here is such a mess, yeah..... */}
         {issue === 4 ? (
           <>
-            For Ukraine: <br className="md:hidden" />
-            <AnimatedLink
-              to={
-                'https://docs.google.com/forms/d/e/1FAIpQLSeX8ZnpuKxumDZo9eaLuFTaHluMZYZi7d_V0S0fAEJdRPOQLg/viewform?usp=header'
-              }
-            >
-              {buyButtonText}
-            </AnimatedLink>
-            <br />
-            For All other countries: <br className="md:hidden" />
-            <AnimatedLink to={url} target="_blank" rel="noopener noreferrer">
-              {buyButtonText}
-            </AnimatedLink>
-            <br />
-            <AnimatedLink to="https://uehn.org/" isReactLink={false}>
-              Ukrainian Environmental
-              <br className="md:hidden" /> Humanities Network
-            </AnimatedLink>
+            <div className="mb-8">
+              For Ukraine: <br className="md:hidden" />
+              <AnimatedLink
+                to={
+                  'https://docs.google.com/forms/d/e/1FAIpQLSeX8ZnpuKxumDZo9eaLuFTaHluMZYZi7d_V0S0fAEJdRPOQLg/viewform?usp=header'
+                }
+              >
+                {buyButtonText}
+              </AnimatedLink>
+            </div>
+            <div className="my-8">
+              For all other countries: <br className="md:hidden" />
+              <AnimatedLink to={url} target="_blank" rel="noopener noreferrer">
+                {buyButtonText}
+              </AnimatedLink>
+            </div>
+            <div className="mt-8">
+              <AnimatedLink to="https://uehn.org/" isReactLink={false}>
+                Ukrainian Environmental
+                <br className="md:hidden" /> Humanities Network
+              </AnimatedLink>
+            </div>
           </>
         ) : isAvailable ? (
           <AnimatedLink to={url} {...(isThirdPartyReseller && { target: '_blank', rel: 'noopener noreferrer' })}>
