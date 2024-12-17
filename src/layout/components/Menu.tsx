@@ -143,7 +143,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
   return (
     <div
       ref={bgRef}
-      className="flex h-full w-full select-none items-center justify-center overflow-hidden px-2 lg:block lg:p-4"
+      className="flex h-full w-full select-none items-center justify-center overflow-hidden px-2 lg:block lg:p-4 lg:pb-0"
     >
       <div className="grid h-min w-full max-w-limit justify-end text-end font-yuni-black text-menu lg:h-full lg:grid-cols-5 lg:text-center lg:text-menu-lg xl:mx-auto xl:text-menu-xl">
         <Link
@@ -180,7 +180,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
           issues
         </div>
 
-        <div className="mt-3 flex flex-row-reverse gap-5 overflow-y-hidden overflow-x-scroll lg:-mt-1 lg:flex-col lg:gap-8 lg:overflow-x-auto lg:overflow-y-scroll xl:-mt-10 xl:gap-2">
+        <div className="no-scrollbar mt-3 flex flex-row-reverse gap-5 overflow-y-hidden overflow-x-scroll lg:-mt-1 lg:flex-col lg:gap-8 lg:overflow-x-auto lg:overflow-y-scroll xl:-mt-10 xl:gap-2">
           <div className="w-max lg:mt-3 xl:mt-0">
             <Link
               className="block"
