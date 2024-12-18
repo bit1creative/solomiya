@@ -43,6 +43,7 @@ export const BuyIssueSection = () => {
             <div className="mb-8">
               For Ukraine: <br className="md:hidden" />
               <AnimatedLink
+                isReactLink={false}
                 to={
                   'https://docs.google.com/forms/d/e/1FAIpQLSeX8ZnpuKxumDZo9eaLuFTaHluMZYZi7d_V0S0fAEJdRPOQLg/viewform?usp=header'
                 }
@@ -57,7 +58,7 @@ export const BuyIssueSection = () => {
               </AnimatedLink>
             </div>
             <div className="mt-8">
-              <AnimatedLink to="https://uehn.org/" isReactLink={false}>
+              <AnimatedLink isReactLink={false} to="https://uehn.org/">
                 Ukrainian Environmental
                 <br className="md:hidden" /> Humanities Network
               </AnimatedLink>
