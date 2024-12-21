@@ -44,9 +44,7 @@ export const BuyIssueSection = () => {
               For Ukraine: <br className="md:hidden" />
               <AnimatedLink
                 isReactLink={false}
-                to={
-                  'https://docs.google.com/forms/d/e/1FAIpQLSeX8ZnpuKxumDZo9eaLuFTaHluMZYZi7d_V0S0fAEJdRPOQLg/viewform?usp=header'
-                }
+                to={'https://shop-25267.x11.co.ua/shop/solomiya-4-the-environmental-issue/'}
               >
                 {buyButtonText}
               </AnimatedLink>
