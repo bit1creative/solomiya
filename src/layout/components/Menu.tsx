@@ -3,7 +3,6 @@ import { useLayoutEffect, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import gsap from 'gsap';
 import SplitType from 'split-type';
-import { AnimatedLink } from 'Src/components/common/AnimatedLink';
 
 import { useIssueMatch } from 'Hooks/useIssueMatch';
 import { useMainColor } from 'Hooks/useTheme';
