@@ -145,7 +145,7 @@ export const Menu = ({ onCloseMenu }: Props) => {
       ref={bgRef}
       className="flex h-full w-full select-none items-center justify-center overflow-hidden px-2 lg:block lg:p-4 lg:pb-0"
     >
-      <div className="grid h-min w-full max-w-limit justify-end text-end font-yuni-black text-menu lg:h-full lg:grid-cols-5 lg:text-center lg:text-menu-lg xl:mx-auto xl:text-menu-xl">
+      <div className="grid h-min w-full max-w-limit justify-end text-end font-yuni-black text-menu lg:h-full lg:grid-cols-6 lg:text-center lg:text-menu-lg xl:mx-auto xl:text-menu-xl">
         <Link
           ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
           className="block h-max lg:-scale-100 lg:[writing-mode:vertical-rl]"
@@ -162,6 +162,17 @@ export const Menu = ({ onCloseMenu }: Props) => {
           onClick={onCloseMenu}
         >
           about
+        </Link>
+
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          ref={(el) => menuItemsRef.current.push(el as HTMLElement)}
+          className="block h-max lg:-scale-100 lg:[writing-mode:vertical-rl]"
+          to="https://solomiyastudio.com"
+          onClick={onCloseMenu}
+        >
+          studio
         </Link>
 
         <Link
