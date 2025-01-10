@@ -42,10 +42,7 @@ export const BuyIssueSection = () => {
           <>
             <div className="mb-8">
               For Ukraine: <br className="md:hidden" />
-              <AnimatedLink
-                isReactLink={false}
-                to={'https://shop-25267.x11.co.ua/shop/solomiya-4-the-environmental-issue/'}
-              >
+              <AnimatedLink isReactLink={false} to={'https://solomiyashop.xyz/'}>
                 {buyButtonText}
               </AnimatedLink>
             </div>
