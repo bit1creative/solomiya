@@ -22,7 +22,7 @@ const IssuesAvailabilityMap = {
   },
   4: {
     isAvailable: true,
-    buyButtonText: 'Pre-Order here',
+    buyButtonText: 'Order here',
     isThirdPartyReseller: true,
     url: 'https://shiftbooks.de/en/produkt/solomiya-4/'
   }

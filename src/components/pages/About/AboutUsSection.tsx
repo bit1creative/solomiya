@@ -117,7 +117,7 @@ export const AboutUsSection = () => {
       </div>
       <SectionTitle title={'Partnerships'} />
       <div className="text-center font-nice-regular text-2xl xl:text-5xl">
-        Our magazine productions would not have been possible without the support of the&nbsp;
+        Our magazines would not have been possible without the support of the
         <p className="inline">
           <a
             href={`https://www.adk.de/`}
@@ -125,7 +125,7 @@ export const AboutUsSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Akademie der K&uuml;nste
+            Akademie der Künste
           </a>
         </p>
         {', '}
@@ -139,8 +139,62 @@ export const AboutUsSection = () => {
             Klaus Stemmler Foundation
           </a>
         </p>{' '}
-        and IWM. For the years 2024-2025, Solomiya Magazine is proud to be supported by WeTransfer&rsquo;s Supporting
-        Act Foundation. Help us with our mission, benefit from our network and feel free to contact us about possible
+        <p className="inline">
+          <a
+            href={`http://iwm.at/`}
+            className="font-nice-italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IWM
+          </a>
+        </p>
+        {', '}
+        <p className="inline">
+          <a
+            href={`https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ui.org.ua/en/&ved=2ahUKEwjgvI6VjZOLAxWrhv0HHT3DKMcQFnoECAkQAQ&usg=AOvVaw1PE_-76gLuW7bvpvUJlSuW`}
+            className="font-nice-italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ukrainian Institute
+          </a>
+        </p>
+        {', '}
+        <p className="inline">
+          <a
+            href={`https://werkleitz.de/`}
+            className="font-nice-italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Werkleitz Festival
+          </a>
+        </p>
+        {', '}
+        <p className="inline">
+          <a
+            href={`https://www.igepa.de/international/`}
+            className="font-nice-italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IGEPA
+          </a>
+        </p>
+        {' and '}
+        <p className="inline">
+          <a
+            href={`https://specialpapers.fedrigoni.com/`}
+            className="font-nice-italic transition-all hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fedrigoni Paper
+          </a>
+        </p>
+        . For the years 2024-2025, Solomiya Magazine is proud to be supported by WeTransfer&rsquo;s Supporting Act
+        Foundation. Help us with our mission, benefit from our network and feel free to contact us about possible
         partnerships. Or help us directly with a donation.
         <br></br>
         <br></br>
