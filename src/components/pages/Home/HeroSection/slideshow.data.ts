@@ -29,4 +29,12 @@ SlideShowDataMap.set('issue-3', [
   'issue3/slideshow/5.jpg'
 ]);
 
-SlideShowDataMap.set('issue-4', ['issue4/slideshow/1.png']);
+SlideShowDataMap.set('issue-4', [
+  'issue4/slideshow/1.jpg',
+  'issue4/slideshow/2.jpg',
+  'issue4/slideshow/3.jpg',
+  'issue4/slideshow/4.jpg',
+  'issue4/slideshow/5.jpg',
+  'issue4/slideshow/6.jpg',
+  'issue4/slideshow/7.jpg'
+]);
