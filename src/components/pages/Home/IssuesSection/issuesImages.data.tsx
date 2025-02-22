@@ -609,5 +609,211 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
         'issue3/sm3_wells6.jpg'
       ]
     }
+  },
+  issue4: {
+    sm4_aliinyk: {
+      descriptionHtml: (
+        <div>
+          War has shaped the life of painter Kateryna Aliinyk just as much as her work. In her opulent landscape
+          paintings, however, the war is never directly recognizable. In conversation with Dmytro Chepurnyi, she talks
+          about lost landscapes—and how to write them love letters. In her large-format acrylic and oil paintings,
+          Kateryna Aliinyk explores the landscape of the Donbas, reflecting on themes of nature, pain, and regeneration,
+          while probing the fragile balance between survival and hope. Born in Luhansk in 1998, Kateryna has been
+          drawing attention at the international scale for a while now. Her contribution to this magazine was made
+          possible with support from by Werkleitz Festival in Halle an der Saale, Germany, which will showcase newly
+          commissioned works by Aliinyk at its next edition, opening May 22, 2025.
+        </div>
+      ),
+      title: 'Relationships with Nature Are More Constant Than Relationships with People',
+      author: 'Kateryna Aliinyk and Dmytro Chepurnyi',
+      previewImage: 'issue4/sm4_k1-preview.jpg',
+      images: ['issue4/sm4_k1.jpg', 'issue4/sm4_k2.jpg', 'issue4/sm4_k3.jpg']
+    },
+    sm4_perkowsky: {
+      descriptionHtml: (
+        <div>
+          The idyllic, mountainous landscapes of the Carpathians printed on the iconic labels of Zakarpattia&rsquo;s
+          mineral water bottles evoke a deep sense of nostalgia for 1990s design. Featuring motifs of nature, purity,
+          and the harmony of forest and water, these images seem to fulfill our fantasies of “untouched wilderness”—a
+          romantic ideal that, in reality, is just another human invention. In{' '}
+          <span className="italic">Drawwaterflowers 2</span> (2024), Oleh Perkowsky—born in 1984 in Kamianets-Podilskyi
+          and currently serving in the Ukrainian Armed Forces—reimagines objects typically associated with waste and
+          ocean pollution. By cutting plastic bottles in half to create protective enclosures for emerging plants, he
+          repurposes them in line with a gardening tradition common in Ukraine. These upcycled bottles function as
+          micro-greenhouses, on which the idyllic bottle designs appear to be nothing more than a fiction. In doing so,
+          Oleh reflects on the popularly felt longing to escape into “untouched nature,” while also imagining refuge in
+          the calm and safe forests of the Carpathians far from the battlefield.
+        </div>
+      ),
+      title: 'Drawwaterflowers 2',
+      author: 'Oleh Perkowsky',
+      previewImage: 'issue4/sm4_p1-preview.jpg',
+      images: ['issue4/sm4_p1.jpg', 'issue4/sm4_p2.jpg', 'issue4/sm4_p3.jpg']
+    },
+    sm4_semenik: {
+      descriptionHtml: (
+        <div>
+          Chornobyl is known worldwide as the site of the world&rsquo;s worst nuclear catastrophe. Yet the wider
+          Polissyan landscape in which the Chornobyl Zone is situated, with its swampy wetlands and well preserved
+          Ukrainian traditions, is rarely brought to our attention. Art historian Oksana Semenik and geographer Jonathon
+          Turnbull explore the unique Polissyan landscape and its cultures of nature by examining Polissyan artworks
+          from before and after the Chornobyl catastrophe, with a special focus on the works of Maria Prymachenko.
+        </div>
+      ),
+      title: 'Woe to Those People Who Are Illiterate and Do Not Understand Anything',
+      author: 'Oksana Semenik and Jonathon Turnbull',
+      previewImage: 'issue4/sm4_semenik-turnbull-preview.jpg',
+      images: ['issue4/sm4_semenik-turnbull.jpg']
+    },
+    sm4_vasyliuk: {
+      descriptionHtml: (
+        <div>
+          Ukraine&rsquo;s war-torn environment has become an international symbol of ecocide. Minefields and shell
+          craters mark countless landscapes across the country, and entire ecosystems were flooded when Russian forces
+          blew up the Kakhovka Dam. Oleksii Vasyliuk outlines possible scenarios for restoring nature in Ukraine.
+        </div>
+      ),
+      title:
+        'Nature Does Not Wait for Our Decisions: Rewilding, War Wilding, and Other Possibilities for Nature Recovery',
+      author: 'Oleksii Vasyliuk',
+      previewImage: 'issue4/sm4_vasyliuk-preview.jpg',
+      images: ['issue4/sm4_vasyliuk.jpg']
+    },
+    sm4_svertilova: {
+      descriptionHtml: (
+        <div>
+          Twice a year, thousands of birds stop over to rest on a narrow spit of land in Bessarabia between the Danube
+          and the Dnister during migration season. As they fly over, they might recognize the banks forming the 13 Tuzly
+          marine lagoons, which resemble, from an aerial view, the crown of Poseidon. In recent years, the site has
+          become a popular destination for tourists drawn by the chance to spot dolphins or to watch the August meteor
+          showers. However, since 2022, the area has been overshadowed not by shooting stars, but by the Russian navy
+          and its shells. The birds have abandoned their nests, and dolphins, disoriented by the explosions, have begun
+          washing ashore. In her series <span className="italic">Between Sea And Sky</span> (2024), Paris- and
+          Kyiv-based photographer Daria Svertilova—who grew up not far from the Tuzly Lagoons—documents the ecological
+          devastation wrought by the war.
+        </div>
+      ),
+      title: 'Between Sea And Sky',
+      author: 'Daria Svertilova',
+      previewImage: 'issue4/sm4_s1-preview.jpg',
+      images: ['issue4/sm4_s1.jpg', 'issue4/sm4_s2.jpg', 'issue4/sm4_s3.jpg']
+    },
+    sm4_zamuruieva: {
+      descriptionHtml: (
+        <div>
+          Kurgans, the ancient earthen mounds scattered across the Ukrainian steppe, often draw the interest of
+          archaeologists (and looters) for the artifacts they might hold. But on her road trip through the Kirovohrad
+          region, Iryna Zamuruieva sees kurgans as markers of the environmental history embedded in central
+          Ukraine&rsquo;s landscapes. The plants growing on and around these mounds invite us to reconsider which
+          relationships between humans and the environment hold meaning amidst and after Russia&rsquo;s invasion.
+        </div>
+      ),
+      title: 'A Landscape, Simplified',
+      author: 'Iryna Zamuruieva',
+      previewImage: 'issue4/sm4_zamuruieva-preview.jpg',
+      images: ['issue4/sm4_zamuruieva.jpg']
+    },
+    sm4_biletska: {
+      descriptionHtml: (
+        <div>
+          Excerpt from the Essay: Besides the war, some other conditions have caused these things to crystallize: for
+          instance, the man writing may have once dreamed of being a wanderer (this, according to some, is what makes an
+          ecologist, other points of departure being a “collector” and “gardener”). For another instance, the Coriolis
+          effect historically sent the Dnipro down new angles of deviation. These are furrows in what otherwise might
+          have been a unified material. Had the ecologist been a collector, he may have seen regular geometric forms:
+          spirals, cones, arcs. Others are partial to colors, others to contours. And all have no choice but to be
+          partial to fragments, fixating, amidst soil and debris, on a tiny leg, a ligament, a structured segment, a
+          seam. (Fragmented color might look like sunlight bent through the prism of a wave.) Several men have told me
+          that this type of grasping extraction—cutting up the undulating sea—produces partial forms predicated on lack
+          in the looker, descriptions of me and what I seek. I&rsquo;ll neatly describe you through what I don&rsquo;t
+          have. Which is more lonely and violent than I&rsquo;d like to see in an ecological thought, in an ecological
+          text.
+        </div>
+      ),
+      title: 'Darnytsia',
+      author: 'Lisa Biletska',
+      previewImage: 'issue4/sm4_biletska-preview.jpg',
+      images: ['issue4/sm4_biletska.jpg']
+    },
+    sm4_mamaisur: {
+      descriptionHtml: (
+        <div>
+          The herbarium collection of Kherson State University is one of the largest collections of lichens, vascular
+          plants and bryophytes from southern Ukraine. This collection, formed by scientists over a century, is now
+          preserved at the National University in Ivano-Frankivsk. It was evacuated there after the city was liberated,
+          to protect it from destruction by the ongoing shelling. With her film Eyelashes and Sand Crystals (work in
+          progress), Kyiv-based filmmaker Daryna Mamaisur dedicated her newest work to the herbarium in exile, visually
+          translating the role of the collection in the distorted temporality of war: where the present competes with
+          the past, and where memory itself is threatened.
+        </div>
+      ),
+      title: 'Eyelashes and Sand Crystals',
+      author: 'Daryna Mamaisur',
+      previewImage: 'issue4/sm4_mamaisur-preview.jpg',
+      images: ['issue4/sm4_mamaisur.jpg']
+    },
+    sm4_motyleva: {
+      descriptionHtml: (
+        <div>
+          In the early morning of September 16, 1979, a “peaceful” nuclear explosion (PNE) was conducted at the Yunyi
+          Komunar coal mine in the Donetsk region of the Ukrainian Soviet Socialist Republic. The explosion was aimed at
+          increasing the safety of coal mining by preventing sudden coal and gas outbursts caused by tectonic tensions.
+          Considered a “success,” coal production at the mine resumed soon after. Fast forward almost a decade,
+          photographer Katia Motyleva is born. Hailing from a family of engineers who worked in the Donbas, she makes
+          the legacy of this nuclear experiment a central theme in her work. In her series Decay of Matter (2024), she
+          draws parallels between the PNE&rsquo;s impact on the mine using radiation as a symbol of the blast. After
+          capturing images of plants that remind her of her childhood, Katia distresses the photosensitive surface to
+          simulate burn marks, mirroring the unpredictable aftermath of a nuclear explosion. In 2014, pro-Russian
+          separatists took over the Yunyi Komunar mine, and in 2018, authorities in the self-proclaimed Donetsk
+          People&rsquo;s Republic opted to flood it. This move increases the danger of radioactive pollution in water
+          sources like groundwater, rivers, and the Sea of Azov. With Russia currently holding control, the future of
+          the mine remains uncertain.
+        </div>
+      ),
+      title: '  Decay of Matter',
+      author: 'Katia Motyleva',
+      previewImage: 'issue4/sm4_km1-preview.jpg',
+      images: ['issue4/sm4_km1.jpg', 'issue4/sm4_km2.jpg', 'issue4/sm4_km3.jpg']
+    },
+    sm4_kononova: {
+      descriptionHtml: (
+        <div>
+          Yana Kononova grew up on the Azerbaijani island of Pirallahi in the Caspian Sea before her family relocated to
+          Ukraine in the wake of the First Nagorno-Karabakh War. Once home to Zoroastrian communities who revered fire
+          as a sacred symbol, Pirallahi is now dominated by oil and gas extraction facilities, which have reshaped its
+          landscape. This transformation continues to influence Yana&rsquo;s works, where the relationship between
+          humans and the environment takes center stage and which she herself describes as “ecocritical,” for they
+          challenge common perceptions of landscapes in black and white photographs. In{' '}
+          <span className="italic">Peat Ontologies</span> (since 2020), for example, she examines the Irdynsky bog on
+          the ancient riverbed of the Dnipro, using it as a lens to reconsider wetlands—often viewed as unproductive and
+          dangerous—yet vital in their ability to preserve and transform organic matter. By contrast,{' '}
+          <span className="italic">Radiations of War</span>
+          (since 2022) focuses on disaster zones, exposing the tainted brilliance of devastated, looted, war-torn
+          landscapes in order to interrogate preconceptions of justice and retribution.
+        </div>
+      ),
+      title: 'Peat Ontologies and Radiations of War',
+      author: 'Yana Kononova',
+      previewImage: 'issue4/sm4_ko1-preview.jpg',
+      images: ['issue4/sm4_ko1.jpg', 'issue4/sm4_ko2.jpg', 'issue4/sm4_ko3.jpg', 'issue4/sm4_ko4.jpg']
+    },
+    sm4_chepurnyi_tsymbaliuk: {
+      descriptionHtml: (
+        <div>
+          In conversation with Dmytro Chepurnyi, researcher, author, and visual artist Darya Tsymbalyuk explaines how
+          she strives to create a platform for environmental humanities research and practice in Ukraine, facilitating
+          interdisciplinary dialogue and discussion. Darya is an Assistant Professor at the Department of Slavic
+          Languages and Literatures at the University of Chicago, and the author of{' '}
+          <span className="italic">Ecocide in Ukraine: The Environmental Cost of Russia&rsquo;s War</span>. Living in
+          Kyiv and born in 1994 in Luhansk, north of the Donetsk coal basin, Dmytro is a co-founder of the Ukrainian
+          Environmental Humanities Network (UEHN), curator and guest editor of Soлomiya —{' '}
+          <span className="italic">The Environmental Issue</span>.
+        </div>
+      ),
+      title: 'Two Ornithologists and a Million Birds: The Environmental Humanities in Ukraine',
+      author: 'Darya Tsymbalyuk and Dmytro Chepurnyi',
+      previewImage: 'issue4/sm4_chepurnyi_tsymbaliuk-preview.jpg',
+      images: ['issue4/sm4_chepurnyi_tsymbaliuk.jpg']
+    }
   }
 };
