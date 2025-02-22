@@ -37,7 +37,7 @@ export const BuyIssueSection = () => {
   return (
     <div className="mx-auto w-full md:w-max">
       <div className="block break-words text-center font-yuni-black text-5xl lg:text-6xl xl:text-7xl">
-        {/* TODO: they add requirenments here back and forth so here is such a mess, yeah..... */}
+        {/* they add requirenments here back and forth so here is such a mess, yeah..... */}
         {issue === 4 ? (
           <>
             <div className="mb-8">

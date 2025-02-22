@@ -71,16 +71,23 @@ export const IssuesSection = () => {
           artists and researchers reflecting and advocating on behalf of Ukraine&rsquo;s more-than-human communities and
           ecologies. In collaboration with the Ukrainian Environmental Humanities Network (UEHN) — an international
           collective of curators, artists, and scholars — we&rsquo;ve created an issue that celebrates the richness and
-          complexity of Ukrainian landscapes that is currently being threatened by the war. This issue offers a diverse
-          range of perspectives, amplifying voices that challenge the colonial, imperial, and extractive narratives that
-          have long shaped external perceptions of Ukraine&rsquo;s environment.
+          complexity of Ukrainian landscapes that is currently being threatened by the war{' '}
+          <IssueTextImage image="sm4_aliinyk" />
+          <IssueTextImage image="sm4_kononova" />. This issue offers a diverse range of perspectives, amplifying voices
+          that challenge the colonial, imperial, and extractive narratives <IssueTextImage image="sm4_perkowsky" />
+          <IssueTextImage image="sm4_chepurnyi_tsymbaliuk" /> that have long shaped external perceptions of
+          Ukraine&rsquo;s environment.
           <br />
           <br />
           Through written essays and visual works, the contributors take us on a journey across the country: from the
-          Chornobyl Exclusion Zone in Polissya to the submerged ruins of the Kakhovka Dam in Kherson, from the vibrant
-          wetlands of Odesa to the unique but threatened steppe. Shrinking rivers, displaced scientific collections,
-          traditional ecological knowledge, nuclear legacies, and the scars of industrial agriculture are just a few of
-          the urgent themes explored in this issue.
+          Chornobyl Exclusion Zone in Polissya <IssueTextImage image="sm4_semenik" /> to the submerged ruins of the
+          Kakhovka Dam <IssueTextImage image="sm4_vasyliuk" /> in Kherson, from the vibrant wetlands of Odesa{' '}
+          <IssueTextImage image="sm4_svertilova" />
+          to the unique but threatened steppe <IssueTextImage image="sm4_zamuruieva" />. Shrinking rivers{' '}
+          <IssueTextImage image="sm4_biletska" />, displaced scientific collections{' '}
+          <IssueTextImage image="sm4_mamaisur" />, traditional ecological knowledge, nuclear legacies{' '}
+          <IssueTextImage image="sm4_motyleva" />, and the scars of industrial agriculture are just a few of the urgent
+          themes explored in this issue.
         </>
       )}
     </section>
