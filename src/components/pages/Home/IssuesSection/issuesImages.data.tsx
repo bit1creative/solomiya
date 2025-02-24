@@ -787,7 +787,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           <span className="italic">Peat Ontologies</span> (since 2020), for example, she examines the Irdynsky bog on
           the ancient riverbed of the Dnipro, using it as a lens to reconsider wetlands—often viewed as unproductive and
           dangerous—yet vital in their ability to preserve and transform organic matter. By contrast,{' '}
-          <span className="italic">Radiations of War</span>
+          <span className="italic">Radiations of War </span>
           (since 2022) focuses on disaster zones, exposing the tainted brilliance of devastated, looted, war-torn
           landscapes in order to interrogate preconceptions of justice and retribution.
         </div>

@@ -48,7 +48,7 @@ export const BuyIssueSection = () => {
             </div>
             <div className="my-8">
               For all other countries: <br className="md:hidden" />
-              <AnimatedLink to={url} target="_blank" rel="noopener noreferrer">
+              <AnimatedLink to={url} isReactLink={false}>
                 {buyButtonText}
               </AnimatedLink>
             </div>
