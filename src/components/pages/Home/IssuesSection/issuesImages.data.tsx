@@ -662,8 +662,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: 'Woe to Those People Who Are Illiterate and Do Not Understand Anything',
       author: 'Oksana Semenik and Jonathon Turnbull',
-      previewImage: 'issue4/sm4_semenik-turnbull-preview.jpg',
-      images: ['issue4/sm4_semenik-turnbull.jpg']
+      previewImage: 'issue4/sm4_semenik_turnbull-preview.jpg',
+      images: ['issue4/sm4_semenik_turnbull.jpg']
     },
     sm4_vasyliuk: {
       descriptionHtml: (
@@ -749,8 +749,8 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
       ),
       title: 'Eyelashes and Sand Crystals',
       author: 'Daryna Mamaisur',
-      previewImage: 'issue4/sm4_mamaisur-preview.jpg',
-      images: ['issue4/sm4_mamaisur.jpg']
+      previewImage: 'issue4/sm4_m1-preview.jpg',
+      images: ['issue4/sm4_m1.jpg', 'issue4/sm4_m2.jpg', 'issue4/sm4_m3.jpg']
     },
     sm4_motyleva: {
       descriptionHtml: (
@@ -770,7 +770,7 @@ export const issuesImagesData: { [k: string]: { [k: string]: IssueImageData } } 
           the mine remains uncertain.
         </div>
       ),
-      title: '  Decay of Matter',
+      title: 'Decay of Matter',
       author: 'Katia Motyleva',
       previewImage: 'issue4/sm4_km1-preview.jpg',
       images: ['issue4/sm4_km1.jpg', 'issue4/sm4_km2.jpg', 'issue4/sm4_km3.jpg']
